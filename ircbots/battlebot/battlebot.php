@@ -4,7 +4,7 @@ ini_set('error_reporting', E_ALL);
 
 // -------------------------------------------------- +
 // The IRC class
-require_once('../dependancies/php/PEAR/NET/SmartIRC.php');
+require_once('../dependencies/php/PEAR/NET/SmartIRC.php');
 
 // -------------------------------------------------- +
 // Load modules
