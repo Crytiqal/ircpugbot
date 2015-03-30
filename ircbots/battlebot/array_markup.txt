@@ -1,0 +1,127 @@
+Array
+(
+    [csgo] => Array
+        (
+            [4v4] => Array
+                (
+                    [med] => Array
+                        (
+                            [pugID] => e1c8af5
+			    [owner] => Crytiqal`Aero
+			    [server] =>
+			    [banlist] => Array
+				(
+				)
+			    [irc] => Array
+				(
+				    [team1] => #pugbot:IDe1c8af5:csgo-4v4-med-team1
+				    [team2] => #pugbot:IDe1c8af5:csgo-4v4-med-team2
+				)
+			    [team1] => Array
+				(
+				    [0] => Crytiqal`Aero
+				)
+			    [invteam1] => Array
+				(
+				)
+			    [kickteam1] => Array
+				(
+				)
+			    [team2] => Array
+				(
+				)
+			    [invteam2] => Array
+				(
+				)
+			    [kickteam2] => Array
+				(
+				)
+			)
+		)
+	)
+)
+
+Array
+(
+    [csgo] => Array
+        (
+            [4v4] => Array
+                (
+                    [med] => Array
+                        (
+                            [pugID] => e1c8af5
+			    [owner] => Crytiqal`Aero
+			    [server] =>
+			    [banlist] => Array
+				(
+				)
+			    [irc] => Array
+				(
+				    [team1] => #pugbot:IDe1c8af5:csgo-4v4-med-team1
+				    [team2] => #pugbot:IDe1c8af5:csgo-4v4-med-team2
+				)
+			    [team1] => Array
+				(
+				    [players] => Array
+					(
+					    [0] => Crytiqal`Aero
+					)
+				    [invited] => Array
+					(
+					    [0] => Playername1
+					    [1] => Playername2
+					    [2] => Playername3
+					)
+				    [kicked] => Array
+					(
+					    [timestamp] => Playername4
+					)
+				    [votes] => Array
+					(
+					    [timestamp1] => Array
+						(
+						    [callvote] => Playername3
+						    [kick] => Playername2
+						    [yes] => implode(playerID,playerID,playerID);
+						    [no] => implode();
+						)
+					    [timestamp] => Array
+						(
+						    [callvote] => Playername5
+						    [map] => maplist();
+						    [yes] => implode(playerID,playerID,playerID);
+						    [no] => implode();
+						)
+					    [maps]
+						(
+						    [mapname1] => implode();
+						    [mapname2] => implode();
+						    [mapname3] => implode();
+						)
+					)
+				)
+			    [team2] => Array
+				(
+				    [players] => Array
+					(
+					)
+				    [invited] => Array
+					(
+					)
+				    [kicked] => Array
+					(
+					    [timestamp] => Array
+						(
+						)
+					)
+				    [votes] => Array
+					(
+					    [timestamp] => Array
+						(
+						)
+					)
+				)
+			)
+		)
+	)
+)

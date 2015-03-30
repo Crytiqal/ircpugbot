@@ -1,0 +1,597 @@
+Mar 25 22:53:15 SmartIRC.php(454) WARNING: you are using setAutoReconnect() which is deprecated and no longer functional.
+Mar 25 22:53:15 SmartIRC.php(454) WARNING: you are using setUseSockets() which is deprecated and no longer functional.
+Mar 25 22:53:15 SmartIRC.php(548) DEBUG_CHANNELSYNCING: Channel syncing enabled
+Mar 25 22:53:15 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(0) registered
+Mar 25 22:53:15 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(1) registered
+Mar 25 22:53:15 SmartIRC.php(1055) DEBUG_CONNECTION: connecting
+Mar 25 22:53:15 SmartIRC.php(1071) DEBUG_SOCKET: binding to 0:0
+Mar 25 22:53:15 SmartIRC.php(1085) DEBUG_CONNECTION: connected
+Mar 25 22:53:15 SmartIRC.php(2215) DEBUG_TIMEHANDLER: timehandler(0) registered
+Mar 25 22:53:15 SmartIRC.php(1239) DEBUG_CONNECTION: logging in
+Mar 25 22:53:15 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PASS "
+Mar 25 22:53:15 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NICK pugOpBotT"
+Mar 25 22:53:15 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "USER pugopbott 0 * :pugOpBotT"
+Mar 25 22:53:15 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Looking up your hostname"
+Mar 25 22:53:15 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Looking up your hostname"
+Mar 25 22:53:15 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Mar 25 22:53:15 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Checking Ident"
+Mar 25 22:53:15 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Checking Ident"
+Mar 25 22:53:15 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Mar 25 22:53:15 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Found your hostname"
+Mar 25 22:53:15 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Found your hostname"
+Mar 25 22:53:15 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Mar 25 22:53:15 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 461 * PASS :Not enough parameters"
+Mar 25 22:53:15 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (461)
+Mar 25 22:53:15 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"Not enough parameters"
+Mar 25 22:53:15 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "461" (event_err_needmoreparams)
+Mar 25 22:53:15 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 433 * pugOpBotT :Nickname is already in use."
+Mar 25 22:53:15 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1048576" from:"port80b.se.quakenet.org" channel:"" message:"Nickname is already in use."
+Mar 25 22:53:15 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_err_nicknameinuse" (by numeric)
+Mar 25 22:53:15 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NICK pugOp104"
+Mar 25 22:53:16 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 433 * pugOp104 :Nickname is already in use."
+Mar 25 22:53:16 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1048576" from:"port80b.se.quakenet.org" channel:"" message:"Nickname is already in use."
+Mar 25 22:53:16 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_err_nicknameinuse" (by numeric)
+Mar 25 22:53:16 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NICK pugOp618"
+Mar 25 22:53:16 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :1310174058"
+Mar 25 22:53:16 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 22:53:16 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"1310174058"
+Mar 25 22:53:16 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 22:53:16 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 22:53:16 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :1310174058"
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** No ident response"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** No ident response"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 001 pugOp618 :Welcome to the QuakeNet IRC Network, pugOp618"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"8192" from:"port80b.se.quakenet.org" channel:"" message:"Welcome to the QuakeNet IRC Network, pugOp618"
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_welcome" (by numeric)
+Mar 25 22:53:23 messagehandler.php(419) DEBUG_CONNECTION: logged in as pugOp618
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 002 pugOp618 :Your host is port80b.se.quakenet.org, running version u2.10.12.10+snircd(1.3.4a)"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"8192" from:"port80b.se.quakenet.org" channel:"" message:"Your host is port80b.se.quakenet.org, running version u2.10.12.10+snircd(1.3.4a)"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "002" (event_rpl_yourhost)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 003 pugOp618 :This server was created Wed Apr 23 2014 at 01:59:59 CEST"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"8192" from:"port80b.se.quakenet.org" channel:"" message:"This server was created Wed Apr 23 2014 at 01:59:59 CEST"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "003" (event_rpl_created)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 004 pugOp618 port80b.se.quakenet.org u2.10.12.10+snircd(1.3.4a) dioswkgxRXInP biklmnopstvrDcCNuMT bklov"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"8192" from:"port80b.se.quakenet.org" channel:"" message:""
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "004" (event_rpl_myinfo)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 005 pugOp618 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=20 MAXBANS=45 NICKLEN=15 :are supported by this server"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"8192" from:"port80b.se.quakenet.org" channel:"" message:"are supported by this server"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "005" (event_rpl_bounce)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 005 pugOp618 MAXNICKLEN=15 TOPICLEN=250 AWAYLEN=160 KICKLEN=250 CHANNELLEN=200 MAXCHANNELLEN=200 CHANTYPES=#& PREFIX=(ov)@+ STATUSMSG=@+ CHANMODES=b,k,l,imnpstrDducCNMT CASEMAPPING=rfc1459 NETWORK=QuakeNet :are supported by this server"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"8192" from:"port80b.se.quakenet.org" channel:"" message:"are supported by this server"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "005" (event_rpl_bounce)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 251 pugOp618 :There are 24 users and 37970 invisible on 39 servers"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"16384" from:"port80b.se.quakenet.org" channel:"" message:"There are 24 users and 37970 invisible on 39 servers"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "251" (event_rpl_luserclient)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 252 pugOp618 68 :operator(s) online"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"16384" from:"port80b.se.quakenet.org" channel:"" message:"operator(s) online"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "252" (event_rpl_luserop)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 253 pugOp618 3 :unknown connection(s)"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"16384" from:"port80b.se.quakenet.org" channel:"" message:"unknown connection(s)"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "253" (event_rpl_luserunknown)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 254 pugOp618 27162 :channels formed"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"16384" from:"port80b.se.quakenet.org" channel:"" message:"channels formed"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "254" (event_rpl_luserchannels)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 255 pugOp618 :I have 2336 clients and 1 servers"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"16384" from:"port80b.se.quakenet.org" channel:"" message:"I have 2336 clients and 1 servers"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "255" (event_rpl_luserme)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org NOTICE pugOp618 :Highest connection count: 6150 (6149 clients)"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"16" from:"port80b.se.quakenet.org" channel:"" message:"Highest connection count: 6150 (6149 clients)"
+Mar 25 22:53:23 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 375 pugOp618 :- port80b.se.quakenet.org Message of the Day -"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- port80b.se.quakenet.org Message of the Day -"
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motdstart" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- 2014-5-7 15:49"
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- 2014-5-7 15:49"
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ........................................................................."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ........................................................................."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...           You are connected to the QuakeNet IRC Network           ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...           You are connected to the QuakeNet IRC Network           ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                     via port80b.se.quakenet.org.                  ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                     via port80b.se.quakenet.org.                  ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                     port80b.se.quakenet.org                       ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                     port80b.se.quakenet.org                       ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...        i t ' s         g o o d         t o         b 0 r k        ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...        i t ' s         g o o d         t o         b 0 r k        ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...       For information about this server's host please visit       ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...       For information about this server's host please visit       ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                        the website below:                         ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                        the website below:                         ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                      http://www.phonera.se/                       ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                      http://www.phonera.se/                       ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...          For information about this network please visit          ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...          For information about this network please visit          ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                        the website below:                         ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                        the website below:                         ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                     http://www.quakenet.org/                      ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                     http://www.quakenet.org/                      ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...   This server accepts IPv6 connections on the following ports:    ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...   This server accepts IPv6 connections on the following ports:    ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                        6667, 6668 & 6669                          ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                        6667, 6668 & 6669                          ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...  By connecting to this network you give us permission to probe    ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...  By connecting to this network you give us permission to probe    ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ... your machine for open proxies/wingates. You also agree to adhere  ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ... your machine for open proxies/wingates. You also agree to adhere  ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                      by the following rules:                      ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                      by the following rules:                      ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No flooding (including flood/clonebots).                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No flooding (including flood/clonebots).                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No distribution of copyrighted material or pornography.    ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No distribution of copyrighted material or pornography.    ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No multiplayer gaming cheat channels.                      ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No multiplayer gaming cheat channels.                      ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No clones. http://www.quakenet.org/faq/faq.php?c=128       ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No clones. http://www.quakenet.org/faq/faq.php?c=128       ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No channel takeovers.                                      ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No channel takeovers.                                      ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No attempts to disrupt network services.                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No attempts to disrupt network services.                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No racism and/or Nazism.                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No racism and/or Nazism.                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No spamming and/or advertising.                            ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No spamming and/or advertising.                            ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No hacking (including Virus/Trojan distribution).          ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No hacking (including Virus/Trojan distribution).          ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o No actions we, the operators, regard as abuse.             ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o No actions we, the operators, regard as abuse.             ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...           For more details of the network's terms of service      ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...           For more details of the network's terms of service      ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                  please visit the website below:                  ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                  please visit the website below:                  ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                   http://www.quakenet.org/rules/                  ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                   http://www.quakenet.org/rules/                  ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...       Violation of the network's rules will result in kills       ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...       Violation of the network's rules will result in kills       ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...              and possible network-wide access bans.               ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...              and possible network-wide access bans.               ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      o Server Admins:                                             ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      o Server Admins:                                             ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                     _nalle              stevoo                    ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                     _nalle              stevoo                    ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...             (E-mail: append @quakenet.org to above.)              ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...             (E-mail: append @quakenet.org to above.)              ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      Many common problems are explained on the website below:     ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      Many common problems are explained on the website below:     ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                    http://www.quakenet.org/faq/                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                    http://www.quakenet.org/faq/                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...     If you have a general enquiry not answered by this website    ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...     If you have a general enquiry not answered by this website    ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...     please visit #help. If you *require* an IRC operator please   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...     please visit #help. If you *require* an IRC operator please   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      visit #feds.                                                 ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      visit #feds.                                                 ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...   The use of this server & network is a privilege, not a right.   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...   The use of this server & network is a privilege, not a right.   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...      The network operators may deny network access to anyone,     ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...      The network operators may deny network access to anyone,     ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...              for any reason, at their sole discretion.            ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...              for any reason, at their sole discretion.            ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ... IRC is a free media, therefore the operators of this network take ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ... IRC is a free media, therefore the operators of this network take ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...    no responsibility whatsoever for the opinions expressed or     ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...    no responsibility whatsoever for the opinions expressed or     ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...   the actions taken by users. Absolutely no warranty is either    ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...   the actions taken by users. Absolutely no warranty is either    ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                      expressed or implied.                        ..."
+Mar 25 22:53:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                      expressed or implied.                        ..."
+Mar 25 22:53:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:24 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :execInBackground"
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ...                                                                   ..."
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ...                                                                   ..."
+Mar 25 22:53:24 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 372 pugOp618 :- ........................................................................."
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"- ........................................................................."
+Mar 25 22:53:24 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 376 pugOp618 :End of /MOTD command."
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"131072" from:"port80b.se.quakenet.org" channel:"" message:"End of /MOTD command."
+Mar 25 22:53:24 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofmotd" (by numeric)
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org NOTICE pugOp618 :on 4 ca 1(4) ft 20(20) tr"
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"16" from:"port80b.se.quakenet.org" channel:"" message:"on 4 ca 1(4) ft 20(20) tr"
+Mar 25 22:53:24 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 221 pugOp618 +i"
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"67108864" from:"port80b.se.quakenet.org" channel:"" message:""
+Mar 25 22:53:24 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_umodeis" (by numeric)
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOp618!~pugopbott@ip4da1aab0.direct-adsl.nl MODE pugOp618 +i"
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOp618" ident:"~pugopbott" host:"ip4da1aab0.direct-adsl.nl" type:"262144" from:"pugOp618!~pugopbott@ip4da1aab0.direct-adsl.nl" channel:"pugOp618" message:""
+Mar 25 22:53:24 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_mode" (by string)
+Mar 25 22:53:24 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG Q@CServe.quakenet.org :AUTH pugOpBotT KsbuKoJt4W"
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Q!TheQBot@CServe.quakenet.org NOTICE pugOp618 :Username or password incorrect."
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Q" ident:"TheQBot" host:"CServe.quakenet.org" type:"16" from:"Q!TheQBot@CServe.quakenet.org" channel:"" message:"Username or password incorrect."
+Mar 25 22:53:24 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Mar 25 22:53:24 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE Referee +iwx"
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 403 pugOp618 Referee :No such channel"
+Mar 25 22:53:24 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (403)
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"No such channel"
+Mar 25 22:53:24 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "403" (event_err_nosuchchannel)
+Mar 25 22:53:24 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #battlebot"
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOp618!~pugopbott@ip4da1aab0.direct-adsl.nl JOIN #battlebot"
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOp618" ident:"~pugopbott" host:"ip4da1aab0.direct-adsl.nl" type:"64" from:"pugOp618!~pugopbott@ip4da1aab0.direct-adsl.nl" channel:"#battlebot" message:""
+Mar 25 22:53:24 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
+Mar 25 22:53:24 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #battlebot
+Mar 25 22:53:24 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #battlebot set to: 1427320404.7986
+Mar 25 22:53:24 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOp618 joins channel: #battlebot
+Mar 25 22:53:24 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOp618 to channel: #battlebot
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 353 pugOp618 @ #battlebot :pugOp618 pugOpBot Crytiqal`Aero"
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"65536" from:"port80b.se.quakenet.org" channel:"#battlebot" message:"pugOp618 pugOpBot Crytiqal`Aero"
+Mar 25 22:53:24 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
+Mar 25 22:53:24 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOp618 on channel: #battlebot
+Mar 25 22:53:24 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #battlebot
+Mar 25 22:53:24 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #battlebot
+Mar 25 22:53:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 366 pugOp618 #battlebot :End of /NAMES list."
+Mar 25 22:53:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"65536" from:"port80b.se.quakenet.org" channel:"#battlebot" message:"End of /NAMES list."
+Mar 25 22:53:24 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
+Mar 25 22:53:25 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #battlebot"
+Mar 25 22:53:25 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #battlebot"
+Mar 25 22:53:25 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #battlebot b"
+Mar 25 22:53:26 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 324 pugOp618 #battlebot +stnCN"
+Mar 25 22:53:26 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"134217728" from:"port80b.se.quakenet.org" channel:"pugOp618" message:""
+Mar 25 22:53:26 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
+Mar 25 22:53:26 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 329 pugOp618 #battlebot 1427249897"
+Mar 25 22:53:26 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
+Mar 25 22:53:26 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:""
+Mar 25 22:53:26 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
+Mar 25 22:53:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #battlebot :!whosyourdaddy"
+Mar 25 22:53:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#battlebot" message:"!whosyourdaddy"
+Mar 25 22:53:28 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Mar 25 22:53:28 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 2 message: "!whosyourdaddy" regex: "/!whosyourdaddy.*/"
+Mar 25 22:53:28 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBotTimer->whosyourdaddy"
+Mar 25 22:53:28 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #battlebot :Time start!"
+Mar 25 22:53:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 352 pugOp618 #battlebot ~pugopbott ip4da1aab0.direct-adsl.nl *.quakenet.org pugOp618 H :0 pugOpBotT"
+Mar 25 22:53:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"32" from:"port80b.se.quakenet.org" channel:"#battlebot" message:"0 pugOpBotT"
+Mar 25 22:53:28 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Mar 25 22:53:28 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOp618 on channel: #battlebot
+Mar 25 22:53:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 352 pugOp618 #battlebot ~pugopbot ip4da1aab0.direct-adsl.nl *.quakenet.org pugOpBot H :3 pugOpBot"
+Mar 25 22:53:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"32" from:"port80b.se.quakenet.org" channel:"#battlebot" message:"3 pugOpBot"
+Mar 25 22:53:28 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Mar 25 22:53:28 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #battlebot
+Mar 25 22:53:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 352 pugOp618 #battlebot ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Hx :3 Got ZNC?"
+Mar 25 22:53:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"32" from:"port80b.se.quakenet.org" channel:"#battlebot" message:"3 Got ZNC?"
+Mar 25 22:53:28 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Mar 25 22:53:28 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #battlebot
+Mar 25 22:53:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 315 pugOp618 #battlebot :End of /WHO list."
+Mar 25 22:53:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"32" from:"port80b.se.quakenet.org" channel:"#battlebot" message:"End of /WHO list."
+Mar 25 22:53:28 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
+Mar 25 22:53:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@ip4da1aab0.direct-adsl.nl PRIVMSG #battlebot :My daddy and creator of this bot is Crytiqal.Aero!"
+Mar 25 22:53:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"pugOpBot!~pugopbot@ip4da1aab0.direct-adsl.nl" channel:"#battlebot" message:"My daddy and creator of this bot is Crytiqal.Aero!"
+Mar 25 22:53:28 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Mar 25 22:53:30 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 368 pugOp618 #battlebot :End of Channel Ban List"
+Mar 25 22:53:30 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"2097152" from:"port80b.se.quakenet.org" channel:"pugOp618" message:"End of Channel Ban List"
+Mar 25 22:53:30 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
+Mar 25 22:53:53 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:53:55 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #battlebot :!timer"
+Mar 25 22:53:55 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#battlebot" message:"!timer"
+Mar 25 22:53:55 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Mar 25 22:53:55 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 2 message: "!timer" regex: "/!timer.*/"
+Mar 25 22:53:55 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBotTimer->timer"
+Mar 25 22:54:55 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:54:55 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #battlebot :Time start!"
+Mar 25 22:54:55 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #battlebot :!whosyourdaddy"
+Mar 25 22:54:55 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#battlebot" message:"!whosyourdaddy"
+Mar 25 22:54:55 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Mar 25 22:54:55 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 2 message: "!whosyourdaddy" regex: "/!whosyourdaddy.*/"
+Mar 25 22:54:55 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBotTimer->whosyourdaddy"
+Mar 25 22:54:55 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@ip4da1aab0.direct-adsl.nl PRIVMSG #battlebot :My daddy and creator of this bot is Crytiqal.Aero!"
+Mar 25 22:54:55 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"pugOpBot!~pugopbot@ip4da1aab0.direct-adsl.nl" channel:"#battlebot" message:"My daddy and creator of this bot is Crytiqal.Aero!"
+Mar 25 22:54:55 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Mar 25 22:54:55 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #battlebot :!time"
+Mar 25 22:54:55 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#battlebot" message:"!time"
+Mar 25 22:54:55 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Mar 25 22:54:55 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #battlebot :!help"
+Mar 25 22:54:55 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#battlebot" message:"!help"
+Mar 25 22:54:55 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Mar 25 22:54:55 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PART #battlebot :Time's up!"
+Mar 25 22:54:55 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOp618!~pugopbott@ip4da1aab0.direct-adsl.nl PART #battlebot :Time's up!"
+Mar 25 22:54:55 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOp618" ident:"~pugopbott" host:"ip4da1aab0.direct-adsl.nl" type:"524288" from:"pugOp618!~pugopbott@ip4da1aab0.direct-adsl.nl" channel:"#battlebot" message:"Time's up!"
+Mar 25 22:54:55 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_part" (by string)
+Mar 25 22:54:55 SmartIRC.php(2548) DEBUG_CHANNELSYNCING: we left channel: #battlebot destroying...
+Mar 25 22:54:55 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #battlebot :Time start!"
+Mar 25 22:54:55 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org 404 pugOp618 #battlebot :Cannot send to channel"
+Mar 25 22:54:55 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (404)
+Mar 25 22:54:55 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"Cannot send to channel"
+Mar 25 22:54:55 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "404" (event_err_cannotsendtochan)
+Mar 25 22:55:32 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:56:10 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:56:47 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:57:25 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:57:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 22:57:54 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 22:57:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 22:57:54 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 22:57:54 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 22:57:54 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 22:58:02 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:58:40 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:59:17 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 22:59:55 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:00:32 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:00:32 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:00:32 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:00:32 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:00:32 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:00:32 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:01:10 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:01:47 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:02:25 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:03:02 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:03:32 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:03:32 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:03:32 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:03:32 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:03:32 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:03:32 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:03:40 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:04:17 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:04:55 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:05:32 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:06:10 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:06:10 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:06:10 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:06:10 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:06:10 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:06:10 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:06:47 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:07:25 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:08:02 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:08:40 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:09:09 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:09:09 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:09:09 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:09:09 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:09:09 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:09:09 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:09:17 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:09:55 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:10:32 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:11:10 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:11:47 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:11:47 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:11:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:11:48 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:11:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:11:48 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:12:25 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:13:03 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:13:40 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:14:18 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:14:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:14:47 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:14:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:14:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:14:47 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:14:47 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:14:55 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:15:33 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:16:10 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:16:48 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:17:25 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:17:25 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:17:25 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:17:25 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:17:25 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:17:25 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:18:03 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:18:40 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:19:18 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:19:55 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:20:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:20:24 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:20:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:20:24 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:20:24 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:20:24 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:20:33 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:21:10 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:21:48 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:22:25 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:23:03 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:23:03 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:23:03 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:23:03 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:23:03 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:23:03 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:23:40 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:24:18 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:24:55 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:25:33 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:26:02 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:26:02 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:26:02 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:26:02 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:26:02 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:26:02 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:26:10 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:26:48 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:27:25 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:28:03 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:28:41 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:28:41 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:28:41 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:28:41 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:28:41 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:28:41 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:29:18 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:29:56 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:30:33 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:31:11 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:31:40 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:31:40 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:31:40 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:31:40 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:31:40 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:31:40 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:31:48 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:32:26 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:33:03 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:33:41 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:34:18 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:34:18 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:34:18 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:34:18 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:34:18 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:34:18 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:34:56 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:35:33 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:36:11 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+nt: "PING irc.quakenet.org"
+Mar 25 23:20:44 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:20:44 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:20:44 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:20:44 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:21:21 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:21:59 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:22:36 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:23:14 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:23:43 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:23:43 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:23:43 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:23:43 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:23:43 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:23:43 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:23:52 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:24:29 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:25:07 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:25:44 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:26:22 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:26:22 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:26:22 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:26:22 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:26:22 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:26:22 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:26:59 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:27:37 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:28:14 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:28:52 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:29:21 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:29:21 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:29:21 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:29:21 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:29:21 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:29:21 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:29:29 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:30:07 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:30:44 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:31:22 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:31:59 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:31:59 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Mar 25 23:31:59 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80b.se.quakenet.org PONG port80b.se.quakenet.org :irc.quakenet.org"
+Mar 25 23:31:59 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Mar 25 23:31:59 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:31:59 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:32:37 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:33:14 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:33:52 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:34:29 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:34:59 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:34:59 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:34:59 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:34:59 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:34:59 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:34:59 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:35:07 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:35:44 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:36:22 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+ta nick:"" ident:"" host:"port80b.se.quakenet.org" type:"1" from:"port80b.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Mar 25 23:30:58 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Mar 25 23:31:35 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:32:13 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:32:51 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:33:28 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:33:57 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80b.se.quakenet.org"
+Mar 25 23:33:57 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Mar 25 23:33:57 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80b.se.quakenet.org"
+Mar 25 23:33:57 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Mar 25 23:33:57 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Mar 25 23:33:57 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80b.se.quakenet.org"
+Mar 25 23:34:06 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:34:43 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:35:21 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Mar 25 23:35:58 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"

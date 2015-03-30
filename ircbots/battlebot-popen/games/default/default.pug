@@ -1,0 +1,27 @@
+<?php
+
+// Replace <game> with the name of the game.
+// Replace <mode#> with the game modes possible for set game; 4v4,5v5,6v6,2v2v2,etc.
+
+$g_<game> = array('<mode1>','<mode2>','...','<mode#>');
+
+
+// Replace <map#> with the name of the maps that can be played.
+// Do this for each game mode you have set.
+
+$g_<mode1> = array('<map1>','<map2>','...','<map#>');
+$g_<mode2> = array('<map1>','<map2>','...','<map#>');
+$g_<mode#> = array('<map1>','<map2>','...','<map#>');
+
+
+// For each server you add, you must give the variable a subsequent #.
+// Give ip:port, password (if it requires a password to join the server, otherwise leave this empty) and additional rconpw.
+// Rconpw is not required at this time.
+// Place all the servers that are available for use, in the $g_serverlist array.
+
+$server1 = array('ip:port','password','rconpw');
+$server2 = array('ip:port','password','rconpw');
+$server# = array('ip:port','password','rconpw');
+$g_serverlist = array('server1','server2','...','server#');
+
+?>

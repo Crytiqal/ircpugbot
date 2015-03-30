@@ -1,0 +1,7 @@
+/msg Q HELLO user@email.com user@email.com
+
+/msg Q@CServe.quakenet.org AUTH battlebot RaNd0Mp4sSw0Rd
+
+/msg Q REQUESTPASSWORD user@email.com
+
+/auth pugOpBot RaNd0Mp4sSw0Rd
