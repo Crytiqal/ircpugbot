@@ -4,11 +4,11 @@ ini_set('error_reporting', E_ALL);
 
 // -------------------------------------------------- +
 // The IRC class
-require_once('../dependencies/php/PEAR/NET/SmartIRC.php');
+require_once('/home/cabox/workspace/ircbots/dependencies/php/PEAR/NET/SmartIRC.php');
 
 // -------------------------------------------------- +
 // Load modules
-$install_path = "H:/ircservers/ircbots";
+$install_path = "/home/cabox/workspace/ircbots";
 $battlebot = $install_path.'/battlebot';
 $pug_queue = array();
 

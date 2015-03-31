@@ -40,9 +40,9 @@
  *
  */
 // ------- PHP code ----------
-require_once 'Net/SmartIRC/defines.php';
-require_once 'Net/SmartIRC/irccommands.php';
-require_once 'Net/SmartIRC/messagehandler.php';
+require_once 'SmartIRC/defines.php';
+require_once 'SmartIRC/irccommands.php';
+require_once 'SmartIRC/messagehandler.php';
 define('SMARTIRC_VERSION', '1.1.7');
 define('SMARTIRC_VERSIONSTRING', 'Net_SmartIRC '.SMARTIRC_VERSION);
 
