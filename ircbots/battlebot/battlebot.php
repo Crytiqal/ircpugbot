@@ -222,12 +222,13 @@ class battleBot {
   function joined_in_pug($player) {
 	  global $pug_queue;
 	
- echo "function joined_in_pug";
- echo "\n";
+ // echo "function joined_in_pug";
+ // echo "\n";
 
 	  unset($return);
 	  $return = array();
 	  $return[0] = -1;
+	  $return['votes'] = array();
 	  $pug_playerID = 0;
 
 	  foreach($pug_queue as $key => $pug_game) {
@@ -255,28 +256,21 @@ class battleBot {
 									  $return['teamID'] = $key4; // Team# $key4
 									  $return['status'] = $key5; // Status $key5 (Player, Invited, Kicked)
 									  $return['playerID'] = $pug_playerID; // PlayerID
-									  break;
-								  } 
-								  if($key5 == "votes" && $return[0] == -1) {
+								  }
+								  if($key5 == "votes") {
 									  foreach($pug_status as $key6 => $voteID) {
-										  if($pug_queue[$key][$key2][$key3][$key4][$key5][$key6]['callvote'] == $player) { $return[0] = 2; }
-										  
+										  if($pug_queue[$key][$key2][$key3][$key4][$key5][$key6]['callvote'] == $player) { $return['votes'][] = array('game'=>$key,'mode'=>$key2,'skill'=>$key3,'teamID'=>$key4,'votes'=>$key5,'voteID'=>$key6,'entry'=>'callvote'); }										  
 										  if(isset($pug_queue[$key][$key2][$key3][$key4][$key5][$key6]['kick'])) {
-											  if($pug_queue[$key][$key2][$key3][$key4][$key5][$key6]['kick'] == $player) { $return[0] = 2; }
+											  if($pug_queue[$key][$key2][$key3][$key4][$key5][$key6]['kick'] == $player) { $return['votes'][] = array('game'=>$key,'mode'=>$key2,'skill'=>$key3,'teamID'=>$key4,'votes'=>$key5,'voteID'=>$key6,'entry'=>'kick'); }
 										  }
-										  
-										  if(in_array($player,$pug_queue[$key][$key2][$key3][$key4][$key5][$key6][0])) { $return[0] = 2; }
-										  if(in_array($player,$pug_queue[$key][$key2][$key3][$key4][$key5][$key6][1])) { $return[0] = 2; }
-										  if($return[0] == 2) {
-											  // Found him!
-											  $return['game'] = $key;  // Game $key
-											  $return['mode'] = $key2; // Mode $key2
-											  $return['skill'] = $key3; // Skill $key3
-											  $return['teamID'] = $key4; // Team# $key4
-											  $return['status'] = $key5; // Status $key5 (Player, Invited, Kicked)
-											  $return['voteID'] = $key6;  // VoteID
-											  break;
+										  // Get the playerID
+										  if(in_array($player,$pug_queue[$key][$key2][$key3][$key4][$key5][$key6][0])) { 
+											  $vote_playerID = array_search($player, $pug_game[$key2][$key3][$key4][$key5][$key6][0]);
+											  $return['votes'][] = array('game'=>$key,'mode'=>$key2,'skill'=>$key3,'teamID'=>$key4,'votes'=>$key5,'voteID'=>$key6,'castvote'=>0,'playerID'=>$vote_playerID); 
 										  }
+										  if(in_array($player,$pug_queue[$key][$key2][$key3][$key4][$key5][$key6][1])) { 
+											  $vote_playerID = array_search($player, $pug_game[$key2][$key3][$key4][$key5][$key6][1]);
+											  $return['votes'][] = array('game'=>$key,'mode'=>$key2,'skill'=>$key3,'teamID'=>$key4,'votes'=>$key5,'voteID'=>$key6,'castvote'=>1,'playerID'=>$vote_playerID); }
 									  }
 								  }
 							  } 
@@ -286,6 +280,9 @@ class battleBot {
 			  }
 		  }
 	  }	  
+	  if(!empty($return['votes']) && ($return[0] == -1)) {
+		  $return[0] = 2;
+	  }
       return $return;
   } // end joined_in_pug 
 
@@ -1527,34 +1524,27 @@ class battleBot {
 	  if($return[0] == -1) {
 		  // user not in pug -> return  
 		  return;
-	  } else {
+	  } else if($return[0] >= 0 && $return[0] < 2) {
 		  if($pug_queue[$return['game']][$return['mode']][$return['skill']]['owner'] == $data->nick) { $pug_queue[$return['game']][$return['mode']][$return['skill']]['owner'] = $data->message; }
 		  if(in_array($data->nick,$pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['players'])) { $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['players'][$return['playerID']] = $data->message; }
 		  if(in_array($data->nick,$pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['invited'])) { $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['invited'][$return['playerID']] = $data->message; }
 		  if(in_array($data->nick,$pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['kicked'])) { $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['kicked'][$return['playerID']] = $data->message; }
-		  print_r($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes']);
-		  // Check the votes
-		  foreach($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'] as $voteID => $value) {		  
-			  echo $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID]['callvote'];
-			  print_r($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID]);
-			  
-			  if($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID]['callvote'] == $data->nick) {
-				  $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID]['callvote'] = $data->message; 
+		  // Check ALL the votes
+		  foreach($return['votes'] as $key => $value) {
+			  if(array_key_exists('castvote',$return['votes'][$key])) {
+				  $pug_queue[$value['game']][$value['mode']][$value['skill']][$value['teamID']][$value['votes']][$value['voteID']][$value['castvote']][$value['playerID']] = $data->message;
+			  } else {
+				  $pug_queue[$value['game']][$value['mode']][$value['skill']][$value['teamID']][$value['votes']][$value['voteID']][$value['entry']] = $data->message;
 			  }
-			  if(isset($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID]['kick'])) {
-				  if($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID]['kick'] == $data->nick) {
-					  $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID]['kick'] = $data->message; 
-				  }
+		  }
+	  } else {
+		  foreach($return['votes'] as $key => $value) {
+			  if(array_key_exists('castvote',$return['votes'][$key])) {
+				  $pug_queue[$value['game']][$value['mode']][$value['skill']][$value['teamID']][$value['votes']][$value['voteID']][$value['castvote']][$value['playerID']] = $data->message;
+			  } else {
+				  $pug_queue[$value['game']][$value['mode']][$value['skill']][$value['teamID']][$value['votes']][$value['voteID']][$value['entry']] = $data->message;
 			  }
-			  if(in_array($data->nick,$pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID][0])) { 
-				  $playervoteID = array_search($data->nick,$pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID][0]);
-				  $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID][0][$playervoteID] = $data->message; 
-			  }
-			  if(in_array($data->nick,$pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID][1])) { 
-				  $playervoteID = array_search($data->nick,$pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID][1]);
-				  $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['votes'][$voteID][1][$playervoteID] = $data->message;
-			  }  
-		  }		  
+		  }
 	  }
   }
 
