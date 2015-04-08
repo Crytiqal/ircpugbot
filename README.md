@@ -3,7 +3,7 @@ BattleBot (IRC Pick-Up Game Operator Bot)
 
 I have created an IRC bot that will allow users to easily create and join pick-up games for etqw (and any other game).
 
-To check it out, join the #battlebot irc channel on Quakenet or from the list of current channels given below! 
+To check it out, join the #battlebot irc channel on Quakenet or from the list of current channels given below!   
 http://webchat.quakenet.org/ 
 http://www.splashdamage.com/chat 
 http://www.team-aero.org/team-aero_esports/aero_tv.php
