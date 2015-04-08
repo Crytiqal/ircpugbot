@@ -4,14 +4,14 @@ BattleBot (IRC Pick-Up Game Operator Bot)
 I have created an IRC bot that will allow users to easily create and join pick-up games for etqw (and any other game).
 
 To check it out, join the #battlebot irc channel on Quakenet or from the list of current channels given below!   
-http://webchat.quakenet.org/ 
-http://www.splashdamage.com/chat 
-http://www.team-aero.org/team-aero_esports/aero_tv.php
-
-mIRC: http://www.mirc.com/ 
-XChat: http://xchat.org/
-
-Basic commands:
+http://webchat.quakenet.org/   
+http://www.splashdamage.com/chat   
+http://www.team-aero.org/team-aero_esports/aero_tv.php  
+  
+mIRC: http://www.mirc.com/   
+XChat: http://xchat.org/  
+  
+Basic commands:  
 To view a list of available commands: !help - This will return a list of available commands.
 To view a list of available games: !create - This will return a list of available games. (Feel free to ask for more games to be added)
 To view a list of available default servers for a game: !serverlist - This will return a list of available servers. (Feel free to ask for more servers to be added)
