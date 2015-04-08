@@ -4,6 +4,6 @@
  echo [irc]: IRC server
  echo [channel]: IRC channel
  echo ----------
- php -q "/home/cabox/workspace/ircbots/battlebot/battlebot.php"
+ php -q "/path/to/ircservers/ircbots/battlebot/battlebot.php"
  echo ----------
  pause
