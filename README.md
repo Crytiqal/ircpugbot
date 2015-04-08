@@ -11,6 +11,10 @@ http://www.team-aero.org/team-aero_esports/aero_tv.php
 mIRC: http://www.mirc.com/   
 XChat: http://xchat.org/  
   
+<b>How To:</b>
+- The bot requires php PEAR to be installed with the Net_SmartIRC package.
+- To add a game, check out the games folder and look at the structure of the default files.
+  
 <b>Basic commands:</b>    
 To view a list of available commands: <i>!help</i> - This will return a list of available commands.  
 To view a list of available games: <i>!create</i> - This will return a list of available games. (Feel free to ask for more games to be added)  
