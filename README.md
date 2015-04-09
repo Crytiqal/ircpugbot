@@ -86,17 +86,17 @@ The bot is now authenticated with Q so it can retain its operator status.
   
 When you are in a queue, you can now use !callvote and !vote commands.  
   
-- To call a vote: <i>!callvote <mode></i>  
-For example: <i>!callvote kick playerNAME/playerID</i>  
+<b>PUG Player commands:</b>  
+- !callvote [mode]  
+<i>For example: !callvote kick playerNAME/playerID<  
 When no playerNAME/playerID is given, the bot will return a list of current players and their ID's in your team.  
 The vote will be valid for a set period of time (2min) and players of the same team can cast their vote within this time.  
-When the vote reaches >50% within the valid time, the vote is granted.  
-<b>Notice:</b>  
-Only 1 vote possible per team at a time. The votecaller will be placed in a timeout to prevent him from spamming votes and give others a chance to call a vote of their own.  
-The timeout is set to 3 min OR when a new vote has been called.
+When the vote reaches >50% within the valid time, the vote is granted.</i>  
+ 
+<i>Only 1 vote possible per team at a time. The votecaller will be placed in a timeout to prevent him from spamming votes and give others a chance to call a vote of their own. The timeout is set to 3 min OR when a new vote has been called.</i>
   
-- To cast a vote: <i>!vote yes/y/1/no/n/0</i>  
-For example: <i>!vote yes</i> OR <i>!vote no</i>  
+- !vote [yes/no]  
+<i>For example:</i> !vote yes <i>OR</i> !vote no  
   
 The bot is capable of tracking the usernames accross all the pug's and updates the names when changed.  
 A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
