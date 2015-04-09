@@ -25,26 +25,27 @@ XChat: http://xchat.org/
     
     
 <b>Create a PUG:</b>  
-- !create <game> <mode> <skill> <server>  
-For example: <i>!create etqw 4v4 low</i> OR <i>!create etqw 4v4 med server1</i> OR <i>!create etqw 4v4 pro 123.456.7.890:27733 mypw</i>   
-<game> - Pick a game that is supported  
-<mode> - Pick a gamemode that is supported for that game (4v4/6v6 etc)   
-<i>If a game supports 2v2v2, or asymmetrical teams (2v6v4) then the bot is also capable of handling those.</i>  
-<skill> - Pick a skill level that is supported for that game (low/med/high/pro etc)  
-<server> - Select a server for the game   
-<i>If you leave this value blank, the bot will automatically select a default server from a predefined list, that is not currently in use by another pug in queue. You can also specify which default server you would like to use, by entering a value returned by typing !serverlist . In addition, you can also specify your own server ip and password in the following syntax: ip:port . If this ip is already in use by another pug, you are asked to provide a different server.</i>    
+- !create [game] [mode] [skill] [server]
+
+<i>For example:</i> !create etqw 4v4 low <i>OR</i> !create etqw 4v4 med server1 <i>OR</i> !create etqw 4v4 pro 123.456.7.890:27733 mypw
+
+[game] - <i>Pick a game that is supported.</i>  
+[mode] - <i>Pick a gamemode that is supported for that game (4v4/6v6 etc). If a game supports 2v2v2, or asymmetrical teams (2v6v4) then the bot is also capable of handling those.</i>  
+[skill] - <i>Pick a skill level that is supported for that game (low/med/high/pro etc).</i>  
+[server] - <i>Pick a server for the game. If you leave this value blank, the bot will automatically select a default server from a predefined list, that is not currently in use by another pug in queue. You can also specify which default server you would like to use, by entering a value returned by typing !serverlist . In addition, you can also specify your own server ip and password in the following syntax: ip:port . If this ip is already in use by another pug, you are asked to provide a different server.</i>    
   
 You will automatically be the owner of the pug, and be granted special commands such as !start and !remove. (Additional commands like !kick,!ban,!unban, !shuffle will likely be added in the future)  
     
     
 <b>Join a PUG:</b>  
-- !join   
-For example: <i>!join etqw 4v4 med 2</i> (joins team 2)   
-Provide the mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time!   
-Provide the <#> of the team you would like to join! (1/2/3/4 etc) If you fail to provide a team number, the bot will respond that you will have to pick a team.  
+- !join
+
+<i>For example:</i> !join etqw 4v4 med 2 <i>(joins team 2)</i>   
+<i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time!   
+Provide the <#> of the team you would like to join! (1/2/3/4 etc) If you fail to provide a team number, the bot will respond that you will have to pick a team.</i>  
   
-- To view how many players are needed: <i>!need</i>   
-This will show how many players are still needed for the pug you are currently enlisted in.  
+- !need  
+<i>This will show how many players are still needed for the pug you are currently enlisted in.</i>  
     
     
 <b>Leave a PUG:</b>  
