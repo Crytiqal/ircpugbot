@@ -88,8 +88,8 @@ When you are in a queue, you can now use !callvote and !vote commands.
   
 <b>PUG Player commands:</b>  
 - !callvote [mode]  
-<i>For example: !callvote kick playerNAME/playerID<  
-When no playerNAME/playerID is given, the bot will return a list of current players and their ID's in your team.  
+<i>For example:</i> !callvote kick playerNAME/playerID  
+<i>When no playerNAME/playerID is given, the bot will return a list of current players and their ID's in your team.  
 The vote will be valid for a set period of time (2min) and players of the same team can cast their vote within this time.  
 When the vote reaches >50% within the valid time, the vote is granted.</i>  
  
