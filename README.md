@@ -1,7 +1,7 @@
 # ircservers
 <b>BattleBot (IRC Pick-Up Game Operator Bot)</b>
 
-I have created an IRC bot that will allow users to easily create and join pick-up games for etqw (and any other game).
+I have created an IRC bot that will allow users to easily create and join pick-up games. (For example etqw/et/csgo and any other (type of) game).
 
 To check it out, join the #battlebot irc channel on Quakenet or from the list of current channels given below!   
 http://webchat.quakenet.org/   
