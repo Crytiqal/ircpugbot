@@ -49,18 +49,18 @@ Provide the <#> of the team you would like to join! (1/2/3/4 etc) If you fail to
     
     
 <b>Leave a PUG:</b>  
-- To leave a pick-up game: <i>!leave</i>  
-This will remove you from the pug you are currently enlisted in.   
+- !leave  
+<i>This will remove you from the pug you are currently enlisted in.   
 If you are the owner of the pug, the ownership will be transferred to the next player in the line-up.   
-If no such player is found, the pug will be removed from queue.  
+If no such player is found, the pug will be removed from queue.</i>  
   
   
 <b>PUG Owner commands:</b>  
-- To remove a pick-up game: <i>!remove</i>   
-This will remove the entire pug from the queue. (Only pick-up owners have the power to remove a pug from queue)  
+- !remove   
+<i>This will remove the entire pug from the queue. (Only pick-up owners have the power to remove a pug from queue)</i>  
   
-- To force start a pick-up game: <i>!start</i>  
-Only pick-up owners can use this command to force start a Pick-Up Game.  
+- !start  
+<i>Only pick-up owners can use this command to force start a Pick-Up Game.</i>  
   
 When a pick-up is filled or started, every player will be notified to join the server by having the ip and password sent to them in a pm.   
 The pug will then be removed from queue and another one of the same game and mode may be started. (You can always start mutliple pugs at the same time if they are not identical)  
