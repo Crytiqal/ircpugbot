@@ -18,8 +18,8 @@ XChat: http://xchat.org/
   
 <b>Basic commands:</b>
 - To view a list of available commands: <i>!help</i> - This will return a list of available commands.  
-- To view a list of available games: <i>!create</i> - This will return a list of available games. (Feel free to ask for more games to be added)  
-- To view a list of available default servers for a game: <i>!serverlist</i> - This will return a list of available servers. (Feel free to ask for more servers to be added)  
+- To view a list of available games: <i>!create</i> - This will return a list of available games.   
+- To view a list of available default servers for a game: <i>!serverlist</i> - This will return a list of available servers.   
 - To view a list of available pugs in queue: <i>!queue</i> - This will return a list of available pugs to join.  
 - To view additional information about a specific pug: <i>!info</i> - For example: !info etqw 4v4 This will return a list of teams and their players, currently signed up for the pug. If no additional values are supplied, it will return the info of the pug you are currently in queue for.  
     
