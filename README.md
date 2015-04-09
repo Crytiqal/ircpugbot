@@ -38,7 +38,7 @@ You will automatically be the owner of the pug, and be granted special commands 
     
     
 <b>Join a PUG:</b>  
-- !join
+- !join [game] [mode] [skill] [team#]
 
 <i>For example:</i> !join etqw 4v4 med 2 <i>(joins team 2)</i>   
 <i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time!   
