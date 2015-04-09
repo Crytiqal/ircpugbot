@@ -40,7 +40,7 @@ You will automatically be the owner of the pug, and be granted special commands 
 <b>Join a PUG:</b>  
 - To join a pick-up game: <i>!join</i>   
 For example: <i>!join etqw 4v4 med 2</i> (joins team 2)   
-Provide the <mode> and <skill> because several pick-up games with different modes and skill levels of the same game can be in queue at the same time!   
+Provide the mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time!   
 Provide the <#> of the team you would like to join! (1/2/3/4 etc) If you fail to provide a team number, the bot will respond that you will have to pick a team.  
   
 - To view how many players are needed: <i>!need</i>   
