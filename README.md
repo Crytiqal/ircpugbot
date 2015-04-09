@@ -17,15 +17,15 @@ XChat: http://xchat.org/
 - To add a game, check out the games folder and look at the structure of the default files.
   
 <b>Basic commands:</b>
-- To view a list of available commands: <i>!help</i> - This will return a list of available commands.  
-- To view a list of available games: <i>!create</i> - This will return a list of available games.   
-- To view a list of available default servers for a game: <i>!serverlist</i> - This will return a list of available servers.   
-- To view a list of available pugs in queue: <i>!queue</i> - This will return a list of available pugs to join.  
-- To view additional information about a specific pug: <i>!info</i> - For example: !info etqw 4v4 This will return a list of teams and their players, currently signed up for the pug. If no additional values are supplied, it will return the info of the pug you are currently in queue for.  
+- !help - <i>This will return a list of available commands.</i>  
+- !create - <i>This will return a list of available games.</i>   
+- !serverlist - <i>This will return a list of available servers.</i>   
+- !queue - <i>This will return a list of available pugs currently in queue to join.</i>  
+- !info - <i>This will return a list of teams and their players, currently signed up for a pug. If no additional values are supplied, it will return the info of the pug you are currently in queue for. For example: !info etqw 4v4 </i>  
     
     
 <b>Create a PUG:</b>  
-- To create a pick-up game: <i>!create <game> <mode> <skill> <server></i>  
+- !create <game> <mode> <skill> <server>  
 For example: <i>!create etqw 4v4 low</i> OR <i>!create etqw 4v4 med server1</i> OR <i>!create etqw 4v4 pro 123.456.7.890:27733 mypw</i>   
 <game> - Pick a game that is supported  
 <mode> - Pick a gamemode that is supported for that game (4v4/6v6 etc)   
@@ -38,7 +38,7 @@ You will automatically be the owner of the pug, and be granted special commands 
     
     
 <b>Join a PUG:</b>  
-- To join a pick-up game: <i>!join</i>   
+- !join   
 For example: <i>!join etqw 4v4 med 2</i> (joins team 2)   
 Provide the mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time!   
 Provide the <#> of the team you would like to join! (1/2/3/4 etc) If you fail to provide a team number, the bot will respond that you will have to pick a team.  
