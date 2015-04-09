@@ -93,7 +93,7 @@ When you are in a queue, you can now use !callvote and !vote commands.
 The vote will be valid for a set period of time (2min) and players of the same team can cast their vote within this time.  
 When the vote reaches >50% within the valid time, the vote is granted.</i>  
  
-<i>Only 1 vote possible per team at a time. The votecaller will be placed in a timeout to prevent him from spamming votes and give others a chance to call a vote of their own. The timeout is set to 3 min OR when a new vote has been called.</i>
+Only 1 vote possible per team at a time. The votecaller will be placed in a timeout to prevent him from spamming votes and give others a chance to call a vote of their own. The timeout is set to 3 min OR when a new vote has been called.
   
 - !vote [yes/no]  
 <i>For example:</i> !vote yes <i>OR</i> !vote no  
