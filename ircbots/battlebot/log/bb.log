@@ -1,860 +1,464 @@
-Apr 07 13:16:37 SmartIRC.php(454) WARNING: you are using setAutoReconnect() which is deprecated and no longer functional.
-Apr 07 13:16:37 SmartIRC.php(454) WARNING: you are using setUseSockets() which is deprecated and no longer functional.
-Apr 07 13:16:37 SmartIRC.php(548) DEBUG_CHANNELSYNCING: Channel syncing enabled
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(0) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(1) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(2) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(3) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(4) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(5) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(6) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(7) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(8) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(9) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(10) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(11) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(12) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(13) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(14) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(15) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(16) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(17) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(18) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(19) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(20) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(21) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(22) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(23) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(24) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(25) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(26) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(27) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(28) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(29) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(30) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(31) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(32) registered
-Apr 07 13:16:37 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(33) registered
-Apr 07 13:16:37 SmartIRC.php(1055) DEBUG_CONNECTION: connecting
-Apr 07 13:16:37 SmartIRC.php(1071) DEBUG_SOCKET: binding to 0:0
-Apr 07 13:16:38 SmartIRC.php(1085) DEBUG_CONNECTION: connected
-Apr 07 13:16:38 SmartIRC.php(2215) DEBUG_TIMEHANDLER: timehandler(0) registered
-Apr 07 13:16:38 SmartIRC.php(1239) DEBUG_CONNECTION: logging in
-Apr 07 13:16:38 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PASS "
-Apr 07 13:16:38 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NICK pugOpBot"
-Apr 07 13:16:38 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "USER pugopbot 0 * :pugOpBot"
-Apr 07 13:16:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Looking up your hostname"
-Apr 07 13:16:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Looking up your hostname"
-Apr 07 13:16:38 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
-Apr 07 13:16:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Checking Ident"
-Apr 07 13:16:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Checking Ident"
-Apr 07 13:16:38 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
-Apr 07 13:16:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Found your hostname"
-Apr 07 13:16:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Found your hostname"
-Apr 07 13:16:38 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
-Apr 07 13:16:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 461 * PASS :Not enough parameters"
-Apr 07 13:16:38 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (461)
-Apr 07 13:16:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:"Not enough parameters"
-Apr 07 13:16:38 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "461" (event_err_needmoreparams)
-Apr 07 13:16:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :1157592414"
-Apr 07 13:16:38 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
-Apr 07 13:16:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"1157592414"
-Apr 07 13:16:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
-Apr 07 13:16:38 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
-Apr 07 13:16:38 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :1157592414"
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** No ident response"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** No ident response"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 001 pugOpBot :Welcome to the QuakeNet IRC Network, pugOpBot"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"8192" from:"underworld2.no.quakenet.org" channel:"" message:"Welcome to the QuakeNet IRC Network, pugOpBot"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_welcome" (by numeric)
-Apr 07 13:16:47 messagehandler.php(419) DEBUG_CONNECTION: logged in as pugOpBot
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 002 pugOpBot :Your host is underworld2.no.quakenet.org, running version u2.10.12.10+snircd(1.3.4a)"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"8192" from:"underworld2.no.quakenet.org" channel:"" message:"Your host is underworld2.no.quakenet.org, running version u2.10.12.10+snircd(1.3.4a)"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "002" (event_rpl_yourhost)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 003 pugOpBot :This server was created Fri May 24 2013 at 22:12:24 CEST"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"8192" from:"underworld2.no.quakenet.org" channel:"" message:"This server was created Fri May 24 2013 at 22:12:24 CEST"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "003" (event_rpl_created)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 004 pugOpBot underworld2.no.quakenet.org u2.10.12.10+snircd(1.3.4a) dioswkgxRXInP biklmnopstvrDcCNuMT bklov"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"8192" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "004" (event_rpl_myinfo)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 005 pugOpBot WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=20 MAXBANS=45 NICKLEN=15 :are supported by this server"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"8192" from:"underworld2.no.quakenet.org" channel:"" message:"are supported by this server"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "005" (event_rpl_bounce)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 005 pugOpBot MAXNICKLEN=15 TOPICLEN=250 AWAYLEN=160 KICKLEN=250 CHANNELLEN=200 MAXCHANNELLEN=200 CHANTYPES=#& PREFIX=(ov)@+ STATUSMSG=@+ CHANMODES=b,k,l,imnpstrDducCNMT CASEMAPPING=rfc1459 NETWORK=QuakeNet :are supported by this server"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"8192" from:"underworld2.no.quakenet.org" channel:"" message:"are supported by this server"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "005" (event_rpl_bounce)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 251 pugOpBot :There are 23 users and 47830 invisible on 39 servers"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"16384" from:"underworld2.no.quakenet.org" channel:"" message:"There are 23 users and 47830 invisible on 39 servers"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "251" (event_rpl_luserclient)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 252 pugOpBot 68 :operator(s) online"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"16384" from:"underworld2.no.quakenet.org" channel:"" message:"operator(s) online"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "252" (event_rpl_luserop)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 253 pugOpBot 2 :unknown connection(s)"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"16384" from:"underworld2.no.quakenet.org" channel:"" message:"unknown connection(s)"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "253" (event_rpl_luserunknown)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 254 pugOpBot 27233 :channels formed"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"16384" from:"underworld2.no.quakenet.org" channel:"" message:"channels formed"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "254" (event_rpl_luserchannels)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 255 pugOpBot :I have 4201 clients and 1 servers"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"16384" from:"underworld2.no.quakenet.org" channel:"" message:"I have 4201 clients and 1 servers"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "255" (event_rpl_luserme)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org NOTICE pugOpBot :Highest connection count: 6381 (6380 clients)"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"16" from:"underworld2.no.quakenet.org" channel:"" message:"Highest connection count: 6381 (6380 clients)"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 375 pugOpBot :- underworld2.no.quakenet.org Message of the Day -"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- underworld2.no.quakenet.org Message of the Day -"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motdstart" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- 2013-5-24 22:06"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- 2013-5-24 22:06"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-            Welcome to the QuakeNet IRC Network!     __     __"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-            Welcome to the QuakeNet IRC Network!     __     __"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- .--.--.-----.--|  |.-----.----.--.--.--.-----.----.|  |.--|  |"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- .--.--.-----.--|  |.-----.----.--.--.--.-----.----.|  |.--|  |"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- |  |  |     |  _  ||  -__|   _|  |  |  |  _  |   _||  ||  _  |"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- |  |  |     |  _  ||  -__|   _|  |  |  |  _  |   _||  ||  _  |"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- |_____|__|__|_____||_____|__| |________|_____|__|  |__||_____|"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- |_____|__|__|_____||_____|__| |________|_____|__|  |__||_____|"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-     U N D E R W O R L D . N O . Q U A K E N E T . O R G"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-     U N D E R W O R L D . N O . Q U A K E N E T . O R G"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- This server is hosted by Underworld <www.underworld.no> in"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- This server is hosted by Underworld <www.underworld.no> in"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- cooperation with UNINETT, The Norwegian research network."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- cooperation with UNINETT, The Norwegian research network."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-   [ Disclaimer ]"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-   [ Disclaimer ]"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- IRC is a free media, the operators of this network take no"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- IRC is a free media, the operators of this network take no"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- responsibility whatsoever for opinions expressed or actions"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- responsibility whatsoever for opinions expressed or actions"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- taken by users."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- taken by users."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- By connecting to this server you give us the right to"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- By connecting to this server you give us the right to"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- probe your machine for open proxies/wingates."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- probe your machine for open proxies/wingates."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-   [ Staff ]"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-   [ Staff ]"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Administrator  ::  Hardy     <hardy(a)underworld.no>"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Administrator  ::  Hardy     <hardy(a)underworld.no>"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Operator       ::  akai       <akai(a)underworld.no>"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Operator       ::  akai       <akai(a)underworld.no>"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Operator       ::  Microbe <microbe(a)underworld.no"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Operator       ::  Microbe <microbe(a)underworld.no"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-   [ Rules ]"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-   [ Rules ]"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- This network may NOT be used for:"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- This network may NOT be used for:"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- * Flooding (including flood/clonebots)."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- * Flooding (including flood/clonebots)."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- * Distribution of copyrighted material (eg, warez, mp3,"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- * Distribution of copyrighted material (eg, warez, mp3,"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-   movies) or pornography."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-   movies) or pornography."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- * Channels dedicated to cheats designed to cause unfair"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- * Channels dedicated to cheats designed to cause unfair"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-   advantage in multiplayer games."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-   advantage in multiplayer games."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- * Clones. Please contact info@quakenet.org if you require"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- * Clones. Please contact info@quakenet.org if you require"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-   more than five clients (LAN parties, bots, etc)."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-   more than five clients (LAN parties, bots, etc)."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- * Attempts to takeover existing channels or network services."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- * Attempts to takeover existing channels or network services."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- * Racism and/or Nazism."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- * Racism and/or Nazism."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- * Spamming and/or advertising."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- * Spamming and/or advertising."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- * Hacking (including Virus/Trojan distribution)."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- * Hacking (including Virus/Trojan distribution)."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Continued use of this server indicates acceptance of these"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Continued use of this server indicates acceptance of these"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- conditions."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- conditions."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-   [ Information & Help ]"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-   [ Information & Help ]"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Quakenet web page     ::  http://www.quakenet.org"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Quakenet web page     ::  http://www.quakenet.org"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Quakenet help page    ::  http://www.quakenet.org/faq"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Quakenet help page    ::  http://www.quakenet.org/faq"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Quakenet servers      ::  http://www.quakenet.org/Servers"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Quakenet servers      ::  http://www.quakenet.org/Servers"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Network Channel       ::  #feds"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Network Channel       ::  #feds"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Help Channel          ::  #help"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Help Channel          ::  #help"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Server Channel        ::  #underworld"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Server Channel        ::  #underworld"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- Norwegian Channel     ::  #Norge"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- Norwegian Channel     ::  #Norge"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- You can contact the staff on <quakenet-staff(a)underworld.no>"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- You can contact the staff on <quakenet-staff(a)underworld.no>"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- This network has channel services. Consult the webpage above"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- This network has channel services. Consult the webpage above"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :- to find information on how to use and obtain these services."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"- to find information on how to use and obtain these services."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG Q@CServe.quakenet.org :AUTH pugOpBot KsbuKoJt4W"
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-   [ Have a nice stay! ]"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-   [ Have a nice stay! ]"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 372 pugOpBot :-"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"-"
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_motd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 376 pugOpBot :End of /MOTD command."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"131072" from:"underworld2.no.quakenet.org" channel:"" message:"End of /MOTD command."
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofmotd" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org NOTICE pugOpBot :on 1 ca 1(4) ft 20(20) tr"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"16" from:"underworld2.no.quakenet.org" channel:"" message:"on 1 ca 1(4) ft 20(20) tr"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 221 pugOpBot +i"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"67108864" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_umodeis" (by numeric)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com MODE pugOpBot +i"
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"262144" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"pugOpBot" message:""
-Apr 07 13:16:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_mode" (by string)
-Apr 07 13:16:47 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 2 type: 262144 message: "" regex: "/.*/"
-Apr 07 13:16:47 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_modechange"
-Apr 07 13:16:47 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE BattleBot +iwx"
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Q!TheQBot@CServe.quakenet.org NOTICE pugOpBot :You are now logged in as pugOpBot."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Q" ident:"TheQBot" host:"CServe.quakenet.org" type:"16" from:"Q!TheQBot@CServe.quakenet.org" channel:"" message:"You are now logged in as pugOpBot."
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Q!TheQBot@CServe.quakenet.org NOTICE pugOpBot :Remember: NO-ONE from QuakeNet will ever ask for your password.  NEVER send your password to ANYONE except Q@CServe.quakenet.org."
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Q" ident:"TheQBot" host:"CServe.quakenet.org" type:"16" from:"Q!TheQBot@CServe.quakenet.org" channel:"" message:"Remember: NO-ONE from QuakeNet will ever ask for your password.  NEVER send your password to ANYONE except Q@CServe.quakenet.org."
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
-Apr 07 13:16:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 403 pugOpBot BattleBot :No such channel"
-Apr 07 13:16:47 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (403)
-Apr 07 13:16:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:"No such channel"
-Apr 07 13:16:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "403" (event_err_nosuchchannel)
-Apr 07 13:16:47 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #battlebot"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #battlebot"
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#battlebot" message:""
-Apr 07 13:16:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:16:48 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #battlebot
-Apr 07 13:16:48 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #battlebot set to: 1428427008.0274
-Apr 07 13:16:48 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #battlebot
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #battlebot
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 353 pugOpBot = #battlebot :pugOpBot kickme kickking Crytiqal`Aero"
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#battlebot" message:"pugOpBot kickme kickking Crytiqal`Aero"
-Apr 07 13:16:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
-Apr 07 13:16:48 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #battlebot
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: kickme to channel: #battlebot
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: kickking to channel: #battlebot
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #battlebot
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot kickme kickking Crytiqal`Aero" regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 366 pugOpBot #battlebot :End of /NAMES list."
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#battlebot" message:"End of /NAMES list."
-Apr 07 13:16:48 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:48 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #csgo.bb"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #csgo.bb"
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#csgo.bb" message:""
-Apr 07 13:16:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:16:48 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #csgo.bb
-Apr 07 13:16:48 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #csgo.bb set to: 1428427008.2775
-Apr 07 13:16:48 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #csgo.bb
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #csgo.bb
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 353 pugOpBot = #csgo.bb :pugOpBot Crytiqal`Aero"
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#csgo.bb" message:"pugOpBot Crytiqal`Aero"
-Apr 07 13:16:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
-Apr 07 13:16:48 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #csgo.bb
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #csgo.bb
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 366 pugOpBot #csgo.bb :End of /NAMES list."
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#csgo.bb" message:"End of /NAMES list."
-Apr 07 13:16:48 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:48 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #etqw.bb"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #etqw.bb"
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#etqw.bb" message:""
-Apr 07 13:16:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:16:48 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #etqw.bb
-Apr 07 13:16:48 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #etqw.bb set to: 1428427008.5277
-Apr 07 13:16:48 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #etqw.bb
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #etqw.bb
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 353 pugOpBot = #etqw.bb :pugOpBot Crytiqal`Aero"
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#etqw.bb" message:"pugOpBot Crytiqal`Aero"
-Apr 07 13:16:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
-Apr 07 13:16:48 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #etqw.bb
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #etqw.bb
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 366 pugOpBot #etqw.bb :End of /NAMES list."
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#etqw.bb" message:"End of /NAMES list."
-Apr 07 13:16:48 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:48 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #et.bb"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #et.bb"
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#et.bb" message:""
-Apr 07 13:16:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:16:48 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #et.bb
-Apr 07 13:16:48 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #et.bb set to: 1428427008.7779
-Apr 07 13:16:48 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #et.bb
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #et.bb
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 353 pugOpBot = #et.bb :pugOpBot Crytiqal`Aero"
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#et.bb" message:"pugOpBot Crytiqal`Aero"
-Apr 07 13:16:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
-Apr 07 13:16:48 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #et.bb
-Apr 07 13:16:48 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #et.bb
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 366 pugOpBot #et.bb :End of /NAMES list."
-Apr 07 13:16:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#et.bb" message:"End of /NAMES list."
-Apr 07 13:16:48 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
-Apr 07 13:16:48 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
-Apr 07 13:16:48 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:48 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #brink.bb"
-Apr 07 13:16:49 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #db.bb"
-Apr 07 13:16:49 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #battlebot"
-Apr 07 13:16:49 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":kickking!webchat@ip4da1aab0.direct-adsl.nl PRIVMSG #battlebot :!create csgo 4v4 med"
-Apr 07 13:16:49 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"kickking" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"kickking!webchat@ip4da1aab0.direct-adsl.nl" channel:"#battlebot" message:"!create csgo 4v4 med"
-Apr 07 13:16:49 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
-Apr 07 13:16:49 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 22 type: 2 message: "!create csgo 4v4 med" regex: "/!create.*/"
-Apr 07 13:16:49 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->pug_create"
-Apr 07 13:16:49 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #battlebot"
-Apr 07 13:16:49 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #battlebot b"
-Apr 07 13:16:50 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #brink.bb"
-Apr 07 13:16:50 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#brink.bb" message:""
-Apr 07 13:16:50 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:16:50 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #brink.bb
-Apr 07 13:16:50 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #brink.bb set to: 1428427010.0964
-Apr 07 13:16:50 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #brink.bb
-Apr 07 13:16:50 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #brink.bb
-Apr 07 13:16:50 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:16:50 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:16:50 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 353 pugOpBot = #brink.bb :pugOpBot Crytiqal`Aero"
-Apr 07 13:16:50 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#brink.bb" message:"pugOpBot Crytiqal`Aero"
-Apr 07 13:16:50 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
-Apr 07 13:16:50 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #brink.bb
-Apr 07 13:16:50 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #brink.bb
-Apr 07 13:16:50 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
-Apr 07 13:16:50 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:50 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 366 pugOpBot #brink.bb :End of /NAMES list."
-Apr 07 13:16:50 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#brink.bb" message:"End of /NAMES list."
-Apr 07 13:16:50 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
-Apr 07 13:16:50 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
-Apr 07 13:16:50 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:50 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #csgo.bb"
-Apr 07 13:16:50 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #csgo.bb"
-Apr 07 13:16:50 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #csgo.bb b"
-Apr 07 13:16:50 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #etqw.bb"
-Apr 07 13:16:51 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #etqw.bb"
-Apr 07 13:16:51 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #etqw.bb b"
-Apr 07 13:16:51 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #et.bb"
-Apr 07 13:16:51 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #et.bb"
-Apr 07 13:16:52 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #et.bb b"
-Apr 07 13:16:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #db.bb"
-Apr 07 13:16:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#db.bb" message:""
-Apr 07 13:16:52 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:16:52 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #db.bb
-Apr 07 13:16:52 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #db.bb set to: 1428427012.1032
-Apr 07 13:16:52 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #db.bb
-Apr 07 13:16:52 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #db.bb
-Apr 07 13:16:52 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:16:52 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:16:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 353 pugOpBot = #db.bb :pugOpBot Crytiqal`Aero"
-Apr 07 13:16:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#db.bb" message:"pugOpBot Crytiqal`Aero"
-Apr 07 13:16:52 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
-Apr 07 13:16:52 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #db.bb
-Apr 07 13:16:52 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #db.bb
-Apr 07 13:16:52 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
-Apr 07 13:16:52 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 366 pugOpBot #db.bb :End of /NAMES list."
-Apr 07 13:16:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#db.bb" message:"End of /NAMES list."
-Apr 07 13:16:52 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
-Apr 07 13:16:52 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
-Apr 07 13:16:52 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:16:52 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE kickking :No server set yet."
-Apr 07 13:16:52 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:16:52 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #pugbot:ID017eab9:csgo-4v4-med-team1 +i"
-Apr 07 13:16:53 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "TOPIC 4 :IDLE FOR MATCH: csgo 4v4"
-Apr 07 13:16:53 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #pugbot:ID017eab9:csgo-4v4-med-team2"
-Apr 07 13:16:53 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #pugbot:ID017eab9:csgo-4v4-med-team2 +i"
-Apr 07 13:16:53 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":kickme!webchat@ip4da1aab0.direct-adsl.nl PRIVMSG #battlebot :!join csgo 4v4 med 1"
-Apr 07 13:16:53 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"kickme" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"kickme!webchat@ip4da1aab0.direct-adsl.nl" channel:"#battlebot" message:"!join csgo 4v4 med 1"
-Apr 07 13:16:53 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
-Apr 07 13:16:53 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 23 type: 2 message: "!join csgo 4v4 med 1" regex: "/!join.*/"
-Apr 07 13:16:53 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->pug_join"
-Apr 07 13:16:53 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "TOPIC 4 :IDLE FOR MATCH: csgo 4v4"
-Apr 07 13:16:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 324 pugOpBot #battlebot +"
-Apr 07 13:16:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"134217728" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:""
-Apr 07 13:16:54 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
-Apr 07 13:16:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 329 pugOpBot #battlebot 1427249897"
-Apr 07 13:16:54 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
-Apr 07 13:16:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:16:54 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
-Apr 07 13:16:54 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "INVITE kickking #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:16:54 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE kickking :Please join #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:16:54 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #brink.bb"
-Apr 07 13:16:54 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #brink.bb"
-Apr 07 13:16:55 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #brink.bb b"
-Apr 07 13:16:55 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #db.bb"
-Apr 07 13:16:55 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #db.bb"
-Apr 07 13:16:55 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #db.bb b"
-Apr 07 13:16:56 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #battlebot ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
-Apr 07 13:16:56 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#battlebot" message:"0 pugOpBot"
-Apr 07 13:16:56 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:16:56 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #battlebot
-Apr 07 13:16:56 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #battlebot webchat ip4da1aab0.direct-adsl.nl *.quakenet.org kickme H :3 http://webchat.quakenet.org"
-Apr 07 13:16:56 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#battlebot" message:"3 http://webchat.quakenet.org"
-Apr 07 13:16:56 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:16:56 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: kickme on channel: #battlebot
-Apr 07 13:16:56 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #battlebot webchat ip4da1aab0.direct-adsl.nl *.quakenet.org kickking H :3 http://webchat.quakenet.org"
-Apr 07 13:16:56 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#battlebot" message:"3 http://webchat.quakenet.org"
-Apr 07 13:16:56 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:16:56 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: kickking on channel: #battlebot
-Apr 07 13:16:56 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #battlebot ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Gx :3 Got ZNC?"
-Apr 07 13:16:56 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#battlebot" message:"3 Got ZNC?"
-Apr 07 13:16:56 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:16:56 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #battlebot
-Apr 07 13:16:56 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot #battlebot :End of /WHO list."
-Apr 07 13:16:56 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#battlebot" message:"End of /WHO list."
-Apr 07 13:16:56 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:16:56 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "INVITE kickme #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:16:56 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE kickme :Please join #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:16:58 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 368 pugOpBot #battlebot :End of Channel Ban List"
-Apr 07 13:16:58 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"2097152" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
-Apr 07 13:16:58 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
-Apr 07 13:17:00 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 324 pugOpBot #csgo.bb +"
-Apr 07 13:17:00 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"134217728" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:""
-Apr 07 13:17:00 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
-Apr 07 13:17:00 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 329 pugOpBot #csgo.bb 1427314220"
-Apr 07 13:17:00 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
-Apr 07 13:17:00 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:00 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
-Apr 07 13:17:02 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #csgo.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
-Apr 07 13:17:02 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#csgo.bb" message:"0 pugOpBot"
-Apr 07 13:17:02 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:02 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #csgo.bb
-Apr 07 13:17:02 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #csgo.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Gx :3 Got ZNC?"
-Apr 07 13:17:02 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#csgo.bb" message:"3 Got ZNC?"
-Apr 07 13:17:02 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:02 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #csgo.bb
-Apr 07 13:17:02 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot #csgo.bb :End of /WHO list."
-Apr 07 13:17:02 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#csgo.bb" message:"End of /WHO list."
-Apr 07 13:17:02 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:17:04 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 368 pugOpBot #csgo.bb :End of Channel Ban List"
-Apr 07 13:17:04 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"2097152" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
-Apr 07 13:17:04 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
-Apr 07 13:17:06 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 324 pugOpBot #etqw.bb +"
-Apr 07 13:17:06 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"134217728" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:""
-Apr 07 13:17:06 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
-Apr 07 13:17:06 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 329 pugOpBot #etqw.bb 1427314186"
-Apr 07 13:17:06 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
-Apr 07 13:17:06 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:06 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
-Apr 07 13:17:08 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #etqw.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
-Apr 07 13:17:08 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#etqw.bb" message:"0 pugOpBot"
-Apr 07 13:17:08 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:08 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #etqw.bb
-Apr 07 13:17:08 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #etqw.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Gx :3 Got ZNC?"
-Apr 07 13:17:08 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#etqw.bb" message:"3 Got ZNC?"
-Apr 07 13:17:08 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:08 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #etqw.bb
-Apr 07 13:17:08 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot #etqw.bb :End of /WHO list."
-Apr 07 13:17:08 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#etqw.bb" message:"End of /WHO list."
-Apr 07 13:17:08 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:17:10 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 368 pugOpBot #etqw.bb :End of Channel Ban List"
-Apr 07 13:17:10 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"2097152" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
-Apr 07 13:17:10 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
-Apr 07 13:17:12 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 324 pugOpBot #et.bb +"
-Apr 07 13:17:12 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"134217728" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:""
-Apr 07 13:17:12 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
-Apr 07 13:17:12 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 329 pugOpBot #et.bb 1427314186"
-Apr 07 13:17:12 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
-Apr 07 13:17:12 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:12 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
-Apr 07 13:17:14 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #et.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
-Apr 07 13:17:14 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#et.bb" message:"0 pugOpBot"
-Apr 07 13:17:14 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:14 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #et.bb
-Apr 07 13:17:14 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #et.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Gx :3 Got ZNC?"
-Apr 07 13:17:14 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#et.bb" message:"3 Got ZNC?"
-Apr 07 13:17:14 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:14 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #et.bb
-Apr 07 13:17:14 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot #et.bb :End of /WHO list."
-Apr 07 13:17:14 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#et.bb" message:"End of /WHO list."
-Apr 07 13:17:14 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:17:15 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
-Apr 07 13:17:16 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 368 pugOpBot #et.bb :End of Channel Ban List"
-Apr 07 13:17:16 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"2097152" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
-Apr 07 13:17:16 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
-Apr 07 13:17:20 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:17:20 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:""
-Apr 07 13:17:20 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:17:20 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:20 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #pugbot:ID017eab9:csgo-4v4-med-team1 set to: 1428427040.0969
-Apr 07 13:17:20 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:20 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:20 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:17:20 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:17:20 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:17:20 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 353 pugOpBot = #pugbot:ID017eab9:csgo-4v4-med-team1 :@pugOpBot"
-Apr 07 13:17:20 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"@pugOpBot"
-Apr 07 13:17:20 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
-Apr 07 13:17:20 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:20 SmartIRC.php(2465) DEBUG_CHANNELSYNCING: adding op: pugOpBot to channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:20 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "@pugOpBot" regex: "/.*/"
-Apr 07 13:17:20 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:17:20 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 366 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 :End of /NAMES list."
-Apr 07 13:17:20 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"End of /NAMES list."
-Apr 07 13:17:20 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
-Apr 07 13:17:20 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
-Apr 07 13:17:20 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:17:20 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:17:20 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #pugbot:ID017eab9:csgo-4v4-med-team1 b"
-Apr 07 13:17:22 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com MODE #pugbot:ID017eab9:csgo-4v4-med-team1 +i"
-Apr 07 13:17:22 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"262144" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:""
-Apr 07 13:17:22 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_mode" (by string)
-Apr 07 13:17:22 messagehandler.php(164) DEBUG_CHANNELSYNCING: updating channel mode for: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:22 messagehandler.php(360) DEBUG_CHANNELSYNCING: updating unknown channelmode (i) in channel->mode for: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:22 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 2 type: 262144 message: "" regex: "/.*/"
-Apr 07 13:17:22 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_modechange"
-Apr 07 13:17:24 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 403 pugOpBot 4 :No such channel"
-Apr 07 13:17:24 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (403)
-Apr 07 13:17:24 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:"No such channel"
-Apr 07 13:17:24 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "403" (event_err_nosuchchannel)
-Apr 07 13:17:26 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #pugbot:ID017eab9:csgo-4v4-med-team2"
-Apr 07 13:17:26 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#pugbot:ID017eab9:csgo-4v4-med-team2" message:""
-Apr 07 13:17:26 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:17:26 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:17:26 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #pugbot:ID017eab9:csgo-4v4-med-team2 set to: 1428427046.0971
-Apr 07 13:17:26 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:17:26 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:17:26 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:17:26 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:17:26 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #pugbot:ID017eab9:csgo-4v4-med-team2"
-Apr 07 13:17:26 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 353 pugOpBot = #pugbot:ID017eab9:csgo-4v4-med-team2 :@pugOpBot"
-Apr 07 13:17:26 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team2" message:"@pugOpBot"
-Apr 07 13:17:26 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
-Apr 07 13:17:26 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:17:26 SmartIRC.php(2465) DEBUG_CHANNELSYNCING: adding op: pugOpBot to channel: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:17:26 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "@pugOpBot" regex: "/.*/"
-Apr 07 13:17:26 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:17:26 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 366 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team2 :End of /NAMES list."
-Apr 07 13:17:26 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"65536" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team2" message:"End of /NAMES list."
-Apr 07 13:17:26 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
-Apr 07 13:17:26 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
-Apr 07 13:17:26 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
-Apr 07 13:17:26 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #pugbot:ID017eab9:csgo-4v4-med-team2"
-Apr 07 13:17:26 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #pugbot:ID017eab9:csgo-4v4-med-team2 b"
-Apr 07 13:17:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com MODE #pugbot:ID017eab9:csgo-4v4-med-team2 +i"
-Apr 07 13:17:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"262144" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#pugbot:ID017eab9:csgo-4v4-med-team2" message:""
-Apr 07 13:17:28 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_mode" (by string)
-Apr 07 13:17:28 messagehandler.php(164) DEBUG_CHANNELSYNCING: updating channel mode for: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:17:28 messagehandler.php(360) DEBUG_CHANNELSYNCING: updating unknown channelmode (i) in channel->mode for: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:17:28 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 2 type: 262144 message: "" regex: "/.*/"
-Apr 07 13:17:28 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_modechange"
-Apr 07 13:17:30 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 403 pugOpBot 4 :No such channel"
-Apr 07 13:17:30 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (403)
-Apr 07 13:17:30 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:"No such channel"
-Apr 07 13:17:30 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "403" (event_err_nosuchchannel)
-Apr 07 13:17:32 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 341 pugOpBot kickking #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:17:32 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (341)
-Apr 07 13:17:32 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:32 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "341" (event_rpl_inviting)
-Apr 07 13:17:35 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":kickking!webchat@ip4da1aab0.direct-adsl.nl JOIN #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:17:35 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"kickking" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"64" from:"kickking!webchat@ip4da1aab0.direct-adsl.nl" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:""
-Apr 07 13:17:35 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:17:35 messagehandler.php(77) DEBUG_CHANNELSYNCING: kickking joins channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:35 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: kickking to channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:35 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:17:35 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:17:35 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO kickking"
-Apr 07 13:17:35 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #battlebot :PUG: csgo 4v4 med --( Team 1: kickking; Team 2:  )--"
-Apr 07 13:17:36 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #csgo.bb :PUG: csgo 4v4 med --( Team 1: kickking; Team 2:  )--"
-Apr 07 13:17:36 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 324 pugOpBot #brink.bb +"
-Apr 07 13:17:36 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"134217728" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:""
-Apr 07 13:17:36 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
-Apr 07 13:17:36 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 329 pugOpBot #brink.bb 1427314186"
-Apr 07 13:17:36 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
-Apr 07 13:17:36 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:36 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
-Apr 07 13:17:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #brink.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
-Apr 07 13:17:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#brink.bb" message:"0 pugOpBot"
-Apr 07 13:17:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:38 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #brink.bb
-Apr 07 13:17:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #brink.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Gx :3 Got ZNC?"
-Apr 07 13:17:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#brink.bb" message:"3 Got ZNC?"
-Apr 07 13:17:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:38 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #brink.bb
-Apr 07 13:17:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot #brink.bb :End of /WHO list."
-Apr 07 13:17:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#brink.bb" message:"End of /WHO list."
-Apr 07 13:17:38 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:17:40 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 368 pugOpBot #brink.bb :End of Channel Ban List"
-Apr 07 13:17:40 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"2097152" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
-Apr 07 13:17:40 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
-Apr 07 13:17:42 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 324 pugOpBot #db.bb +"
-Apr 07 13:17:42 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"134217728" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:""
-Apr 07 13:17:42 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
-Apr 07 13:17:42 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 329 pugOpBot #db.bb 1427314186"
-Apr 07 13:17:42 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
-Apr 07 13:17:42 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:42 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
-Apr 07 13:17:44 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #db.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
-Apr 07 13:17:44 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#db.bb" message:"0 pugOpBot"
-Apr 07 13:17:44 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:44 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #db.bb
-Apr 07 13:17:44 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #db.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Gx :3 Got ZNC?"
-Apr 07 13:17:44 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#db.bb" message:"3 Got ZNC?"
-Apr 07 13:17:44 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:44 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #db.bb
-Apr 07 13:17:44 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot #db.bb :End of /WHO list."
-Apr 07 13:17:44 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#db.bb" message:"End of /WHO list."
-Apr 07 13:17:44 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:17:46 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 368 pugOpBot #db.bb :End of Channel Ban List"
-Apr 07 13:17:46 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"2097152" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
-Apr 07 13:17:46 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
-Apr 07 13:17:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 341 pugOpBot kickme #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:17:48 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (341)
-Apr 07 13:17:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:48 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "341" (event_rpl_inviting)
-Apr 07 13:17:51 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":kickme!webchat@ip4da1aab0.direct-adsl.nl JOIN #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:17:51 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"kickme" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"64" from:"kickme!webchat@ip4da1aab0.direct-adsl.nl" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:""
-Apr 07 13:17:51 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:17:51 messagehandler.php(77) DEBUG_CHANNELSYNCING: kickme joins channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:51 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: kickme to channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:51 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:17:51 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:17:51 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO kickme"
-Apr 07 13:17:51 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #battlebot :PUG: csgo 4v4 med --( Team 1: kickking,kickme; Team 2:  )--"
-Apr 07 13:17:51 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #csgo.bb :PUG: csgo 4v4 med --( Team 1: kickking,kickme; Team 2:  )--"
-Apr 07 13:17:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 324 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 +tinCN"
-Apr 07 13:17:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"134217728" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:""
-Apr 07 13:17:52 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
-Apr 07 13:17:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 329 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 1428427040"
-Apr 07 13:17:52 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
-Apr 07 13:17:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:52 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
-Apr 07 13:17:53 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
-Apr 07 13:17:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 webchat ip4da1aab0.direct-adsl.nl *.quakenet.org kickme H :3 http://webchat.quakenet.org"
-Apr 07 13:17:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"3 http://webchat.quakenet.org"
-Apr 07 13:17:54 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:54 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: kickme on channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 webchat ip4da1aab0.direct-adsl.nl *.quakenet.org kickking H :3 http://webchat.quakenet.org"
-Apr 07 13:17:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"3 http://webchat.quakenet.org"
-Apr 07 13:17:54 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:54 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: kickking on channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H@ :0 pugOpBot"
-Apr 07 13:17:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"0 pugOpBot"
-Apr 07 13:17:54 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:17:54 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:54 SmartIRC.php(2465) DEBUG_CHANNELSYNCING: adding op: pugOpBot to channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:17:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 :End of /WHO list."
-Apr 07 13:17:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"End of /WHO list."
-Apr 07 13:17:54 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:17:56 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 368 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 :End of Channel Ban List"
-Apr 07 13:17:56 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"2097152" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
-Apr 07 13:17:56 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
-Apr 07 13:17:58 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 324 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team2 +tinCN"
-Apr 07 13:17:58 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"134217728" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:""
-Apr 07 13:17:58 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
-Apr 07 13:17:58 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 329 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team2 1428427046"
-Apr 07 13:17:58 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
-Apr 07 13:17:58 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:17:58 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
-Apr 07 13:17:59 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":kickking!webchat@ip4da1aab0.direct-adsl.nl PRIVMSG #pugbot:ID017eab9:csgo-4v4-med-team1 :!callvote kick kickme"
-Apr 07 13:17:59 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"kickking" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"kickking!webchat@ip4da1aab0.direct-adsl.nl" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"!callvote kick kickme"
-Apr 07 13:17:59 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
-Apr 07 13:17:59 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 29 type: 2 message: "!callvote kick kickme" regex: "/!callvote.*/"
-Apr 07 13:17:59 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->pug_callvote"
-Apr 07 13:17:59 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #pugbot:ID017eab9:csgo-4v4-med-team1 :Current vote: kickme kickme"
-Apr 07 13:18:00 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team2 ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H@ :0 pugOpBot"
-Apr 07 13:18:00 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team2" message:"0 pugOpBot"
-Apr 07 13:18:00 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:18:00 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:18:00 SmartIRC.php(2465) DEBUG_CHANNELSYNCING: adding op: pugOpBot to channel: #pugbot:ID017eab9:csgo-4v4-med-team2
-Apr 07 13:18:00 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team2 :End of /WHO list."
-Apr 07 13:18:00 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team2" message:"End of /WHO list."
-Apr 07 13:18:00 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:18:02 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 368 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team2 :End of Channel Ban List"
-Apr 07 13:18:02 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"2097152" from:"underworld2.no.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
-Apr 07 13:18:02 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
-Apr 07 13:18:04 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":kickme!webchat@ip4da1aab0.direct-adsl.nl NICK :dontkickme"
-Apr 07 13:18:04 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"kickme" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"1024" from:"kickme!webchat@ip4da1aab0.direct-adsl.nl" channel:"" message:"dontkickme"
-Apr 07 13:18:04 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_nick" (by string)
-Apr 07 13:18:04 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 3 type: 1024 message: "dontkickme" regex: "/.*/"
-Apr 07 13:18:04 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->evt_nickchange"
-Apr 07 13:18:04 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 webchat ip4da1aab0.direct-adsl.nl *.quakenet.org kickking H :3 http://webchat.quakenet.org"
-Apr 07 13:18:04 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"3 http://webchat.quakenet.org"
-Apr 07 13:18:04 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:18:04 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: kickking on channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:18:04 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot kickking :End of /WHO list."
-Apr 07 13:18:04 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"kickking" message:"End of /WHO list."
-Apr 07 13:18:04 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:18:07 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":dontkickme!webchat@ip4da1aab0.direct-adsl.nl PRIVMSG #pugbot:ID017eab9:csgo-4v4-med-team1 :!queue"
-Apr 07 13:18:07 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"dontkickme" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"dontkickme!webchat@ip4da1aab0.direct-adsl.nl" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"!queue"
-Apr 07 13:18:07 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
-Apr 07 13:18:07 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 31 type: 2 message: "!queue" regex: "/!queue.*/"
-Apr 07 13:18:07 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->pug_queue"
-Apr 07 13:18:07 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE dontkickme :Current pick-up games: csgo 4v4 med"
-Apr 07 13:18:10 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot kickme :End of /WHO list."
-Apr 07 13:18:10 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"kickme" message:"End of /WHO list."
-Apr 07 13:18:10 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:18:17 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":dontkickme!webchat@ip4da1aab0.direct-adsl.nl PART #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:18:17 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"dontkickme" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"524288" from:"dontkickme!webchat@ip4da1aab0.direct-adsl.nl" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:""
-Apr 07 13:18:17 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_part" (by string)
-Apr 07 13:18:17 SmartIRC.php(2592) DEBUG_CHANNELSYNCING: removing user: dontkickme from channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:18:17 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 4 type: 524288 message: "" regex: "/.*/"
-Apr 07 13:18:17 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->evt_quit"
-Apr 07 13:18:17 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #battlebot :PUG: csgo 4v4 med --( Team 1: kickking; Team 2:  )--"
-Apr 07 13:18:17 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #csgo.bb :PUG: csgo 4v4 med --( Team 1: kickking; Team 2:  )--"
-Apr 07 13:18:22 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":dontkickme!webchat@ip4da1aab0.direct-adsl.nl NICK :changedname"
-Apr 07 13:18:22 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"dontkickme" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"1024" from:"dontkickme!webchat@ip4da1aab0.direct-adsl.nl" channel:"" message:"changedname"
-Apr 07 13:18:22 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_nick" (by string)
-Apr 07 13:18:22 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 3 type: 1024 message: "changedname" regex: "/.*/"
-Apr 07 13:18:22 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->evt_nickchange"
-Apr 07 13:18:25 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":changedname!webchat@ip4da1aab0.direct-adsl.nl PRIVMSG #battlebot :!queue"
-Apr 07 13:18:25 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"changedname" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"changedname!webchat@ip4da1aab0.direct-adsl.nl" channel:"#battlebot" message:"!queue"
-Apr 07 13:18:25 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
-Apr 07 13:18:25 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 31 type: 2 message: "!queue" regex: "/!queue.*/"
-Apr 07 13:18:25 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->pug_queue"
-Apr 07 13:18:25 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE changedname :Current pick-up games: csgo 4v4 med"
-Apr 07 13:18:30 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
-Apr 07 13:18:39 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":changedname!webchat@ip4da1aab0.direct-adsl.nl PRIVMSG #battlebot :!join csgo 4v4 med 1"
-Apr 07 13:18:39 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"changedname" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"changedname!webchat@ip4da1aab0.direct-adsl.nl" channel:"#battlebot" message:"!join csgo 4v4 med 1"
-Apr 07 13:18:39 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
-Apr 07 13:18:39 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 23 type: 2 message: "!join csgo 4v4 med 1" regex: "/!join.*/"
-Apr 07 13:18:39 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->pug_join"
-Apr 07 13:18:39 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "INVITE changedname #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:18:39 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 341 pugOpBot changedname #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:18:39 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (341)
-Apr 07 13:18:39 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"1" from:"underworld2.no.quakenet.org" channel:"" message:""
-Apr 07 13:18:39 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "341" (event_rpl_inviting)
-Apr 07 13:18:39 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE changedname :Please join #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:18:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":changedname!webchat@ip4da1aab0.direct-adsl.nl JOIN #pugbot:ID017eab9:csgo-4v4-med-team1"
-Apr 07 13:18:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"changedname" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"64" from:"changedname!webchat@ip4da1aab0.direct-adsl.nl" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:""
-Apr 07 13:18:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
-Apr 07 13:18:47 messagehandler.php(77) DEBUG_CHANNELSYNCING: changedname joins channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:18:47 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: changedname to channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:18:47 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
-Apr 07 13:18:47 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
-Apr 07 13:18:47 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO changedname"
-Apr 07 13:18:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 352 pugOpBot #pugbot:ID017eab9:csgo-4v4-med-team1 webchat ip4da1aab0.direct-adsl.nl *.quakenet.org changedname H :3 http://webchat.quakenet.org"
-Apr 07 13:18:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"3 http://webchat.quakenet.org"
-Apr 07 13:18:47 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
-Apr 07 13:18:47 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: changedname on channel: #pugbot:ID017eab9:csgo-4v4-med-team1
-Apr 07 13:18:47 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":underworld2.no.quakenet.org 315 pugOpBot changedname :End of /WHO list."
-Apr 07 13:18:47 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"underworld2.no.quakenet.org" type:"32" from:"underworld2.no.quakenet.org" channel:"changedname" message:"End of /WHO list."
-Apr 07 13:18:47 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
-Apr 07 13:18:47 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #battlebot :PUG: csgo 4v4 med --( Team 1: kickking,changedname; Team 2:  )--"
-Apr 07 13:18:47 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG #csgo.bb :PUG: csgo 4v4 med --( Team 1: kickking,changedname; Team 2:  )--"
-Apr 07 13:18:49 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":changedname!webchat@ip4da1aab0.direct-adsl.nl NICK :changedagain"
-Apr 07 13:18:49 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"changedname" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"1024" from:"changedname!webchat@ip4da1aab0.direct-adsl.nl" channel:"" message:"changedagain"
-Apr 07 13:18:49 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_nick" (by string)
-Apr 07 13:18:49 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 3 type: 1024 message: "changedagain" regex: "/.*/"
-Apr 07 13:18:49 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->evt_nickchange"
-Apr 07 13:18:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":changedagain!webchat@ip4da1aab0.direct-adsl.nl PRIVMSG #pugbot:ID017eab9:csgo-4v4-med-team1 :!queue"
-Apr 07 13:18:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"changedagain" ident:"webchat" host:"ip4da1aab0.direct-adsl.nl" type:"2" from:"changedagain!webchat@ip4da1aab0.direct-adsl.nl" channel:"#pugbot:ID017eab9:csgo-4v4-med-team1" message:"!queue"
-Apr 07 13:18:52 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
-Apr 07 13:18:52 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 31 type: 2 message: "!queue" regex: "/!queue.*/"
-Apr 07 13:18:52 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->pug_queue"
-Apr 07 13:18:52 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE changedagain :Current pick-up games: csgo 4v4 med"
-Apr 07 13:19:08 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:46:28 SmartIRC.php(454) WARNING: you are using setAutoReconnect() which is deprecated and no longer functional.
+Apr 10 14:46:28 SmartIRC.php(454) WARNING: you are using setUseSockets() which is deprecated and no longer functional.
+Apr 10 14:46:28 SmartIRC.php(548) DEBUG_CHANNELSYNCING: Channel syncing enabled
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(0) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(1) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(2) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(3) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(4) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(5) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(6) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(7) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(8) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(9) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(10) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(11) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(12) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(13) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(14) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(15) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(16) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(17) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(18) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(19) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(20) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(21) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(22) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(23) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(24) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(25) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(26) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(27) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(28) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(29) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(30) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(31) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(32) registered
+Apr 10 14:46:28 SmartIRC.php(2105) DEBUG_ACTIONHANDLER: actionhandler(33) registered
+Apr 10 14:46:28 SmartIRC.php(1055) DEBUG_CONNECTION: connecting
+Apr 10 14:46:28 SmartIRC.php(1071) DEBUG_SOCKET: binding to 0:0
+Apr 10 14:46:28 SmartIRC.php(1085) DEBUG_CONNECTION: connected
+Apr 10 14:46:28 SmartIRC.php(2215) DEBUG_TIMEHANDLER: timehandler(0) registered
+Apr 10 14:46:28 SmartIRC.php(1239) DEBUG_CONNECTION: logging in
+Apr 10 14:46:28 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PASS "
+Apr 10 14:46:28 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NICK pugOpBot"
+Apr 10 14:46:28 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "USER pugopbot 0 * :pugOpBot"
+Apr 10 14:46:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Looking up your hostname"
+Apr 10 14:46:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Looking up your hostname"
+Apr 10 14:46:28 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Apr 10 14:46:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Checking Ident"
+Apr 10 14:46:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Checking Ident"
+Apr 10 14:46:28 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Apr 10 14:46:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 461 * PASS :Not enough parameters"
+Apr 10 14:46:28 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (461)
+Apr 10 14:46:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"Not enough parameters"
+Apr 10 14:46:28 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "461" (event_err_needmoreparams)
+Apr 10 14:46:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :3355737334"
+Apr 10 14:46:28 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Apr 10 14:46:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"3355737334"
+Apr 10 14:46:28 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Apr 10 14:46:28 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Apr 10 14:46:28 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :3355737334"
+Apr 10 14:46:28 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** Found your hostname"
+Apr 10 14:46:28 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** Found your hostname"
+Apr 10 14:46:28 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "NOTICE AUTH :*** No ident response"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"16" from:"" channel:"" message:"*** No ident response"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 001 pugOpBot :Welcome to the QuakeNet IRC Network, pugOpBot"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"8192" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"Welcome to the QuakeNet IRC Network, pugOpBot"
+Apr 10 14:46:37 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_welcome" (by numeric)
+Apr 10 14:46:37 messagehandler.php(419) DEBUG_CONNECTION: logged in as pugOpBot
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 002 pugOpBot :Your host is blacklotus.ca.us.quakenet.org, running version u2.10.12.10+snircd(1.3.4a)"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"8192" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"Your host is blacklotus.ca.us.quakenet.org, running version u2.10.12.10+snircd(1.3.4a)"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "002" (event_rpl_yourhost)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 003 pugOpBot :This server was created Fri Sep 12 2014 at 04:29:23 PDT"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"8192" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"This server was created Fri Sep 12 2014 at 04:29:23 PDT"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "003" (event_rpl_created)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 004 pugOpBot blacklotus.ca.us.quakenet.org u2.10.12.10+snircd(1.3.4a) dioswkgxRXInP biklmnopstvrDcCNuMT bklov"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"8192" from:"blacklotus.ca.us.quakenet.org" channel:"" message:""
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "004" (event_rpl_myinfo)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 005 pugOpBot WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=20 MAXBANS=45 NICKLEN=15 :are supported by this server"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"8192" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"are supported by this server"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "005" (event_rpl_bounce)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 005 pugOpBot MAXNICKLEN=15 TOPICLEN=250 AWAYLEN=160 KICKLEN=250 CHANNELLEN=200 MAXCHANNELLEN=200 CHANTYPES=#& PREFIX=(ov)@+ STATUSMSG=@+ CHANMODES=b,k,l,imnpstrDducCNMT CASEMAPPING=rfc1459 NETWORK=QuakeNet :are supported by this server"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"8192" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"are supported by this server"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "005" (event_rpl_bounce)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 251 pugOpBot :There are 23 users and 39869 invisible on 39 servers"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"16384" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"There are 23 users and 39869 invisible on 39 servers"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "251" (event_rpl_luserclient)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 252 pugOpBot 68 :operator(s) online"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"16384" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"operator(s) online"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "252" (event_rpl_luserop)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 253 pugOpBot 2 :unknown connection(s)"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"16384" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"unknown connection(s)"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "253" (event_rpl_luserunknown)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 254 pugOpBot 27136 :channels formed"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"16384" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"channels formed"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "254" (event_rpl_luserchannels)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 255 pugOpBot :I have 5646 clients and 1 servers"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"16384" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"I have 5646 clients and 1 servers"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "255" (event_rpl_luserme)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org NOTICE pugOpBot :Highest connection count: 7585 (7584 clients)"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"16" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"Highest connection count: 7585 (7584 clients)"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 422 pugOpBot :MOTD File is missing"
+Apr 10 14:46:37 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (422)
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"MOTD File is missing"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "422" (event_err_nomotd)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org NOTICE pugOpBot :on 1 ca 1(4) ft 20(20)"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"16" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"on 1 ca 1(4) ft 20(20)"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 221 pugOpBot +i"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"67108864" from:"blacklotus.ca.us.quakenet.org" channel:"" message:""
+Apr 10 14:46:37 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_umodeis" (by numeric)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com MODE pugOpBot +i"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"262144" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"pugOpBot" message:""
+Apr 10 14:46:37 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_mode" (by string)
+Apr 10 14:46:37 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 2 type: 262144 message: "" regex: "/.*/"
+Apr 10 14:46:37 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_modechange"
+Apr 10 14:46:37 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PRIVMSG Q@CServe.quakenet.org :AUTH pugOpBot KsbuKoJt4W"
+Apr 10 14:46:37 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE BattleBot +iwx"
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 403 pugOpBot BattleBot :No such channel"
+Apr 10 14:46:37 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (403)
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"No such channel"
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "403" (event_err_nosuchchannel)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Q!TheQBot@CServe.quakenet.org NOTICE pugOpBot :You are now logged in as pugOpBot."
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Q" ident:"TheQBot" host:"CServe.quakenet.org" type:"16" from:"Q!TheQBot@CServe.quakenet.org" channel:"" message:"You are now logged in as pugOpBot."
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Q!TheQBot@CServe.quakenet.org NOTICE pugOpBot :Remember: NO-ONE from QuakeNet will ever ask for your password.  NEVER send your password to ANYONE except Q@CServe.quakenet.org."
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Q" ident:"TheQBot" host:"CServe.quakenet.org" type:"16" from:"Q!TheQBot@CServe.quakenet.org" channel:"" message:"Remember: NO-ONE from QuakeNet will ever ask for your password.  NEVER send your password to ANYONE except Q@CServe.quakenet.org."
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "NOTICE" (event_notice)
+Apr 10 14:46:37 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #battlebot"
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #battlebot"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#battlebot" message:""
+Apr 10 14:46:37 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
+Apr 10 14:46:37 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #battlebot
+Apr 10 14:46:37 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #battlebot set to: 1428691597.7708
+Apr 10 14:46:37 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #battlebot
+Apr 10 14:46:37 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #battlebot
+Apr 10 14:46:37 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
+Apr 10 14:46:37 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 353 pugOpBot @ #battlebot :pugOpBot Crytiqal`Aero"
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#battlebot" message:"pugOpBot Crytiqal`Aero"
+Apr 10 14:46:37 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
+Apr 10 14:46:37 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #battlebot
+Apr 10 14:46:37 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #battlebot
+Apr 10 14:46:37 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
+Apr 10 14:46:37 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:37 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 366 pugOpBot #battlebot :End of /NAMES list."
+Apr 10 14:46:37 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#battlebot" message:"End of /NAMES list."
+Apr 10 14:46:37 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
+Apr 10 14:46:37 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
+Apr 10 14:46:37 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:38 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #csgo.bb"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #csgo.bb"
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#csgo.bb" message:""
+Apr 10 14:46:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
+Apr 10 14:46:38 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #csgo.bb
+Apr 10 14:46:38 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #csgo.bb set to: 1428691598.0212
+Apr 10 14:46:38 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #csgo.bb
+Apr 10 14:46:38 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #csgo.bb
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 353 pugOpBot @ #csgo.bb :pugOpBot Crytiqal`Aero"
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#csgo.bb" message:"pugOpBot Crytiqal`Aero"
+Apr 10 14:46:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
+Apr 10 14:46:38 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #csgo.bb
+Apr 10 14:46:38 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #csgo.bb
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 366 pugOpBot #csgo.bb :End of /NAMES list."
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#csgo.bb" message:"End of /NAMES list."
+Apr 10 14:46:38 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:38 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #etqw.bb"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #etqw.bb"
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#etqw.bb" message:""
+Apr 10 14:46:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
+Apr 10 14:46:38 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #etqw.bb
+Apr 10 14:46:38 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #etqw.bb set to: 1428691598.2717
+Apr 10 14:46:38 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #etqw.bb
+Apr 10 14:46:38 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #etqw.bb
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 353 pugOpBot @ #etqw.bb :pugOpBot Crytiqal`Aero"
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#etqw.bb" message:"pugOpBot Crytiqal`Aero"
+Apr 10 14:46:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
+Apr 10 14:46:38 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #etqw.bb
+Apr 10 14:46:38 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #etqw.bb
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 366 pugOpBot #etqw.bb :End of /NAMES list."
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#etqw.bb" message:"End of /NAMES list."
+Apr 10 14:46:38 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:38 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #et.bb"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #et.bb"
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#et.bb" message:""
+Apr 10 14:46:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
+Apr 10 14:46:38 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #et.bb
+Apr 10 14:46:38 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #et.bb set to: 1428691598.5221
+Apr 10 14:46:38 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #et.bb
+Apr 10 14:46:38 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #et.bb
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 353 pugOpBot @ #et.bb :pugOpBot Crytiqal`Aero"
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#et.bb" message:"pugOpBot Crytiqal`Aero"
+Apr 10 14:46:38 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
+Apr 10 14:46:38 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #et.bb
+Apr 10 14:46:38 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #et.bb
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:38 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 366 pugOpBot #et.bb :End of /NAMES list."
+Apr 10 14:46:38 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#et.bb" message:"End of /NAMES list."
+Apr 10 14:46:38 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
+Apr 10 14:46:38 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
+Apr 10 14:46:38 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:38 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #brink.bb"
+Apr 10 14:46:39 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "JOIN #db.bb"
+Apr 10 14:46:39 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #battlebot"
+Apr 10 14:46:39 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #battlebot"
+Apr 10 14:46:39 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #battlebot b"
+Apr 10 14:46:40 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #brink.bb"
+Apr 10 14:46:40 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#brink.bb" message:""
+Apr 10 14:46:40 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
+Apr 10 14:46:40 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #brink.bb
+Apr 10 14:46:40 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #brink.bb set to: 1428691600.0094
+Apr 10 14:46:40 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #brink.bb
+Apr 10 14:46:40 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #brink.bb
+Apr 10 14:46:40 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
+Apr 10 14:46:40 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
+Apr 10 14:46:40 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 353 pugOpBot @ #brink.bb :pugOpBot Crytiqal`Aero"
+Apr 10 14:46:40 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#brink.bb" message:"pugOpBot Crytiqal`Aero"
+Apr 10 14:46:40 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
+Apr 10 14:46:40 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #brink.bb
+Apr 10 14:46:40 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #brink.bb
+Apr 10 14:46:40 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
+Apr 10 14:46:40 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:40 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 366 pugOpBot #brink.bb :End of /NAMES list."
+Apr 10 14:46:40 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#brink.bb" message:"End of /NAMES list."
+Apr 10 14:46:40 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
+Apr 10 14:46:40 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
+Apr 10 14:46:40 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:40 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #csgo.bb"
+Apr 10 14:46:40 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #csgo.bb"
+Apr 10 14:46:40 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #csgo.bb b"
+Apr 10 14:46:40 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #etqw.bb"
+Apr 10 14:46:41 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #etqw.bb"
+Apr 10 14:46:41 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #etqw.bb b"
+Apr 10 14:46:41 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #et.bb"
+Apr 10 14:46:41 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #et.bb"
+Apr 10 14:46:42 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #et.bb b"
+Apr 10 14:46:42 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com JOIN #db.bb"
+Apr 10 14:46:42 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"pugOpBot" ident:"~pugopbot" host:"50.97.231.162-static.reverse.softlayer.com" type:"64" from:"pugOpBot!~pugopbot@50.97.231.162-static.reverse.softlayer.com" channel:"#db.bb" message:""
+Apr 10 14:46:42 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_join" (by string)
+Apr 10 14:46:42 messagehandler.php(54) DEBUG_CHANNELSYNCING: joining channel: #db.bb
+Apr 10 14:46:42 messagehandler.php(62) DEBUG_CHANNELSYNCING: synctime_start for #db.bb set to: 1428691602.0261
+Apr 10 14:46:42 messagehandler.php(77) DEBUG_CHANNELSYNCING: pugOpBot joins channel: #db.bb
+Apr 10 14:46:42 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: pugOpBot to channel: #db.bb
+Apr 10 14:46:42 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 0 type: 64 message: "" regex: "/.*/"
+Apr 10 14:46:42 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->onjoin_greeting"
+Apr 10 14:46:42 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 353 pugOpBot @ #db.bb :pugOpBot Crytiqal`Aero"
+Apr 10 14:46:42 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#db.bb" message:"pugOpBot Crytiqal`Aero"
+Apr 10 14:46:42 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_namreply" (by numeric)
+Apr 10 14:46:42 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #db.bb
+Apr 10 14:46:42 SmartIRC.php(2451) DEBUG_CHANNELSYNCING: adding user: Crytiqal`Aero to channel: #db.bb
+Apr 10 14:46:42 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "pugOpBot Crytiqal`Aero" regex: "/.*/"
+Apr 10 14:46:42 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:42 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 366 pugOpBot #db.bb :End of /NAMES list."
+Apr 10 14:46:42 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"65536" from:"blacklotus.ca.us.quakenet.org" channel:"#db.bb" message:"End of /NAMES list."
+Apr 10 14:46:42 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "366" (event_rpl_endofnames)
+Apr 10 14:46:42 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 1 type: 65536 message: "End of /NAMES list." regex: "/.*/"
+Apr 10 14:46:42 SmartIRC.php(2030) DEBUG_ACTIONHANDLER: method doesn't exist! "battleBot->evt_namelist"
+Apr 10 14:46:42 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #brink.bb"
+Apr 10 14:46:42 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #brink.bb"
+Apr 10 14:46:42 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #brink.bb b"
+Apr 10 14:46:43 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #db.bb"
+Apr 10 14:46:43 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "WHO #db.bb"
+Apr 10 14:46:43 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "MODE #db.bb b"
+Apr 10 14:46:44 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 324 pugOpBot #battlebot +stnCN"
+Apr 10 14:46:44 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"134217728" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:""
+Apr 10 14:46:44 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
+Apr 10 14:46:44 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 329 pugOpBot #battlebot 1427249897"
+Apr 10 14:46:44 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
+Apr 10 14:46:44 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:""
+Apr 10 14:46:44 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
+Apr 10 14:46:46 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #battlebot ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
+Apr 10 14:46:46 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#battlebot" message:"0 pugOpBot"
+Apr 10 14:46:46 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:46:46 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #battlebot
+Apr 10 14:46:46 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #battlebot ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Hx :3 Got ZNC?"
+Apr 10 14:46:46 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#battlebot" message:"3 Got ZNC?"
+Apr 10 14:46:46 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:46:46 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #battlebot
+Apr 10 14:46:46 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 315 pugOpBot #battlebot :End of /WHO list."
+Apr 10 14:46:46 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#battlebot" message:"End of /WHO list."
+Apr 10 14:46:46 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
+Apr 10 14:46:48 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 368 pugOpBot #battlebot :End of Channel Ban List"
+Apr 10 14:46:48 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"2097152" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
+Apr 10 14:46:48 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
+Apr 10 14:46:50 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 324 pugOpBot #csgo.bb +stnCN"
+Apr 10 14:46:50 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"134217728" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:""
+Apr 10 14:46:50 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
+Apr 10 14:46:50 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 329 pugOpBot #csgo.bb 1427314220"
+Apr 10 14:46:50 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
+Apr 10 14:46:50 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:""
+Apr 10 14:46:50 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
+Apr 10 14:46:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #csgo.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
+Apr 10 14:46:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#csgo.bb" message:"0 pugOpBot"
+Apr 10 14:46:52 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:46:52 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #csgo.bb
+Apr 10 14:46:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #csgo.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Hx :3 Got ZNC?"
+Apr 10 14:46:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#csgo.bb" message:"3 Got ZNC?"
+Apr 10 14:46:52 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:46:52 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #csgo.bb
+Apr 10 14:46:52 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 315 pugOpBot #csgo.bb :End of /WHO list."
+Apr 10 14:46:52 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#csgo.bb" message:"End of /WHO list."
+Apr 10 14:46:52 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
+Apr 10 14:46:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 368 pugOpBot #csgo.bb :End of Channel Ban List"
+Apr 10 14:46:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"2097152" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
+Apr 10 14:46:54 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
+Apr 10 14:46:56 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 324 pugOpBot #etqw.bb +stnCN"
+Apr 10 14:46:56 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"134217728" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:""
+Apr 10 14:46:56 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
+Apr 10 14:46:56 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 329 pugOpBot #etqw.bb 1427314186"
+Apr 10 14:46:56 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
+Apr 10 14:46:56 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:""
+Apr 10 14:46:56 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
+Apr 10 14:46:58 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #etqw.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
+Apr 10 14:46:58 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#etqw.bb" message:"0 pugOpBot"
+Apr 10 14:46:58 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:46:58 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #etqw.bb
+Apr 10 14:46:58 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #etqw.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Hx :3 Got ZNC?"
+Apr 10 14:46:58 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#etqw.bb" message:"3 Got ZNC?"
+Apr 10 14:46:58 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:46:58 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #etqw.bb
+Apr 10 14:46:58 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 315 pugOpBot #etqw.bb :End of /WHO list."
+Apr 10 14:46:58 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#etqw.bb" message:"End of /WHO list."
+Apr 10 14:46:58 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
+Apr 10 14:47:00 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 368 pugOpBot #etqw.bb :End of Channel Ban List"
+Apr 10 14:47:00 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"2097152" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
+Apr 10 14:47:00 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
+Apr 10 14:47:02 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 324 pugOpBot #et.bb +stnCN"
+Apr 10 14:47:02 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"134217728" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:""
+Apr 10 14:47:02 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
+Apr 10 14:47:02 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 329 pugOpBot #et.bb 1427314186"
+Apr 10 14:47:02 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
+Apr 10 14:47:02 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:""
+Apr 10 14:47:02 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
+Apr 10 14:47:04 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #et.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
+Apr 10 14:47:04 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#et.bb" message:"0 pugOpBot"
+Apr 10 14:47:04 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:47:04 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #et.bb
+Apr 10 14:47:04 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #et.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Hx :3 Got ZNC?"
+Apr 10 14:47:04 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#et.bb" message:"3 Got ZNC?"
+Apr 10 14:47:04 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:47:04 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #et.bb
+Apr 10 14:47:04 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 315 pugOpBot #et.bb :End of /WHO list."
+Apr 10 14:47:04 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#et.bb" message:"End of /WHO list."
+Apr 10 14:47:04 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
+Apr 10 14:47:06 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 368 pugOpBot #et.bb :End of Channel Ban List"
+Apr 10 14:47:06 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"2097152" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
+Apr 10 14:47:06 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
+Apr 10 14:47:06 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:47:08 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 324 pugOpBot #brink.bb +stnCN"
+Apr 10 14:47:08 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"134217728" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:""
+Apr 10 14:47:08 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
+Apr 10 14:47:08 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 329 pugOpBot #brink.bb 1427314186"
+Apr 10 14:47:08 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
+Apr 10 14:47:08 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:""
+Apr 10 14:47:08 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
+Apr 10 14:47:10 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #brink.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
+Apr 10 14:47:10 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#brink.bb" message:"0 pugOpBot"
+Apr 10 14:47:10 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:47:10 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #brink.bb
+Apr 10 14:47:10 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #brink.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Hx :3 Got ZNC?"
+Apr 10 14:47:10 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#brink.bb" message:"3 Got ZNC?"
+Apr 10 14:47:10 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:47:10 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #brink.bb
+Apr 10 14:47:10 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 315 pugOpBot #brink.bb :End of /WHO list."
+Apr 10 14:47:10 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#brink.bb" message:"End of /WHO list."
+Apr 10 14:47:10 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
+Apr 10 14:47:12 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 368 pugOpBot #brink.bb :End of Channel Ban List"
+Apr 10 14:47:12 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"2097152" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
+Apr 10 14:47:12 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
+Apr 10 14:47:14 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 324 pugOpBot #db.bb +stnCN"
+Apr 10 14:47:14 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"134217728" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:""
+Apr 10 14:47:14 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_channelmodeis" (by numeric)
+Apr 10 14:47:14 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 329 pugOpBot #db.bb 1427314186"
+Apr 10 14:47:14 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (329)
+Apr 10 14:47:14 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:""
+Apr 10 14:47:14 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "329" (event_rpl_creationtime)
+Apr 10 14:47:16 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #db.bb ~pugopbot 50.97.231.162-static.reverse.softlayer.com *.quakenet.org pugOpBot H :0 pugOpBot"
+Apr 10 14:47:16 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#db.bb" message:"0 pugOpBot"
+Apr 10 14:47:16 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:47:16 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: pugOpBot on channel: #db.bb
+Apr 10 14:47:16 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 352 pugOpBot #db.bb ~Crytiqal Crytiqal.users.quakenet.org *.quakenet.org Crytiqal`Aero Hx :3 Got ZNC?"
+Apr 10 14:47:16 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#db.bb" message:"3 Got ZNC?"
+Apr 10 14:47:16 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_whoreply" (by numeric)
+Apr 10 14:47:16 SmartIRC.php(2434) DEBUG_CHANNELSYNCING: updating user: Crytiqal`Aero on channel: #db.bb
+Apr 10 14:47:16 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 315 pugOpBot #db.bb :End of /WHO list."
+Apr 10 14:47:16 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"32" from:"blacklotus.ca.us.quakenet.org" channel:"#db.bb" message:"End of /WHO list."
+Apr 10 14:47:16 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "315" (event_rpl_endofwho)
+Apr 10 14:47:18 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org 368 pugOpBot #db.bb :End of Channel Ban List"
+Apr 10 14:47:18 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"2097152" from:"blacklotus.ca.us.quakenet.org" channel:"pugOpBot" message:"End of Channel Ban List"
+Apr 10 14:47:18 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_rpl_endofbanlist" (by numeric)
+Apr 10 14:47:35 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #csgo.bb :!help"
+Apr 10 14:47:35 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#csgo.bb" message:"!help"
+Apr 10 14:47:35 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Apr 10 14:47:35 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 8 type: 2 message: "!help" regex: "/!help.*/"
+Apr 10 14:47:35 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->help"
+Apr 10 14:47:35 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :Type any of the available commands for info:"
+Apr 10 14:47:35 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :!help <cmd>"
+Apr 10 14:47:35 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :!queue,!info"
+Apr 10 14:47:36 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :!create,!join,!need,!leave,!msg,!start"
+Apr 10 14:47:36 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :!whosyourdaddy"
+Apr 10 14:47:41 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #csgo.bb :!help hi"
+Apr 10 14:47:41 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#csgo.bb" message:"!help hi"
+Apr 10 14:47:41 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Apr 10 14:47:41 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 8 type: 2 message: "!help hi" regex: "/!help.*/"
+Apr 10 14:47:41 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->help"
+Apr 10 14:47:41 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :No valid command specified. Use !help <cmd> for detailed help information."
+Apr 10 14:47:43 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:47:43 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #csgo.bb :!help queue"
+Apr 10 14:47:43 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#csgo.bb" message:"!help queue"
+Apr 10 14:47:43 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Apr 10 14:47:43 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 8 type: 2 message: "!help queue" regex: "/!help.*/"
+Apr 10 14:47:43 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->help"
+Apr 10 14:47:43 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :Use !queue to see a list of current pickup games."
+Apr 10 14:48:21 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:48:58 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:49:36 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:50:01 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #csgo.bb :!help need"
+Apr 10 14:50:01 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#csgo.bb" message:"!help need"
+Apr 10 14:50:01 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Apr 10 14:50:01 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 8 type: 2 message: "!help need" regex: "/!help.*/"
+Apr 10 14:50:01 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->help"
+Apr 10 14:50:01 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :Use !need when joined, to broadcast how many players are still needed for the pickup game to start."
+Apr 10 14:50:08 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #csgo.bb :!help create"
+Apr 10 14:50:08 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#csgo.bb" message:"!help create"
+Apr 10 14:50:08 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Apr 10 14:50:08 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 8 type: 2 message: "!help create" regex: "/!help.*/"
+Apr 10 14:50:08 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->help"
+Apr 10 14:50:08 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :Use !create <game> <mode> <skill> to initiate a pickup game. (You can also use !<game> <mode> <skill> or !<mode> <skill> if you are in the correct game channel)"
+Apr 10 14:50:13 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:50:23 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org PRIVMSG #csgo.bb :!help start"
+Apr 10 14:50:23 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"Crytiqal`Aero" ident:"~Crytiqal" host:"Crytiqal.users.quakenet.org" type:"2" from:"Crytiqal`Aero!~Crytiqal@Crytiqal.users.quakenet.org" channel:"#csgo.bb" message:"!help start"
+Apr 10 14:50:23 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_privmsg" (by string)
+Apr 10 14:50:23 SmartIRC.php(2013) DEBUG_ACTIONHANDLER: actionhandler match found for id: 8 type: 2 message: "!help start" regex: "/!help.*/"
+Apr 10 14:50:23 SmartIRC.php(2023) DEBUG_ACTIONHANDLER: calling method "battleBot->help"
+Apr 10 14:50:23 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "NOTICE Crytiqal`Aero :Use !start to force start a pickup game. (Pickup initiator only)"
+Apr 10 14:50:51 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:51:28 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:52:06 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:52:43 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:53:21 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 10 14:53:21 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Apr 10 14:53:21 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":blacklotus.ca.us.quakenet.org PONG blacklotus.ca.us.quakenet.org :irc.quakenet.org"
+Apr 10 14:53:21 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Apr 10 14:53:21 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"blacklotus.ca.us.quakenet.org" type:"1" from:"blacklotus.ca.us.quakenet.org" channel:"" message:"irc.quakenet.org"
+Apr 10 14:53:21 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Apr 10 14:53:58 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"

@@ -45,27 +45,28 @@ class battleBot {
 
 /*Help function*/
   function help(&$irc, &$data) {
-    
-	  $pugstring = substr(strstr($data->message, " "), 1);
-      $pugdata = explode(" ", $pugstring);
+	  
+	  $pugstring = substr(strstr($data->message, "!"), 1);
+	  $pugdata = explode(" ", $pugstring);
 	
-	  if(!isset($pugdata[0])) {
-          $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Type any of the available commands for info:');
-          $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, '!whosyourdaddy,!help <cmd>');
-          $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, '!queue,!info');
-          $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, '!create,!join,!need,!leave,!msg,!start');
+	  if(!isset($pugdata[1])) {
+		  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Type any of the available commands for info:');
+		  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, '!help <cmd>');
+		  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, '!queue,!info');
+		  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, '!create,!join,!need,!leave,!msg,!start');
+		  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, '!whosyourdaddy');
 	  } else {
-	  	  if($pugdata[0] == "queue") 		{$helpmessage = "Use !queue to see a list of current pickup games.";}
-	  	  elseif($pugdata[0] == "info") 	{$helpmessage = "Use !info <game> <mode> <skill> to see detailed information about a pickup game.";}
-	  	  elseif($pugdata[0] == "create") 	{$helpmessage = "Use !create <game> <mode> <skill> to initiate a pickup game. (You can also use !<game> <mode> <skill> or !<mode> <skill> if you are in the correct game channel)";}
-	  	  elseif($pugdata[0] == "join") 	{$helpmessage = "Use !join <game> <mode> <skill> <#team> to join a current pickup game in queue. (You can also use !join <mode> <skill> <#team> if you are in the correct game channel)";}
-		  elseif($pugdata[0] == "need") 	{$helpmessage = "Use !need when joined, to broadcast how many players are still needed for the pickup game to start.";}
-		  elseif($pugdata[0] == "leave") 	{$helpmessage = "Use !leave to leave a pickup game queue.";}
-		  elseif($pugdata[0] == "msg") 	{$helpmessage = "Use !msg when joined, to broadcast a message to all pickup game participants.";}
-		  elseif($pugdata[0] == "start") 	{$helpmessage = "Use !start to force start a pickup game. (Pickup initiator only)";}
-		  else {$helpmessage = "No command specified. Use !help <cmd> for detailed help information.";}
+		  if($pugdata[1] == "queue") 		{$helpmessage = "Use !queue to see a list of current pickup games.";}
+		  elseif($pugdata[1] == "info") 	{$helpmessage = "Use !info <game> <mode> <skill> to see detailed information about a pickup game.";}
+		  elseif($pugdata[1] == "create") 	{$helpmessage = "Use !create <game> <mode> <skill> to initiate a pickup game. (You can also use !<game> <mode> <skill> or !<mode> <skill> if you are in the correct game channel)";}
+		  elseif($pugdata[1] == "join") 	{$helpmessage = "Use !join <game> <mode> <skill> <#team> to join a current pickup game in queue. (You can also use !join <mode> <skill> <#team> if you are in the correct game channel)";}
+		  elseif($pugdata[1] == "need") 	{$helpmessage = "Use !need when joined, to broadcast how many players are still needed for the pickup game to start.";}
+		  elseif($pugdata[1] == "leave") 	{$helpmessage = "Use !leave to leave a pickup game queue.";}
+		  elseif($pugdata[1] == "msg") 		{$helpmessage = "Use !msg when joined, to broadcast a message to all pickup game participants.";}
+		  elseif($pugdata[1] == "start") 	{$helpmessage = "Use !start to force start a pickup game. (Pickup initiator only)";}
+		  else {$helpmessage = "No valid command specified. Use !help <cmd> for detailed help information.";}
 		  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, $helpmessage);
-	  }  	  
+	  }
   }
 
 /*OP-list function*/
@@ -115,6 +116,9 @@ class battleBot {
 	
 // echo "function onjoin_greeting";
 // echo  "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
       if($data->nick == $irc->_nick) {
       	  return;
@@ -143,8 +147,12 @@ class battleBot {
 		          $team_size = array_combine(range(1, count($team_size)), array_values($team_size));
 
 		          if(count($pug_queue[$g_channel[0]][$g_channel[1]][$g_channel[2]][$g_channel[3]]['players']) < $team_size[$g_team]) {
-			          // Add player to team!
-			          $pug_queue[$g_channel[0]][$g_channel[1]][$g_channel[2]][$g_channel[3]]['players'][] = $data->nick;
+					  // Add player to team!
+					  $pug_queue[$g_channel[0]][$g_channel[1]][$g_channel[2]][$g_channel[3]]['players'][] = $data->nick;
+					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You have joined'.$g_channel[3].'!' );
+					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You can use the following commands: !callvote, !vote, !need, !msg' );
+					  
+					  
 			          // Check if all teams are full now!
 			          $player_slots = 0;
 			          $players = 0;
@@ -161,9 +169,8 @@ class battleBot {
 			                  $this->pug_autostart($irc, $g_channel[0], $g_channel[1], $g_channel[2]);
 			              } else {
 			                  // Set timeout of 2 min.
-							  $return = $this->joined_in_pug($data->nick);
 				              $pug_queue[$g_channel[0]][$g_channel[1]][$g_channel[2]]['timeout'] = 'timeout';
-			                  foreach($pug_queue[$return['game']][$return['mode']][$return['skill']]['irc'] as $value)
+			                  foreach($pug_queue[$g_channel[0]][$g_channel[1]][$g_channel[2]]['irc'] as $value)
 			                  {
 				                  $irc->message(SMARTIRC_TYPE_CHANNEL, $value, '!addserver auto; OR !addserver server#; OR !addserver <ip>:<port> <pw>');
 				                  $irc->message(SMARTIRC_TYPE_CHANNEL, $value, 'You have 2 minutes to add a server.');
@@ -187,6 +194,9 @@ class battleBot {
 
 // echo "function pug_queue_list";
 // echo  "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 	  unset($pug_queue_games);
 	  unset($pug_queue_games_list);
@@ -222,8 +232,11 @@ class battleBot {
   function joined_in_pug($player) {
 	  global $pug_queue;
 	
- // echo "function joined_in_pug";
- // echo "\n";
+// echo "function joined_in_pug";
+// echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 	  unset($return);
 	  $return = array();
@@ -292,6 +305,9 @@ class battleBot {
 
 // echo "function pug_update";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 // 0 = message all channels (WARNING: possible excess flood) 
 // 1 = message <game> channel + masterchannel 
@@ -333,6 +349,10 @@ class battleBot {
 	
 // echo "function pug_autokick";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--	  
+	  
 	  // Check if channel was in pug team channel
 	  $return = $this->joined_in_pug($player);
 	  
@@ -384,6 +404,9 @@ class battleBot {
 	  	  
 // echo "function pug_autostart";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 	  $server_info[0] = $pug_queue[$pug_game][$pug_mode][$pug_skill]['server'][0];
 	  $server_info[1] = $pug_queue[$pug_game][$pug_mode][$pug_skill]['server'][1];
@@ -592,8 +615,7 @@ class battleBot {
 	  $p_server = "";
 	  
 	  if($pugdata[0] == "create") {
-		  // Reindex $pugdata
-		  array_shift($pugdata);
+		  array_shift($pugdata); // Reindex $pugdata without "create"
 	  }
 	  
 	  // Check for allowed <game>
@@ -619,7 +641,7 @@ class battleBot {
 		  if(isset($pugdata[1])) { $p_skill  = strtolower($pugdata[1]); }
 		  if(isset($pugdata[2])) { $p_server = strtolower($pugdata[2]); }
 	  } else {
-		  // $pugdata[1] is <game>, check if <game> is found in channel name
+		  // $pugdata[0] is <game>, check if <game> is found in channel name
 		  if(isset($pugdata[0])) { $p_game   = strtolower($pugdata[0]); }
 		  if(isset($pugdata[1])) { $p_mode   = strtolower($pugdata[1]); }
 		  if(isset($pugdata[2])) { $p_skill  = strtolower($pugdata[2]); }
@@ -748,8 +770,8 @@ class battleBot {
 						  $teamkey = $key + 1;
 						  ${$p_game}[$p_mode][$p_skill]['irc']['team'.$teamkey] = '#pugbot:ID'.$pugID.':'.$p_game.'-'.$p_mode.'-'.$p_skill.'-team'.$teamkey.'';
 						  $irc->join(${$p_game}[$p_mode][$p_skill]['irc']['team'.$teamkey]);
-						  $irc->mode(${$p_game}[$p_mode][$p_skill]['irc']['team'.$teamkey], "+i");	// Set mode to only accept invited players to join channel
-						  $irc->setTopic($value,'IDLE FOR MATCH: '.$p_game.' '.$p_mode.'');
+						  $irc->mode(${$p_game}[$p_mode][$p_skill]['irc']['team'.$teamkey], "+i");	// Set mode +i to only accept invited players to join channel
+						  $irc->setTopic(${$p_game}[$p_mode][$p_skill]['irc']['team'.$teamkey],'IDLE FOR MATCH: '.$p_game.' '.$p_mode.'');
 						  
 						  // ${$p_game}[$p_mode][$p_skill]['team'.$teamkey] = array();
 						  ${$p_game}[$p_mode][$p_skill]['team'.$teamkey]['players'] = array();
@@ -777,7 +799,10 @@ class battleBot {
 	  global $battlebot, $pug_queue;
 
 // echo "function pug_create";
-// echo "\n";	  
+// echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 //  Stop caching unless it's actually used, thank you!
 //  $pugstring = trim(array_pop(explode("!addserver", $data->message)));
@@ -873,6 +898,9 @@ class battleBot {
 	
 // echo "function pug_join";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 //  Stop caching unless it's actually used, thank you!
 //  $pugstring = trim(array_pop(explode("!join", $data->message)));
@@ -977,6 +1005,9 @@ class battleBot {
 	
 // echo "function pug_need";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 	  $return = $this->joined_in_pug($data->nick, $pug_queue);
 	  if($return[0] == -1) {
@@ -1008,6 +1039,9 @@ class battleBot {
 	
 // echo "function pug_leave";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 	  $return = $this->joined_in_pug($data->nick);
 	  if($return[0] == -1) {
@@ -1027,6 +1061,9 @@ class battleBot {
 		  
 // echo "function pug_callvote";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 // Prevent new vote (in THIS PUG) from being called untill current vote is finished!!! (we have pugID, playerID, teamID, voteTIMESTAMP)
 // Prevent new vote (in THIS PUG) from being called by the same person untill cooldown period has passed! (track his playerID)
@@ -1267,6 +1304,9 @@ class battleBot {
 	
 // echo "function pug_castvote";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 //  Stop caching unless it's actually used, thank you!
 //  $pugstring = trim(array_pop(explode("!vote", $data->message)));
@@ -1430,6 +1470,9 @@ class battleBot {
 	
 // echo "function pug_msg";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 //  Stop caching unless it's actually used, thank you!
 //  $pugstring = trim(array_pop(explode("!msg", $data->message)));
@@ -1457,6 +1500,9 @@ class battleBot {
 	
 // echo "function pug_start";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 
 	  $return = $this->joined_in_pug($data->nick);
 	  if($return[0] == -1) {
@@ -1476,6 +1522,9 @@ class battleBot {
 		  
 // echo "function pug_kick";
 // echo "\n";
+// -->
+//  $this->debug($pug_queue);
+// <--
 	  
 	  $return = $this->joined_in_pug($data->nick);
 	  if($return[0] == -1) {
@@ -1551,6 +1600,12 @@ class battleBot {
 // -------------------------------------------------- +
   function evt_quit($irc, $data) {
 	  global $pug_queue, $channelarray;
+
+// echo 'function evt_quit';
+// echo '\n';
+// -->
+//  $this->debug($pug_queue);
+// <--
 	  
 	  if($data->nick == $irc->_nick) {
 		  return;
@@ -1620,9 +1675,6 @@ class battleBot {
 // $host = ((isset($args[1]) && !empty($args[1])) ? $args[1] : 'irc.xs4all.nl');
 // $channelarray = ((isset($args[2]) && !empty($args[2])) ? $args[2] : '#phpircbot-test');
 // -------------------------------------------------- +
-// $host = 'xs4all.nl.quakenet.org';
-// $channelarray = '#battlebot';
-// -------------------------------------------------- +
 // boolean connect( string $addr, [integer $port = 6667]) 
 $addr = 'irc.quakenet.org';
 $port = 6667; 
@@ -1651,21 +1703,6 @@ $ch_suffix = '.bb';
 $key = null;
 $priority = SMARTIRC_MEDIUM;
 
-/*
-$host = 'irc.quakenet.org';
-$channelarray = array();
-$channelarray[0] = '#battlebot';
-$ch_suffix = '.bb'; 
-
-$fh = opendir($battlebot.'/games/');
-while($fn = readdir($fh)) 
-{
-  if($fn == "." || $fn == ".." || $fn == "default") { continue; } 
-  $channelarray[$fn] = '#'.$fn.''.$ch_suffix.''; 	// REMOVE .PUG AND PUT INTO ARRAY
-}
-closedir($fh);
-*/
-
 // -------------------------------------------------- +
 // Initialisation
 $bot = &new battleBot();
@@ -1675,7 +1712,7 @@ $irc->setLogfile($battlebot.'/log/bb.log');		// Log file
 $irc->setLogdestination(SMARTIRC_FILE);
 $irc->setAutoReconnect(true);					// Auto reconnect?
 $irc->setUseSockets(true);
-$irc->setChannelSyncing(TRUE); 					// activating the channel synching is important, or we won't have $irc->channel[] available
+$irc->setChannelSyncing(TRUE);					// activating the channel synching is important, or we won't have $irc->channel[] available
 
 // -------------------------------------------------- +
 // Registers
@@ -1690,7 +1727,7 @@ $irc->registerActionhandler(SMARTIRC_TYPE_ALL, '!debug.*', $bot, 'debug'); 					
 // Handlers
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!whosyourdaddy.*', $bot, 'whosyourdaddy'); 	// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!whoami.*', $bot, 'whoami'); 				// Everyone
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!help.*', $bot, 'help');                   	// Everyone
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!help.*', $bot, 'help');  	 				// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!userlist.*', $bot, 'user_list'); 			// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!oplist.*', $bot, 'op_list'); 				// Everyone
 // -->
@@ -1708,8 +1745,8 @@ $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!oplist.*', $bot, 'op_list')
   $b_skills = array_unique($b_skills);
   sort($b_games);
   sort($b_skills);
-  foreach($b_games as $value) { $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!'.$value.'.*', $bot, 'pug_create'); } 		// Everyone -Players
-  foreach($b_skills as $value) { $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!'.$value.'.*', $bot, 'pug_create');	} 	// Everyone -Players
+  foreach($b_games as $value) { $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!'.$value.'.*', $bot, 'pug_create'); }	 	// Everyone -Players
+  foreach($b_skills as $value) { $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!'.$value.'.*', $bot, 'pug_create'); 	}	// Everyone -Players
   unset($b_games);
   unset($b_skills);
 // <--
@@ -1717,9 +1754,9 @@ $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!create.*', $bot, 'pug_creat
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!join.*', $bot, 'pug_join');     			// Everyone -Players (Check for full teams)
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!need.*', $bot, 'pug_need');     			// Players
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!leave.*', $bot, 'pug_leave');   			// Players
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!msg.*', $bot, 'pug_msg');					// Players
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!start.*', $bot, 'pug_start');				// Owner +Op only
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!addserver.*', $bot, 'pug_addserver');		// Owner +Op only
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!msg.*', $bot, 'pug_msg');       			// Players
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!start.*', $bot, 'pug_start');   			// Owner +Op only
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!addserver.*', $bot, 'pug_addserver');  	// Owner +Op only
 // $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!remove.*', $bot, 'pug_remove');			// Owner +Op only
 // $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!shuffle.*', $bot, 'pug_shuffle');		// Owner +Op only
 // $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!kick.*', $bot, 'pug_kick');				// Owner +Op only
@@ -1728,29 +1765,20 @@ $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!addserver.*', $bot, 'pug_ad
 // $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!swap.*', $bot, 'pug_swap');				// Players (Check for full teams)
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!callvote.*', $bot, 'pug_callvote');		// Players (Check callvote command)
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!vote.*', $bot, 'pug_castvote');			// Players (Check castvote command)
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!queue.*', $bot, 'pug_queue');     			// Everyone
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!queue.*', $bot, 'pug_queue');  			// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!info.*', $bot, 'pug_info');    			// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!serverlist.*', $bot, 'pug_serverlist');	// Everyone
 
 // -------------------------------------------------- +
 // Connection
 $irc->connect($addr, $port); 																// Connect
-$irc->login($nick, $realname, $usermode, $username, $password);								// Login
+$irc->login($nick, $realname, $usermode, $username, $password); 							// Login
 $irc->message(SMARTIRC_TYPE_QUERY, 'Q@CServe.quakenet.org', 'AUTH pugOpBot KsbuKoJt4W');	// Authenticate
 $irc->mode('BattleBot', '+iwx');															// Mode
 $irc->join($channelarray); 																	// Join
 $irc->listen(); 																			// Listen
 $irc->disconnect(); 																		// Disconnect
 
-/*
-$irc->connect($host, 6667); 																// Connect
-$irc->login('pugOpBot', 'pugOpBot', 0, 'pugopbot');											// Login
-$irc->message(SMARTIRC_TYPE_QUERY, 'Q@CServe.quakenet.org', 'AUTH pugOpBot KsbuKoJt4W');	// Authenticate
-$irc->mode('BattleBot', '+iwx');															// Mode
-$irc->join($channelarray); 																	// Join
-$irc->listen(); 																			// Listen
-$irc->disconnect(); 																		// Disconnect
-*/
 // -------------------------------------------------- +
 
 ?> 
