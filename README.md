@@ -41,7 +41,34 @@ NOTICE: <i>Disable </i>"!debug off"<i> if you turned it on!</i>
 - !callvote [mode] [value]  
 - !vote [yes/no]  
   
-
+When a pick-up is filled or started, every player will be notified to join the server by having the ip and password sent to them in a pm.   
+The pug will then be removed from queue and another one of the same game and mode may be started. (You can always start mutliple pugs at the same time if they are not identical)  
+  
+<s>If you change your nickname or quit the channel while you are in a pug queue, the bot will automatically remove you from the line-up and, if needed, grant ownership to the next person in line!</s>  
+  
+To check it out, join the #battlebot irc channel on Quakenet!  
+  
+Greetings, Crytiqal.Aero  
+  
+<b>UPDATE v2.0: The Pick-Up Game Operator Bot can now handle cross channel communication!</b>  
+  
+You can now freely change your nickname and the bot will update your name in the pug queue list!  
+Also, the bot will only automatically remove you from the line-up and, if needed, grant ownership to the next person in line if you leave ALL the channels on which the bot is hosted.  
+  
+The bot is now authenticated with Q so it can retain its operator status.  
+•It won't greet people anymore who join the channel, this could cause spam.  
+•It also won't say goodbye when people leave/quit the channel.  
+•It will only announce the queue if there is actually a pug in queue.  
+•When people !join or !leave a pug or quit all channels while they were in queue, it will update and print the game's info.  
+  
+<b>UPDATE v3.0: The Pick-Up Game Operator Bot can now handle votes!</b>  
+  
+When you are in a queue, you can now use !callvote and !vote commands.  
+  
+The bot is capable of tracking the usernames accross all the pug's and updates the names when changed.  
+A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
+   
+   
 <b>Create a PUG:</b>  
 - !create [game] [mode] [skill] [server]
 
@@ -91,31 +118,3 @@ Only 1 vote possible per team at a time. The votecaller will be placed in a time
   
 - !start  
 <i>Only pick-up owners can use this command to force start a Pick-Up Game.</i>  
-  
-When a pick-up is filled or started, every player will be notified to join the server by having the ip and password sent to them in a pm.   
-The pug will then be removed from queue and another one of the same game and mode may be started. (You can always start mutliple pugs at the same time if they are not identical)  
-  
-<s>If you change your nickname or quit the channel while you are in a pug queue, the bot will automatically remove you from the line-up and, if needed, grant ownership to the next person in line!</s>  
-  
-To check it out, join the #battlebot irc channel on Quakenet!  
-  
-Greetings, Crytiqal.Aero  
-  
-<b>UPDATE v2.0: The Pick-Up Game Operator Bot can now handle cross channel communication!</b>  
-  
-You can now freely change your nickname and the bot will update your name in the pug queue list!  
-Also, the bot will only automatically remove you from the line-up and, if needed, grant ownership to the next person in line if you leave ALL the channels on which the bot is hosted.  
-  
-The bot is now authenticated with Q so it can retain its operator status.  
-•It won't greet people anymore who join the channel, this could cause spam.  
-•It also won't say goodbye when people leave/quit the channel.  
-•It will only announce the queue if there is actually a pug in queue.  
-•When people !join or !leave a pug or quit all channels while they were in queue, it will update and print the game's info.  
-  
-<b>UPDATE v3.0: The Pick-Up Game Operator Bot can now handle votes!</b>  
-  
-When you are in a queue, you can now use !callvote and !vote commands.  
-  
-The bot is capable of tracking the usernames accross all the pug's and updates the names when changed.  
-A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
-  
