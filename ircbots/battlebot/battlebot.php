@@ -10,6 +10,7 @@ require_once('/home/cabox/workspace/ircbots/dependencies/php/PEAR/NET/SmartIRC.p
 // Load modules
 $install_path = "/home/cabox/workspace/ircbots";
 $battlebot = $install_path.'/battlebot';
+// Settings
 $pug_queue = array();
 $debug = 'off';
 
@@ -1800,7 +1801,7 @@ $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!whosyourdaddy.*', $bot, 'wh
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!whoami.*', $bot, 'whoami'); 				// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!userlist.*', $bot, 'user_list'); 			// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!oplist.*', $bot, 'op_list'); 				// Everyone
-$irc->registerActionhandler(SMARTIRC_TYPE_ALL, '!debug.*', $bot, 'debug'); 						// Op only
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!debug.*', $bot, 'debug'); 					// Op only
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!query.*', $bot, 'query'); 					// Op only
 
 // PUG Handlers
