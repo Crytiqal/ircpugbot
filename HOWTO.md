@@ -17,7 +17,7 @@ NOTICE: <i>Disable </i>"!debug off"<i> if you turned it on!</i>
 <i>For example:</i> !create etqw 4v4 low <i>OR</i> !create etqw 4v4 med server1 <i>OR</i> !create etqw 4v4 pro 123.456.7.890:27733 mypw
 
 [game] - <i>Pick a game that is supported.</i>  
-[mode] - <i>Pick a gamemode that is supported for that game (4v4/6v6 etc).</i> 
+[mode] - <i>Pick a gamemode that is supported for that game (4v4/6v6 etc).</i>  
 <i>(If a game supports 2v2v2, or asymmetrical teams (2v6v4) then the bot is also capable of handling those)</i>  
 [skill] - <i>Pick a skill level that is supported for that game (low/med/high/pro etc).</i>  
 [server] - <i>Pick a server for the game.</i>   
