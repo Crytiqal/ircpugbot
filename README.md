@@ -38,7 +38,7 @@ NOTICE: <i>Disable </i>"!debug off"<i> if you turned it on!</i>
 - !need  
 - !leave  
 - !start  
-- !callvote [map/kick/start] [mapID/playerID]  
+- !callvote [mode] [value]  
 - !vote [yes/no]  
   
 
