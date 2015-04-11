@@ -53,7 +53,7 @@ Also, the bot will only automatically remove you from the line-up and, if needed
   
 <b>UPDATE v3.0: The Pick-Up Game Operator Bot can now handle votes!</b>  
   
-• When you are in a queue, you can now use !callvote and !vote commands.
+• When you are in a queue, you can now use !callvote and !vote commands.  
 • Debug function added to view query responses from the bot.
   
 The bot is capable of tracking the usernames accross all the pug's and updates the names when changed. A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
