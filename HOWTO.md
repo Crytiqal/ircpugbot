@@ -17,10 +17,11 @@ NOTICE: <i>Disable </i>"!debug off"<i> if you turned it on!</i>
 <i>For example:</i> !create etqw 4v4 low <i>OR</i> !create etqw 4v4 med server1 <i>OR</i> !create etqw 4v4 pro 123.456.7.890:27733 mypw
 
 [game] - <i>Pick a game that is supported.</i>  
-[mode] - <i>Pick a gamemode that is supported for that game (4v4/6v6 etc).    
-         If a game supports 2v2v2, or asymmetrical teams (2v6v4) then the bot is also capable of handling those.</i>  
+[mode] - <i>Pick a gamemode that is supported for that game (4v4/6v6 etc).</i> 
+<i>(If a game supports 2v2v2, or asymmetrical teams (2v6v4) then the bot is also capable of handling those)</i>  
 [skill] - <i>Pick a skill level that is supported for that game (low/med/high/pro etc).</i>  
-[server] - <i>Pick a server for the game. If you leave this value blank, the bot will automatically select a default server from a predefined list, that is not currently in use by another pug in queue. You can also specify which default server you would like to use, by entering a value returned by typing !serverlist . In addition, you can also specify your own server ip and password in the following syntax: ip:port . If this ip is already in use by another pug, you are asked to provide a different server.</i>    
+[server] - <i>Pick a server for the game.</i>   
+<i>(If you leave this value blank, the bot will automatically select a default server from a predefined list, that is not currently in use by another pug in queue. You can also specify which default server you would like to use, by entering a value returned by typing !serverlist . In addition, you can also specify your own server ip and password in the following syntax: ip:port . If this ip is already in use by another pug, you are asked to provide a different server)</i>    
   
 You will automatically be the owner of the pug, and be granted special commands such as !start and !remove. (Additional commands like !kick,!ban,!unban, !shuffle will likely be added in the future)  
     
