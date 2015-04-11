@@ -15,7 +15,22 @@ XChat: http://xchat.org/
 - The bot requires php PEAR to be installed with the Net_SmartIRC package.
 (You need to edit the path to the PEAR package in battlebot.php)
 - To add a game, check out the games folder and look at the structure of the default files.
-  
+
+
+<b>Authenticate with Q:</b>
+- Method 1 (Preferred method):
+1. Enable $debug = 'on'; in battlebot.php
+2. Let the bot join a channel in which you are OP (For example: #battlebot)
+3. !queryR REQUESTBOT <#channel>
+4. !queryQ CHANLEV <#channel> <nickname> +amno
+
+- Method 2:
+1. Enable $debug = 'on'; in battlebot.php
+2. Let the bot join a channel in which you are OP (For example: #battlebot)
+3. /msg R REQUESTOP <#channel>
+4. /msg R REQUESTBOT <#channel>
+5. /msg Q GIVEOWNER <#channel> <user>
+
 <b>Basic commands:</b>
 - !help - <i>This will return a list of available commands.</i>  
 - !create - <i>This will return a list of available games.</i>   
