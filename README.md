@@ -3,13 +3,13 @@
 
 I have created an IRC bot that will allow users to easily create and join pick-up games. (For example etqw/et/csgo and any other (type of) game).
 
-To check it out, join the #battlebot irc channel on Quakenet or from the list of current channels given below!   
+To check it out, join the #battlebot irc channel on Quakenet! (irc://irc.quakenet.org/battlebot)   
 http://webchat.quakenet.org/   
-http://www.splashdamage.com/chat   
 http://www.team-aero.org/team-aero_esports/aero_tv.php  
   
 mIRC: http://www.mirc.com/   
 XChat: http://xchat.org/  
+AdiIRC: https://adiirc.com/
   
 - The bot requires php PEAR to be installed with the Net_SmartIRC package.
 (You need to edit the path to the PEAR package in battlebot.php)
@@ -37,7 +37,7 @@ The pug will then be removed from queue and another one of the same game and mod
   
 <s>If you change your nickname or quit the channel while you are in a pug queue, the bot will automatically remove you from the line-up and, if needed, grant ownership to the next person in line!</s>  
   
-To check it out, join the #battlebot irc channel on Quakenet!  
+To check it out, join the #battlebot irc channel on Quakenet! (irc://irc.quakenet.org/battlebot)  
   
 Greetings, Crytiqal.Aero  
   
