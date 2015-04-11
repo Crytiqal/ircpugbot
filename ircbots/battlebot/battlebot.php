@@ -181,7 +181,7 @@ class battleBot {
 		          if(count($pug_queue[$g_channel[0]][$g_channel[1]][$g_channel[2]][$g_channel[3]]['players']) < $team_size[$g_team]) {
 					  // Add player to team!
 					  $pug_queue[$g_channel[0]][$g_channel[1]][$g_channel[2]][$g_channel[3]]['players'][] = $data->nick;
-					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You have joined'.$g_channel[3].'!' );
+					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You have joined '.$g_channel[3].'!' );
 					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You can use the following commands: !say, !need, !callvote, !vote' );
 					  
 					  
@@ -991,14 +991,26 @@ class battleBot {
 // -->		  echo $p_game;
 			  if(isset($pugdata[0])) { $p_mode   = strtolower($pugdata[0]); }
 			  if(isset($pugdata[1])) { $p_skill  = strtolower($pugdata[1]); }
-			  if(isset($pugdata[2])) { $p_team   = strtolower($pugdata[2]); }
+			  if(isset($pugdata[2])) {
+				  if(ctype_digit($pugdata[2])) { 
+					  $p_team = strtolower($pugdata[2]);
+				  } else {
+					  $p_team = strtolower(array_search($pugdata[2], range('A','Z'))) + 1; 
+				  }
+			  }
 		  } else {
 			  // $pugdata[1] is <game>, check if <game> is found in channel name or is main channel
 			  if(strpos($data->channel,$pugdata[0]) || $data->channel == $channelarray[0] ) {
 				  if(isset($pugdata[0])) { $p_game   = strtolower($pugdata[0]); }
 				  if(isset($pugdata[1])) { $p_mode   = strtolower($pugdata[1]); }
 				  if(isset($pugdata[2])) { $p_skill  = strtolower($pugdata[2]); }
-				  if(isset($pugdata[3])) { $p_team   = strtolower($pugdata[3]); }
+				  if(isset($pugdata[3])) {
+					  if(ctype_digit($pugdata[3])) { 
+						  $p_team = strtolower($pugdata[3]);
+					  } else {
+						  $p_team = strtolower(array_search($pugdata[3], range('A','Z'))) + 1; 
+					  }
+				  }
 			  } else {
 				  echo "This game is not supported in this channel";
 				  return;
