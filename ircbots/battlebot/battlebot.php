@@ -114,7 +114,9 @@ class battleBot {
 	  } else {
 		  if(!$data->channel) {
 			  // This must be a query or notice
+			  // ANYONE in $channelarray[0] can see the query responds!
 			  $irc->message(SMARTIRC_TYPE_CHANNEL, $channelarray[0], $data->message);
+			  // $irc->message(SMARTIRC_TYPE_QUERY, 'Crytiqal@users.quakenet.org', $data->message);
 		  }
 	  }
   }

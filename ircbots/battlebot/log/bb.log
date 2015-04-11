@@ -891,3 +891,32 @@ Apr 11 15:37:17 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PO
 Apr 11 15:37:54 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
 Apr 11 15:38:32 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
 Apr 11 15:39:09 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:39:47 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:40:17 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80a.se.quakenet.org"
+Apr 11 15:40:17 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Apr 11 15:40:17 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80a.se.quakenet.org"
+Apr 11 15:40:17 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Apr 11 15:40:17 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Apr 11 15:40:17 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80a.se.quakenet.org"
+Apr 11 15:40:24 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:41:02 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:41:39 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:42:17 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:42:54 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:42:54 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PING irc.quakenet.org"
+Apr 11 15:42:55 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80a.se.quakenet.org PONG port80a.se.quakenet.org :irc.quakenet.org"
+Apr 11 15:42:55 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
+Apr 11 15:42:55 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80a.se.quakenet.org" type:"1" from:"port80a.se.quakenet.org" channel:"" message:"irc.quakenet.org"
+Apr 11 15:42:55 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Apr 11 15:43:32 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:44:09 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:44:47 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:45:24 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:45:54 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: "PING :port80a.se.quakenet.org"
+Apr 11 15:45:54 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PING)
+Apr 11 15:45:54 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"" type:"1" from:"" channel:"" message:"port80a.se.quakenet.org"
+Apr 11 15:45:54 SmartIRC.php(1976) DEBUG_MESSAGEHANDLER: calling internal method "Net_SmartIRC->_event_ping" (by string)
+Apr 11 15:45:54 messagehandler.php(33) DEBUG_CONNECTION: Ping? Pong!
+Apr 11 15:45:54 SmartIRC.php(2507) DEBUG_IRCMESSAGES: sent: "PONG :port80a.se.quakenet.org"
+Apr 11 15:46:02 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:46:39 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"

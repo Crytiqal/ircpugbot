@@ -19,11 +19,12 @@ XChat: http://xchat.org/
 
 <b>Authenticate with Q:</b>  
 1. Let the bot join a channel in which you are OP (For example: #battlebot)  
-(Enable "!debug on" to see R/Q responses to the bot)
+Enable "!debug on" to see R/Q responses to the bot.  
+WARNING: May cause security breach if everyone in the channel can view the query responses! Please read through the debug function!
 2. !query R REQUESTOP <#channel>  
 3. !query R REQUESTBOT <#channel>  
 4. !query Q@CServe.quakenet.org CHANLEV <#channel> <nickname> +amno
-(Disable "!debug off" if you turned it on!)
+NOTICE: Disable "!debug off" if you turned it on!
   
 <b>Basic commands:</b>
 - !help - <i>This will return a list of available commands.</i>  
