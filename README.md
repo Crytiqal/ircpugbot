@@ -17,13 +17,13 @@ XChat: http://xchat.org/
 - To add a game, check out the games folder and look at the structure of the default files.
 
 
-<b>Authenticate with Q:</b>
-1. Enable $debug = 'on'; in battlebot.php
-2. Let the bot join a channel in which you are OP (For example: #battlebot)
-3. !queryR REQUESTOP <#channel>
-4. !queryR REQUESTBOT <#channel>
-5. !queryQ CHANLEV <#channel> <nickname> +amno
-
+<b>Authenticate with Q:</b>  
+1. Enable $debug = 'on'; in battlebot.php  
+2. Let the bot join a channel in which you are OP (For example: #battlebot)  
+3. !queryR REQUESTOP <#channel>  
+4. !queryR REQUESTBOT <#channel>  
+5. !queryQ CHANLEV <#channel> <nickname> +amno  
+  
 <b>Basic commands:</b>
 - !help - <i>This will return a list of available commands.</i>  
 - !create - <i>This will return a list of available games.</i>   
