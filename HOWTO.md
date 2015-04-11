@@ -3,8 +3,8 @@
 
 <b>Authenticate with Q:</b>  
 1. Let the bot join a channel in which you are OP (For example: #battlebot)  
-  <i>Enable </i>"!debug on"<i> to see R/Q responses to the bot.</i>  
-  WARNING: <i>May cause security breach if everyone in the channel can view the query responses! Please read through the debug function!</i>  
+<i>Enable </i>"!debug on"<i> to see R/Q responses to the bot.</i>  
+WARNING: <i>May cause security breach if everyone in the channel can view the query responses! Please read through the debug function!</i>  
 2. !query R REQUESTOP <#channel>  
 3. !query R REQUESTBOT <#channel>  
 4. !query Q@CServe.quakenet.org CHANLEV <#channel> [nickname] +amno  
@@ -28,8 +28,7 @@ You will automatically be the owner of the pug, and be granted special commands 
 - !join [game] [mode] [skill] [team#]
 
 <i>For example:</i> !join etqw 4v4 med 2 <i>(joins team 2)</i>   
-<i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time!   
-Provide the <#> of the team you would like to join! (1/2/3/4 etc) If you fail to provide a team number, the bot will respond that you will have to pick a team.</i>  
+<i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time! Provide the <#> of the team you would like to join (1/2/3/4 etc). If you fail to provide a team number, the bot will respond that you will have to pick a team.</i>  
   
     
 <b>Leave a PUG:</b>  
