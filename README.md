@@ -46,17 +46,17 @@ Greetings, Crytiqal.Aero
 You can now freely change your nickname and the bot will update your name in the pug queue list!  
 Also, the bot will only automatically remove you from the line-up and, if needed, grant ownership to the next person in line if you leave ALL the channels on which the bot is hosted.  
   
-The bot is now authenticated with Q so it can retain its operator status.  
-•It won't greet people anymore who join the channel, this could cause spam.  
-•It also won't say goodbye when people leave/quit the channel.  
-•It will only announce the queue if there is actually a pug in queue.  
-•When people !join or !leave a pug or quit all channels while they were in queue, it will update and print the game's info.  
+• The bot is now authenticated with Q so it can retain its operator status.  
+• It won't greet people anymore who join the channel, this could cause spam.  
+• It also won't say goodbye when people leave/quit the channel.  
+• It will only announce the queue if there is actually a pug in queue.  
+• When people !join or !leave a pug or quit all channels while they were in queue, it will update and print the game's info.  
   
 <b>UPDATE v3.0: The Pick-Up Game Operator Bot can now handle votes!</b>  
   
-When you are in a queue, you can now use !callvote and !vote commands.  
+• When you are in a queue, you can now use !callvote and !vote commands.
+• Debug function added to view query responses from the bot.
   
-The bot is capable of tracking the usernames accross all the pug's and updates the names when changed.  
-A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
+The bot is capable of tracking the usernames accross all the pug's and updates the names when changed. A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
    
    
