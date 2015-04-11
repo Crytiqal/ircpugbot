@@ -62,15 +62,27 @@ You will automatically be the owner of the pug, and be granted special commands 
 <i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time!   
 Provide the <#> of the team you would like to join! (1/2/3/4 etc) If you fail to provide a team number, the bot will respond that you will have to pick a team.</i>  
   
-- !need  
-<i>This will show how many players are still needed for the pug you are currently enlisted in.</i>  
-    
     
 <b>Leave a PUG:</b>  
 - !leave  
 <i>This will remove you from the pug you are currently enlisted in.   
 If you are the owner of the pug, the ownership will be transferred to the next player in the line-up.   
 If no such player is found, the pug will be removed from queue.</i>  
+  
+<b>PUG Player commands:</b>  
+- !need  
+<i>This will show how many players are still needed for the pug you are currently enlisted in.</i>  
+  
+- !callvote [mode]  
+<i>For example:</i> !callvote kick playerNAME/playerID  
+<i>When no playerNAME/playerID is given, the bot will return a list of current players and their ID's in your team.  
+The vote will be valid for a set period of time (2min) and players of the same team can cast their vote within this time.  
+When the vote reaches >50% within the valid time, the vote is granted.</i>  
+ 
+Only 1 vote possible per team at a time. The votecaller will be placed in a timeout to prevent him from spamming votes and give others a chance to call a vote of their own. The timeout is set to 3 min OR when a new vote has been called.
+  
+- !vote [yes/no]  
+<i>For example:</i> !vote yes <i>OR</i> !vote no  
   
   
 <b>PUG Owner commands:</b>  
@@ -103,18 +115,6 @@ The bot is now authenticated with Q so it can retain its operator status.
 <b>UPDATE v3.0: The Pick-Up Game Operator Bot can now handle votes!</b>  
   
 When you are in a queue, you can now use !callvote and !vote commands.  
-  
-<b>PUG Player commands:</b>  
-- !callvote [mode]  
-<i>For example:</i> !callvote kick playerNAME/playerID  
-<i>When no playerNAME/playerID is given, the bot will return a list of current players and their ID's in your team.  
-The vote will be valid for a set period of time (2min) and players of the same team can cast their vote within this time.  
-When the vote reaches >50% within the valid time, the vote is granted.</i>  
- 
-Only 1 vote possible per team at a time. The votecaller will be placed in a timeout to prevent him from spamming votes and give others a chance to call a vote of their own. The timeout is set to 3 min OR when a new vote has been called.
-  
-- !vote [yes/no]  
-<i>For example:</i> !vote yes <i>OR</i> !vote no  
   
 The bot is capable of tracking the usernames accross all the pug's and updates the names when changed.  
 A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
