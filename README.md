@@ -11,7 +11,6 @@ http://www.team-aero.org/team-aero_esports/aero_tv.php
 mIRC: http://www.mirc.com/   
 XChat: http://xchat.org/  
   
-<b>How To:</b>
 - The bot requires php PEAR to be installed with the Net_SmartIRC package.
 (You need to edit the path to the PEAR package in battlebot.php)
 - To add a game, check out the games folder and look at the structure of the default files.
