@@ -3,7 +3,7 @@
 
 I have created an IRC bot that will allow users to easily create and join pick-up games. (For example etqw/et/csgo and any other (type of) game).
 
-To check it out, join the #battlebot irc channel on Quakenet! (irc://irc.quakenet.org/battlebot)   
+To check it out, join the #battlebot irc channel on Quakenet! ( irc://irc.quakenet.org/battlebot )   
 http://webchat.quakenet.org/   
 http://www.team-aero.org/team-aero_esports/aero_tv.php  
   
@@ -36,8 +36,6 @@ When a pick-up is filled or started, every player will be notified to join the s
 The pug will then be removed from queue and another one of the same game and mode may be started. (You can always start mutliple pugs at the same time if they are not identical)  
   
 <s>If you change your nickname or quit the channel while you are in a pug queue, the bot will automatically remove you from the line-up and, if needed, grant ownership to the next person in line!</s>  
-  
-To check it out, join the #battlebot irc channel on Quakenet! (irc://irc.quakenet.org/battlebot)  
   
 Greetings, Crytiqal.Aero  
   
