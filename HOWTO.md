@@ -6,7 +6,6 @@
 <i>Enable </i>"!debug on"<i> to see R/Q responses to the bot.</i>  
 NOTICE: <i>Please read through the debug function!</i>  
 WARNING: <i>May cause security breach if everyone in the channel can view the query responses!</i>  
-  
 2. !query R REQUESTOP <#channel>  
 3. !query R REQUESTBOT <#channel>  
 4. !query Q@CServe.quakenet.org CHANLEV <#channel> [nickname] +amno  
