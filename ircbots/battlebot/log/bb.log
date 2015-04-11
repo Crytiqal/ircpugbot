@@ -928,3 +928,5 @@ Apr 11 15:48:32 SmartIRC.php(1716) DEBUG_IRCMESSAGES: received: ":port80a.se.qua
 Apr 11 15:48:32 SmartIRC.php(1933) DEBUG_IRCMESSAGES: command type UNKNOWN (PONG)
 Apr 11 15:48:32 SmartIRC.php(1946) DEBUG_MESSAGEPARSER: ircdata nick:"" ident:"" host:"port80a.se.quakenet.org" type:"1" from:"port80a.se.quakenet.org" channel:"" message:"irc.quakenet.org"
 Apr 11 15:48:32 SmartIRC.php(1995) DEBUG_MESSAGEHANDLER: no method found for "PONG" (event_pong)
+Apr 11 15:49:10 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
+Apr 11 15:49:47 SmartIRC.php(1614) DEBUG_TIMEHANDLER: calling method "Net_SmartIRC->_pingcheck"
