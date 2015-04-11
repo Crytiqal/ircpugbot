@@ -14,17 +14,8 @@ XChat: http://xchat.org/
 - The bot requires php PEAR to be installed with the Net_SmartIRC package.
 (You need to edit the path to the PEAR package in battlebot.php)
 - To add a game, check out the games folder and look at the structure of the default files.
-
-
-<b>Authenticate with Q:</b>  
-1. Let the bot join a channel in which you are OP (For example: #battlebot)  
-<i>Enable </i>"!debug on"<i> to see R/Q responses to the bot.</i>  
-WARNING: <i>May cause security breach if everyone in the channel can view the query responses! Please read through the debug function!</i>  
-2. !query R REQUESTOP <#channel>  
-3. !query R REQUESTBOT <#channel>  
-4. !query Q@CServe.quakenet.org CHANLEV <#channel> [nickname] +amno  
-NOTICE: <i>Disable </i>"!debug off"<i> if you turned it on!</i>  
-  
+   
+    
 <b>Basic commands:</b>
 - !help - <i>This will return a list of available commands.</i>  
 - !create - <i>This will return a list of available games.</i>   
@@ -67,6 +58,16 @@ When you are in a queue, you can now use !callvote and !vote commands.
   
 The bot is capable of tracking the usernames accross all the pug's and updates the names when changed.  
 A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
+   
+   
+<b>Authenticate with Q:</b>  
+1. Let the bot join a channel in which you are OP (For example: #battlebot)  
+<i>Enable </i>"!debug on"<i> to see R/Q responses to the bot.</i>  
+WARNING: <i>May cause security breach if everyone in the channel can view the query responses! Please read through the debug function!</i>  
+2. !query R REQUESTOP <#channel>  
+3. !query R REQUESTBOT <#channel>  
+4. !query Q@CServe.quakenet.org CHANLEV <#channel> [nickname] +amno  
+NOTICE: <i>Disable </i>"!debug off"<i> if you turned it on!</i>  
    
    
 <b>Create a PUG:</b>  
