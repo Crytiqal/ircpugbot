@@ -18,18 +18,11 @@ XChat: http://xchat.org/
 
 
 <b>Authenticate with Q:</b>
-- Method 1 (Preferred method):
 1. Enable $debug = 'on'; in battlebot.php
 2. Let the bot join a channel in which you are OP (For example: #battlebot)
-3. !queryR REQUESTBOT <#channel>
-4. !queryQ CHANLEV <#channel> <nickname> +amno
-
-- Method 2:
-1. Enable $debug = 'on'; in battlebot.php
-2. Let the bot join a channel in which you are OP (For example: #battlebot)
-3. /msg R REQUESTOP <#channel>
-4. /msg R REQUESTBOT <#channel>
-5. /msg Q GIVEOWNER <#channel> <user>
+3. !queryR REQUESTOP <#channel>
+4. !queryR REQUESTBOT <#channel>
+5. !queryQ CHANLEV <#channel> <nickname> +amno
 
 <b>Basic commands:</b>
 - !help - <i>This will return a list of available commands.</i>  
