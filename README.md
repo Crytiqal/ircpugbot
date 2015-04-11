@@ -18,11 +18,12 @@ XChat: http://xchat.org/
 
 
 <b>Authenticate with Q:</b>  
-1. Enable $debug = 'on'; in battlebot.php  
-2. Let the bot join a channel in which you are OP (For example: #battlebot)  
-3. !query R REQUESTOP <#channel>  
-4. !query R REQUESTBOT <#channel>  
-5. !query Q@CServe.quakenet.org CHANLEV <#channel> <nickname> +amno  
+1. Let the bot join a channel in which you are OP (For example: #battlebot)  
+(Enable "!debug on" to see R/Q responses to the bot)
+2. !query R REQUESTOP <#channel>  
+3. !query R REQUESTBOT <#channel>  
+4. !query Q@CServe.quakenet.org CHANLEV <#channel> <nickname> +amno
+(Disable "!debug off" if you turned it on!)
   
 <b>Basic commands:</b>
 - !help - <i>This will return a list of available commands.</i>  
