@@ -1,3 +1,6 @@
+# HOWTO.md
+<b>BattleBot (IRC Pick-Up Game Operator Bot)</b>
+
 <b>Authenticate with Q:</b>  
 1. Let the bot join a channel in which you are OP (For example: #battlebot)  
 <i>Enable </i>"!debug on"<i> to see R/Q responses to the bot.</i>  
