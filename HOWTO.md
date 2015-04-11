@@ -3,7 +3,7 @@
 
 <b>Authenticate with Q:</b>  
 1. Let the bot join a channel in which you are OP (For example: #battlebot)  
-   <i>Enable </i>"!debug on"<i> to see R/Q responses to the bot.</i>  
+  <i>Enable </i>"!debug on"<i> to see R/Q responses to the bot.</i>  
 WARNING: <i>May cause security breach if everyone in the channel can view the query responses! Please read through the debug function!</i>  
 2. !query R REQUESTOP <#channel>  
 3. !query R REQUESTBOT <#channel>  
