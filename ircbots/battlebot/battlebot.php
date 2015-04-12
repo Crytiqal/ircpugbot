@@ -1045,19 +1045,19 @@ class battleBot {
 		  $team_size = explode("v", $p_mode);
 		  $team_size = array_combine(range(1, count($team_size)), array_values($team_size));
 		  		  
-		  if(!isset($p_team)) {				  
+		  if(!isset($p_team)) {	
+			  $team_balance = array();
 			  foreach($pug_queue[$p_game][$p_mode][$p_skill] as $key => $value) {
 				  if(is_array($pug_queue[$p_game][$p_mode][$p_skill][$key])) {
 					  if(array_key_exists("players",$pug_queue[$p_game][$p_mode][$p_skill][$key])) {
 						  $p_team = substr($key, 4); // Remove 'team' prefix
-						  if((count($pug_queue[$p_game][$p_mode][$p_skill][$key]['players']) < $team_size[$p_team])) {
+						  if((count($pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['players']) < $team_size[$p_team])) {
 							  // Check if player isn't kicked
 							  if(!in_array($data->nick, $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['kicked'])) {
-								  // Put player in place holder until he actually joins the channel!
-								  $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['invited'][] = $data->nick;
-								  $irc->invite($data->nick,$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team]);
-								  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Please join '.$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team].'');
-								  break;
+								  // This team is eligable
+								  $count_players = count($pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['players']);
+								  $count_invited = count($pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['invited']);
+								  $team_balance[$key] = (($count_players + $count_invited) / $team_size[$p_team]) * 100;
 							  } else {
 								  // Check if kicktime has passed
 								  $current_timestamp = time();
@@ -1066,16 +1066,22 @@ class battleBot {
 								  if($current_timestamp - $pug_vote_kicktimestamp < $pug_kick_timeout) {
 									  continue;
 								  } else {
-									  $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['invited'][] = $data->nick;
-									  $irc->invite($data->nick,$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team]);
-									  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Please join '.$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team].'');
-									  break;
+									  // This team is eligable
+									  $count_players = count($pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['players']);
+									  $count_invited = count($pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['invited']);
+									  $team_balance[$key] = (($count_players + $count_invited) / $team_size[$p_team]) * 100;
 								  }
 							  }
 						  }
 					  }
 				  }	  
 			  }
+			  // Put player in place holder until he actually joins the channel!
+			  $team_index = array_search(min($team_balance),$team_balance);
+			  $pug_queue[$p_game][$p_mode][$p_skill][$team_index]['invited'][] = $data->nick;
+			  $irc->invite($data->nick,$pug_queue[$p_game][$p_mode][$p_skill]['irc'][$team_index]);
+			  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Please join '.$pug_queue[$p_game][$p_mode][$p_skill]['irc'][$team_index].'');
+			  unset($team_balance,$team_index,$count_players,$count_invited);
 		  } else { 
 			  if(!in_array($p_team,array_keys($team_size))) {
 				  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Choose which team; 1,2,etc. or leave blank to be randomly placed');
