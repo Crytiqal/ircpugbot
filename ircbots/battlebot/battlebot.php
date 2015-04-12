@@ -184,7 +184,6 @@ class battleBot {
 					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You have joined '.$g_channel[3].'!' );
 					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You can use the following commands: !say, !need, !callvote, !vote' );
 					  
-					  
 			          // Check if all teams are full now!
 			          $player_slots = 0;
 			          $players = 0;
@@ -264,12 +263,12 @@ class battleBot {
   function pug_joined($player) {
 	  global $pug_queue;
 	
-// echo "function pug_joined";
-// echo "\n";
+ // echo "function pug_joined";
+ // echo "\n";
 // -->
 //  $this->debug($pug_queue);
 // <--
-
+	  
 	  unset($return);
 	  $return = array();
 	  $return[0] = -1;
@@ -282,8 +281,8 @@ class battleBot {
 		          foreach($pug_skill as $key4 => $pug_team) {
 					  // $key4 doesn't always have to be an array  
 			          if(is_array($pug_game[$key2][$key3][$key4])) {
-						  if(array_key_exists("players", $pug_game[$key2][$key3][$key4])) {
-							  // This is the correct array! (team1 or team2)
+						  if(array_key_exists("players",$pug_game[$key2][$key3][$key4])) {
+							  // This is the correct array! (team1 or team2 etc)
 					          foreach($pug_team as $key5 => $pug_status) {
 								  // Check if the $player can be found in any of the statuses (players/invited/kicked/votes)	  			  
 				                  if(in_array($player, $pug_game[$key2][$key3][$key4][$key5])) {
@@ -384,13 +383,17 @@ class battleBot {
 // -->
 //  $this->debug($pug_queue);
 // <--	  
-	  
+
 	  // Check if channel was in pug team channel
 	  $return = $this->pug_joined($player);
 	  
+	  if($return[0] == -1) {
+		  return;
+	  }
+	  
 	  // Remove player from pug
-	  unset($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['players'][$return['playerID']]);
-	  $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['players'] = array_values($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['players']);
+	  unset($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']][$return['status']][$return['playerID']]);
+	  $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']][$return['status']] = array_values($pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']][$return['status']]);
 
 	  // Check if owner -> new owner or remove entire pug
 	  if($return[0] == 0) {
@@ -527,7 +530,8 @@ class battleBot {
 // -->
 //  $this->debug($pug_queue);
 // <--
-
+//  print_r($pug_queue);
+	  
 	  if(!$pug_queue) {
 		  $pug_queue_list = 'none'; 
 	  } else {
@@ -1031,7 +1035,7 @@ class battleBot {
 			  return;
 		  }
 		  
-		  if(!isset($p_game) || !isset($p_mode) || !isset($p_skill) || !isset($p_team)) {
+		  if(!isset($p_game) || !isset($p_mode) || !isset($p_skill)) {
 			  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Use the following command: !join <game> <mode> <skill> <#team>');
 			  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Current pick-up games: '.$pug_queue_list.'');
 			  return;
@@ -1040,30 +1044,45 @@ class battleBot {
 		  // Extend to x teams and x size
 		  $team_size = explode("v", $p_mode);
 		  $team_size = array_combine(range(1, count($team_size)), array_values($team_size));
-		  
-		  if(!in_array($p_team,array_keys($team_size))) {
-			  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Choose which team; 1,2,etc.');
-		  } else {
-			  // Check if player isn't kicked
-			  if(!in_array($data->nick, $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['kicked'])) {
-				  // Feel free to join
-				  if(count($pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['players']) < $team_size[$p_team]) {
-					  // Put player in place holder until he actually joins the channel!
-					  $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['invited'][] = $data->nick;
-					  $irc->invite($data->nick,$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team]);
-					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Please join '.$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team].'');
-				  } else {
-					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Team is full!');
-				  }
-			  } else {  
-				  // Check if kicktime has passed
-				  $current_timestamp = time();
-				  $pug_vote_kicktimestamp = array_search($data->nick, $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['kicked']);
-				  $pug_kick_timeout = 120; // Timeout in seconds
-				  if($current_timestamp - $pug_vote_kicktimestamp < $pug_kick_timeout) {
-					  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You have been kicked! Please wait another '.$current_timestamp - $pug_vote_kicktimestamp.' seconds!');
-					  return;
-				  } else {
+		  		  
+		  if(!isset($p_team)) {				  
+			  foreach($pug_queue[$p_game][$p_mode][$p_skill] as $key => $value) {
+				  if(is_array($pug_queue[$p_game][$p_mode][$p_skill][$key])) {
+					  if(array_key_exists("players",$pug_queue[$p_game][$p_mode][$p_skill][$key])) {
+						  $p_team = substr($key, 4); // Remove 'team' prefix
+						  if((count($pug_queue[$p_game][$p_mode][$p_skill][$key]['players']) < $team_size[$p_team])) {
+							  // Check if player isn't kicked
+							  if(!in_array($data->nick, $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['kicked'])) {
+								  // Put player in place holder until he actually joins the channel!
+								  $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['invited'][] = $data->nick;
+								  $irc->invite($data->nick,$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team]);
+								  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Please join '.$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team].'');
+								  break;
+							  } else {
+								  // Check if kicktime has passed
+								  $current_timestamp = time();
+								  $pug_vote_kicktimestamp = array_search($data->nick, $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['kicked']);
+								  $pug_kick_timeout = 120; // Timeout in seconds
+								  if($current_timestamp - $pug_vote_kicktimestamp < $pug_kick_timeout) {
+									  continue;
+								  } else {
+									  $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['invited'][] = $data->nick;
+									  $irc->invite($data->nick,$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team]);
+									  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Please join '.$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team].'');
+									  break;
+								  }
+							  }
+						  }
+					  }
+				  }	  
+			  }
+		  } else { 
+			  if(!in_array($p_team,array_keys($team_size))) {
+				  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Choose which team; 1,2,etc. or leave blank to be randomly placed');
+				  return;
+			  } else {
+				  // Check if player isn't kicked
+				  if(!in_array($data->nick, $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['kicked'])) {
 					  // Feel free to join
 					  if(count($pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['players']) < $team_size[$p_team]) {
 						  // Put player in place holder until he actually joins the channel!
@@ -1072,6 +1091,25 @@ class battleBot {
 						  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Please join '.$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team].'');
 					  } else {
 						  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Team is full!');
+					  }
+				  } else {
+					  // Check if kicktime has passed
+					  $current_timestamp = time();
+					  $pug_vote_kicktimestamp = array_search($data->nick, $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['kicked']);
+					  $pug_kick_timeout = 120; // Timeout in seconds
+					  if($current_timestamp - $pug_vote_kicktimestamp < $pug_kick_timeout) {
+						  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'You have been kicked! Please wait another '.$current_timestamp - $pug_vote_kicktimestamp.' seconds!');
+						  return;
+					  } else {
+						  // Feel free to join
+						  if(count($pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['players']) < $team_size[$p_team]) {
+							  // Put player in place holder until he actually joins the channel!
+							  $pug_queue[$p_game][$p_mode][$p_skill]['team'.$p_team]['invited'][] = $data->nick;
+							  $irc->invite($data->nick,$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team]);
+							  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Please join '.$pug_queue[$p_game][$p_mode][$p_skill]['irc']['team'.$p_team].'');
+						  } else {
+							  $irc->message(SMARTIRC_TYPE_NOTICE, $data->nick, 'Team is full!');
+						  }
 					  }
 				  }
 			  }
@@ -1665,7 +1703,7 @@ class battleBot {
 		  if(in_array($data->nick,$pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['kicked'])) { $pug_queue[$return['game']][$return['mode']][$return['skill']][$return['teamID']]['kicked'][$return['playerID']] = $data->message; }
 		  // Check ALL the votes
 		  foreach($return['votes'] as $key => $value) {
-			  if(array_key_exists('castvote',$return['votes'][$key])) {
+			  if(array_key_exists("castvote",$return['votes'][$key])) {
 				  $pug_queue[$value['game']][$value['mode']][$value['skill']][$value['teamID']][$value['votes']][$value['voteID']][$value['castvote']][$value['playerID']] = $data->message;
 			  } else {
 				  $pug_queue[$value['game']][$value['mode']][$value['skill']][$value['teamID']][$value['votes']][$value['voteID']][$value['entry']] = $data->message;
@@ -1673,7 +1711,7 @@ class battleBot {
 		  }
 	  } else {
 		  foreach($return['votes'] as $key => $value) {
-			  if(array_key_exists('castvote',$return['votes'][$key])) {
+			  if(array_key_exists("castvote",$return['votes'][$key])) {
 				  $pug_queue[$value['game']][$value['mode']][$value['skill']][$value['teamID']][$value['votes']][$value['voteID']][$value['castvote']][$value['playerID']] = $data->message;
 			  } else {
 				  $pug_queue[$value['game']][$value['mode']][$value['skill']][$value['teamID']][$value['votes']][$value['voteID']][$value['entry']] = $data->message;
