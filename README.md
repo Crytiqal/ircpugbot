@@ -59,3 +59,8 @@ Also, the bot will only automatically remove you from the line-up and, if needed
 The bot is capable of tracking the usernames accross all the pug's and updates the names when changed. A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
    
    
+<b>UPDATE v3.1: The Pick-Up Game Operator Bot can now autochoose teams!</b>  
+  
+• You can now use !join [game] [mode] [skill] without specifying a team and the bot will automatically add you the the first available team.  
+  (It takes available slots and kicks into account)  
+• You can now use !join [game] [mode] [skill] [team#] using a letter A/B/C as substitute for 1/2/3 for [team#]
