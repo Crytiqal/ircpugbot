@@ -31,7 +31,7 @@ You will automatically be the owner of the pug, and be granted special commands 
 - !join [game] [mode] [skill] [team#]
 
 <i>For example:</i> !join etqw 4v4 med 2 <i>(joins team 2)</i>   
-<i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time! Provide the <#> of the team you would like to join (1/2/3/4 OR A/B/C/D etc). If you fail to provide a team number, the bot will respond that you will have to pick a team.</i>  
+<i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time! Provide the <#> of the team you would like to join (1/2/3/4 OR A/B/C/D etc). <s>If you fail to provide a team number, the bot will respond that you will have to pick a team.</s> If you fail to provide a teamID, the bot will automatically add you to the first available slot.</i>  
   
     
 <b>Leave a PUG:</b>  
