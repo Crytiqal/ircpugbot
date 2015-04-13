@@ -15,7 +15,8 @@ AdiIRC: https://adiirc.com/
   
 - The bot requires php PEAR to be installed with the Net_SmartIRC package.  
   (You need to edit the path to the PEAR package in battlebot.php)
-- To add a game, check out the games folder and look at the structure of the default files.
+- To add a game, check out the games folder and look at the structure of the default files.  
+- To add a channel or channelarray, change $channelarray[0] (bot main channel) and the channel suffix in battlebot.php .
 
 ## Usage:
    
