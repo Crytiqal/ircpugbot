@@ -40,8 +40,6 @@ AdiIRC: https://adiirc.com/
 When a pick-up is filled or started, every player will be notified to join the server by having the ip and password sent to them in a pm. The pug will then be removed from queue and another one of the same game and mode may be started.  
 (You can always start mutliple pugs at the same time if they are not identical)  
   
-<s>If you change your nickname or quit the channel while you are in a pug queue, the bot will automatically remove you from the line-up and, if needed, grant ownership to the next person in line!</s>  
-  
 Greetings, Crytiqal.Aero  
   
 ##### UPDATE v2.0: The Pick-Up Game Operator Bot can now handle cross channel communication!  
