@@ -18,8 +18,8 @@ This HOW-TO explains how you can authenticate your bot to be channel owner and e
 <i>For example:</i> <b>!create etqw 4v4 low</b> <i>OR</i> <b>!create etqw 4v4 med server1</b> <i>OR</i> <b>!create etqw 4v4 pro 123.456.7.890:27733 mypw</b>
 
 [game] - <i>Pick a game that is supported.</i>  
-[mode] - <i>Pick a gamemode that is <b>supported</b> for that game (4v4/2v2v2/2v6v4 etc).</i>  
-[skill] - <i>Pick a skill level that is supported for that game (low/med/high/pro etc).</i>  
+[mode] - <i>Pick a gamemode that is <b>supported</b> for that game (<b>4v4</b> / <b>2v2v2</b> / <b>2v6v4</b> etc).</i>  
+[skill] - <i>Pick a skill level that is supported for that game (<b>low</b> / <b>med</b> / <b>high</b> / <b>pro</b> etc).</i>  
 [server] - <i>Pick a server for the game.</i>   
 <i>(If you leave this value blank, the bot will automatically select a default server from a pre-defined list, that is not currently in use by another pug in queue. You can also specify <b>which</b> default server you would like to use, by entering a value returned by typing !serverlist . In addition, you can also provide your own server (and password) in the following syntax: ip:port (pw). If this ip:port is already in use by another pug, you are asked to provide a different server)</i>    
   
