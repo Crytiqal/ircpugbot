@@ -3,19 +3,21 @@
 ini_set('error_reporting', E_ALL);
 
 // -------------------------------------------------- +
-// The IRC class
-require_once('/home/cabox/workspace/ircbots/dependencies/php/PEAR/NET/SmartIRC.php');
-
+// ---/*Setup*/---( Read carefull! )----------------- +
 // -------------------------------------------------- +
-// Load modules
+require_once('/home/cabox/workspace/ircbots/dependencies/php/PEAR/NET/SmartIRC.php');
 $install_path = "/home/cabox/workspace/ircbots";
 $battlebot = $install_path.'/battlebot';
-// Settings
+
+// -------------------------------------------------- +
+// Dont change anything below this line (vvv) !
+// -------------------------------------------------- +
+// Global settings
 $pug_queue = array();
 $debug = 'off';
 
 // -------------------------------------------------- +
-// The bot class
+// The IRC class
 class battleBot {
 
   // Constructor
@@ -1794,9 +1796,11 @@ class battleBot {
 
 } // end class
 
+// -------------------------------------------------- +
+// Dont change anything above this line (^^^) !
 
 // -------------------------------------------------- +
-// -------------------------------------------------- +
+// ---/*Setup*/---( Read carefull! )----------------- +
 // -------------------------------------------------- +
 // Command line vars
 
@@ -1809,16 +1813,16 @@ $addr = 'irc.quakenet.org';
 $port = 6667; 
 
 // void login( string $nick, string $realname, [integer $usermode = 0], [string $username = null], [string $password = null])
-$nick = 'pugOpBot';
-$realname = 'pugOpBot';
+$nick = 'pugOpBot';		
+$realname = 'pugOpBot';		
 $usermode = 0;
 $username = 'pugopbot';
 $password = '';
 
 // void join( mixed $channelarray, [string $key = null], [integer $priority = SMARTIRC_MEDIUM])  
 $channelarray = array();
-$channelarray[0] = '#battlebot';
-$ch_suffix = '.bb'; 
+$channelarray[0] = '#battlebot';	// Important! Bots main channel (change to your own channel)
+$ch_suffix = '.bb'; 			// Important! gamename.ch_suffix (change to your own tag)
 
 // -->
   $fh = opendir($battlebot.'/games/');
@@ -1837,7 +1841,7 @@ $priority = SMARTIRC_MEDIUM;
 $bot = &new battleBot();
 $irc = &new Net_SmartIRC();
 $irc->setDebugLevel(SMARTIRC_DEBUG_ALL);
-$irc->setLogfile($battlebot.'/log/bb.log');		// Log file
+$irc->setLogfile($battlebot.'/log/bb.log');			// Log file
 $irc->setLogdestination(SMARTIRC_FILE);
 $irc->setAutoReconnect(TRUE);					// Auto reconnect?
 $irc->setUseSockets(TRUE);
@@ -1853,16 +1857,18 @@ $irc->registerActionhandler(SMARTIRC_TYPE_PART | SMARTIRC_TYPE_QUIT, '.*', $bot,
 
 // -------------------------------------------------- +
 // BOT Handlers
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!whosyourdaddy.*', $bot, 'whosyourdaddy'); 	// Everyone
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!whosyourdaddy.*', $bot, 'whosyourdaddy'); 			// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!whoami.*', $bot, 'whoami'); 				// Everyone
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!userlist.*', $bot, 'user_list'); 			// Everyone
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!userlist.*', $bot, 'user_list'); 				// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!oplist.*', $bot, 'op_list'); 				// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!debug.*', $bot, 'debug'); 					// Op only
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!query.*', $bot, 'query'); 					// Op only
 
 // PUG Handlers
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!create.*', $bot, 'pug_create'); 			// Everyone -Players
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!create.*', $bot, 'pug_create'); 				// Everyone -Players
+
 // -->
+// This will allow the use of !game or !skill to substitute for !create
   $b_games = array();
   $b_skills = array();
   $fh = opendir($battlebot.'/games/');
@@ -1878,34 +1884,35 @@ $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!create.*', $bot, 'pug_creat
   sort($b_games);
   sort($b_skills);
   foreach($b_games as $value) { $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!'.$value.'.*', $bot, 'pug_create'); }	 	// Everyone -Players
-  foreach($b_skills as $value) { $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!'.$value.'.*', $bot, 'pug_create'); 	}	// Everyone -Players
+  foreach($b_skills as $value) { $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!'.$value.'.*', $bot, 'pug_create'); }		// Everyone -Players
   unset($b_games);
   unset($b_skills);
 // <--
+
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!join.*', $bot, 'pug_join');     			// Everyone -Players (Check for full teams)
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!need.*', $bot, 'pug_need');     			// Players
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!leave.*', $bot, 'pug_leave');   			// Players
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!say.*', $bot, 'pug_say');       			// Players
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!start.*', $bot, 'pug_start');   			// Owner +Op only
 // $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!remove.*', $bot, 'pug_remove');			// Owner +Op only
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!addserver.*', $bot, 'pug_addserver');  	// Owner +Op only
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!addserver.*', $bot, 'pug_addserver');  		// Owner +Op only
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!callvote.*', $bot, 'pug_callvote');		// Players (Check callvote command)
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!vote.*', $bot, 'pug_castvote');			// Players (Check castvote command)
 // $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!shuffle.*', $bot, 'pug_shuffle');		// Owner +Op only
-// $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!kick.*', $bot, 'pug_kick');				// Owner +Op only
-// $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!ban.*', $bot, 'pug_ban');				// Owner +Op only
+// $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!kick.*', $bot, 'pug_kick');			// Owner +Op only
+// $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!ban.*', $bot, 'pug_ban');			// Owner +Op only
 // $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!unban.*', $bot, 'pug_unban');			// Owner +Op only
-// $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!swap.*', $bot, 'pug_swap');				// Players (Check for full teams)
+// $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!swap.*', $bot, 'pug_swap');			// Players (Check for full teams)
 
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!queue.*', $bot, 'pug_queue');  			// Everyone
 $irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!info.*', $bot, 'pug_info');    			// Everyone
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!serverlist.*', $bot, 'pug_serverlist');	// Everyone
-$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!help.*', $bot, 'pug_help');  	 			// Everyone
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!serverlist.*', $bot, 'pug_serverlist');		// Everyone
+$irc->registerActionhandler(SMARTIRC_TYPE_CHANNEL, '!help.*', $bot, 'pug_help');  	 		// Everyone
 
 // -------------------------------------------------- +
 // Connection
 $irc->connect($addr, $port); 																// Connect
-$irc->login($nick, $realname, $usermode, $username, $password); 							// Login
+$irc->login($nick, $realname, $usermode, $username, $password); 				// Login
 $irc->message(SMARTIRC_TYPE_QUERY, 'Q@CServe.quakenet.org', 'AUTH pugOpBot KsbuKoJt4W');	// Authenticate
 $irc->mode('BattleBot', '+iwx');															// Mode
 $irc->join($channelarray); 																	// Join
