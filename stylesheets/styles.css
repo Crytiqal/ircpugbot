@@ -255,5 +255,5 @@ footer {
 }
 
 @-ms-viewport {
-  width: device-width;
+  width: auto !important;
 }
