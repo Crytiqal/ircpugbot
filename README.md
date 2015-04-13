@@ -1,5 +1,4 @@
-# README.md
-<b>BattleBot (IRC Pick-Up Game Operator Bot)</b>
+# BattleBot (IRC Pick-Up Game Operator Bot)
 
 I have created an IRC bot that will allow users to easily create and join pick-up games.  
 (For example etqw/et/csgo and any other (type of) game).
@@ -11,20 +10,23 @@ http://www.team-aero.org/team-aero_esports/aero_tv.php
 mIRC: http://www.mirc.com/   
 XChat: http://xchat.org/  
 AdiIRC: https://adiirc.com/
+
+## Installation
   
 - The bot requires php PEAR to be installed with the Net_SmartIRC package.  
   (You need to edit the path to the PEAR package in battlebot.php)
 - To add a game, check out the games folder and look at the structure of the default files.
+
+## Usage
    
-    
-<b>Basic commands:</b>
+#### Basic commands:
 - !help - <i>This will return a list of available commands.</i>  
 - !create - <i>This will return a list of available games.</i>   
 - !serverlist - <i>This will return a list of available servers.</i>   
 - !queue - <i>This will return a list of available pugs currently in queue to join.</i>  
 - !info - <i>This will return a list of teams and their players, currently signed up for a pug. If no additional values are supplied, it will return the info of the pug you are currently in queue for. For example: !info etqw 4v4 </i>  
     
-<b>PUG commands:</b>  
+#### PUG commands:  
 - !create [game] [mode] [skill] [server]  
 - !join [game] [mode] [skill] [team#]  
 - !need  
@@ -40,7 +42,7 @@ When a pick-up is filled or started, every player will be notified to join the s
   
 Greetings, Crytiqal.Aero  
   
-<b>UPDATE v2.0: The Pick-Up Game Operator Bot can now handle cross channel communication!</b>  
+##### UPDATE v2.0: The Pick-Up Game Operator Bot can now handle cross channel communication!  
   
 You can now freely change your nickname and the bot will update your name in the pug queue list!  
 Also, the bot will only automatically remove you from the line-up and, if needed, grant ownership to the next person in line if you leave ALL the channels on which the bot is hosted.  
@@ -51,7 +53,7 @@ Also, the bot will only automatically remove you from the line-up and, if needed
 • It will only announce the queue if there is actually a pug in queue.  
 • When people !join or !leave a pug or quit all channels while they were in queue, it will update and print the game's info.  
   
-<b>UPDATE v3.0: The Pick-Up Game Operator Bot can now handle votes!</b>  
+##### UPDATE v3.0: The Pick-Up Game Operator Bot can now handle votes!  
   
 • When you are in a queue, you can now use !callvote and !vote commands.  
 • Debug function added to view query responses from the bot.
@@ -59,7 +61,7 @@ Also, the bot will only automatically remove you from the line-up and, if needed
 The bot is capable of tracking the usernames accross all the pug's and updates the names when changed. A kickvote will work even if the player leaves the pug, changes his name, and joins again.  
    
    
-<b>UPDATE v3.2: The Pick-Up Game Operator Bot can now autochoose teams!</b>  
+###### UPDATE v3.2: The Pick-Up Game Operator Bot can now autochoose teams!  
   
 • You can now use !join [game] [mode] [skill] without specifying a team and the bot will automatically add you to a team.  
   (It takes into account if you have been kicked and the team balance; % of team filled + team invites send)  
