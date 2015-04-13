@@ -19,14 +19,14 @@ AdiIRC: https://adiirc.com/
 
 ## Usage:
    
-#### Basic commands:
+#### Basic commands
 - !help - <i>This will return a list of available commands.</i>  
 - !create - <i>This will return a list of available games.</i>   
 - !serverlist - <i>This will return a list of available servers.</i>   
 - !queue - <i>This will return a list of available pugs currently in queue to join.</i>  
 - !info - <i>This will return a list of teams and their players, currently signed up for a pug. If no additional values are supplied, it will return the info of the pug you are currently in queue for. For example: !info etqw 4v4 </i>  
     
-#### PUG commands:  
+#### PUG commands  
 - !create [game] [mode] [skill] [server]  
 - !join [game] [mode] [skill] [team#]  
 - !need  
