@@ -69,6 +69,6 @@ The bot is capable of tracking the usernames accross all the pug's and updates t
   
 - You can now use <b>!join</b> [game] [mode] [skill] without specifying a team, the bot will automatically assign you.  
   (It takes into account if you have been kicked and the team balance; % of team filled + team invites send)    
-- You can now use <b>!join</b> [game] [mode] [skill] [team#] using a letter A/B/C as substitute for 1/2/3 for [team#]
+- You can now use <b>!join</b> [game] [mode] [skill] [team#] using a letter (A,B,etc as substitute for 1,2,etc) for [team#]
 
 
