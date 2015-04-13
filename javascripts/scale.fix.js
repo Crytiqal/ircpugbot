@@ -15,7 +15,3 @@ function gestureStart() {
     }
   }
 }
-
-@-ms-viewport {
-  width: auto !important;
-}
