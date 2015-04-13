@@ -22,7 +22,7 @@ This HOW-TO explains how you can authenticate your bot to be channel owner and e
 <i>(If a game supports 2v2v2, or asymmetrical teams (2v6v4) then the bot is also capable of handling those)</i>  
 [skill] - <i>Pick a skill level that is supported for that game (low/med/high/pro etc).</i>  
 [server] - <i>Pick a server for the game.</i>   
-<i>(If you leave this value blank, the bot will automatically select a default server from a predefined list, that is not currently in use by another pug in queue. You can also specify which default server you would like to use, by entering a value returned by typing !serverlist . In addition, you can also specify your own server ip and password in the following syntax: ip:port . If this ip is already in use by another pug, you are asked to provide a different server)</i>    
+<i>(If you leave this value blank, the bot will automatically select a default server from a pre-defined list, that is not currently in use by another pug in queue. You can also specify <b>which</b> default server you would like to use, by entering a value returned by typing !serverlist . In addition, you can also provide your own server (and password) in the following syntax: ip:port (pw). If this ip:port is already in use by another pug, you are asked to provide a different server)</i>    
   
 You will automatically be the owner of the pug, and be granted special commands such as !start and !remove. (Additional commands like !kick,!ban,!unban, !shuffle will likely be added in the future)  
     
@@ -31,7 +31,7 @@ You will automatically be the owner of the pug, and be granted special commands 
 - <b>!join</b> [game] [mode] [skill] [team#]
 
 <i>For example:</i> <b>!join etqw 4v4 med 2</b> <i>(joins team 2)</i>   
-<i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time! Provide the <#> of the team you would like to join (1/2/3/4 OR A/B/C/D etc). <s>If you fail to provide a team number, the bot will respond that you will have to pick a team.</s> If you fail to provide a teamID, the bot will automatically add you to the first available slot.</i>  
+<i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time! Provide the <#> of the team you would like to join (1/2/3/4 OR A/B/C/D etc). If you fail to provide a teamID, the bot will automatically add you to the first available slot.</i>  
   
     
 #### Leave a PUG  
