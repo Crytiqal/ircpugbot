@@ -1,4 +1,5 @@
 # IRC Pick-Up Game Operator Bot
+<b>- !create, !join, play!</b>
 
 I have created an IRC bot that will allow users to easily create and join pick-up games.  
 (For example etqw/et/csgo and any other (type of) game).
