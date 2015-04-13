@@ -1,4 +1,4 @@
-# BattleBot (IRC Pick-Up Game Operator Bot)
+# IRC Pick-Up Game Operator Bot
 
 ## Authenticate with Q:  
 1. Let the bot join a channel in which you are OP (For example: #battlebot)  
