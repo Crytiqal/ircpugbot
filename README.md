@@ -42,6 +42,7 @@ When a pick-up is filled or started, every player will be notified to join the s
   
 Greetings, Crytiqal.Aero  
   
+## Changelog:  
 ##### UPDATE v2.0: The Pick-Up Game Operator Bot can now handle cross channel communication!  
   
 You can now freely change your nickname and the bot will update your name in the pug queue list!  
