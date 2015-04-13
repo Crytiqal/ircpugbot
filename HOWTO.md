@@ -13,7 +13,7 @@
 #### Create a PUG  
 - <b>!create</b> [game] [mode] [skill] [server]
 
-<i>For example:</i> !create etqw 4v4 low <i>OR</i> !create etqw 4v4 med server1 <i>OR</i> !create etqw 4v4 pro 123.456.7.890:27733 mypw
+<i>For example:</i> <b>!create etqw 4v4 low</b> <i>OR</i> <b>!create etqw 4v4 med server1</b> <i>OR</i> <b>!create etqw 4v4 pro 123.456.7.890:27733 mypw</b>
 
 [game] - <i>Pick a game that is supported.</i>  
 [mode] - <i>Pick a gamemode that is supported for that game (4v4/6v6 etc).</i>  
@@ -28,7 +28,7 @@ You will automatically be the owner of the pug, and be granted special commands 
 #### Join a PUG  
 - <b>!join</b> [game] [mode] [skill] [team#]
 
-<i>For example:</i> !join etqw 4v4 med 2 <i>(joins team 2)</i>   
+<i>For example:</i> <b>!join etqw 4v4 med 2</b> <i>(joins team 2)</i>   
 <i>Provide the game, mode and skill because several pick-up games with different modes and skill levels of the same game can be in queue at the same time! Provide the <#> of the team you would like to join (1/2/3/4 OR A/B/C/D etc). <s>If you fail to provide a team number, the bot will respond that you will have to pick a team.</s> If you fail to provide a teamID, the bot will automatically add you to the first available slot.</i>  
   
     
@@ -43,7 +43,7 @@ If no such player is found, the pug will be removed from queue.</i>
 <i>This will show how many players are still needed for the pug you are currently enlisted in.</i>  
   
 - <b>!callvote</b> [mode]  
-<i>For example:</i> !callvote kick playerNAME/playerID  
+<i>For example:</i> <b>!callvote kick</b> [playerNAME/playerID]  
 <i>When no playerNAME/playerID is given, the bot will return a list of current players and their ID's in your team.  
 The vote will be valid for a set period of time (2min) and players of the same team can cast their vote within this time.  
 When the vote reaches >50% within the valid time, the vote is granted.</i>  
@@ -51,7 +51,7 @@ When the vote reaches >50% within the valid time, the vote is granted.</i>
 Only 1 vote possible per team at a time. The votecaller will be placed in a timeout to prevent him from spamming votes and give others a chance to call a vote of their own. The timeout is set to 3 min OR when a new vote has been called.
   
 - <b>!vote</b> [yes/no]  
-<i>For example:</i> !vote yes <i>OR</i> !vote no  
+<i>For example:</i> <b>!vote yes</b> <i>OR</i> <b>!vote no</b>  
   
   
 #### PUG Owner commands  
