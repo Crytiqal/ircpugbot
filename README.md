@@ -68,7 +68,7 @@ The bot is capable of tracking the usernames accross all the pug's and updates t
 <b>The Pick-Up Game Operator Bot can now autochoose teams!</b>
   
 • You can now use <b>!join</b> [game] [mode] [skill] without specifying a team and the bot will automatically add you to a team.  
-    (It takes into account if you have been kicked and the team balance; % of team filled + team invites send)  
+  (It takes into account if you have been kicked and the team balance; % of team filled + team invites send)    
 • You can now use <b>!join</b> [game] [mode] [skill] [team#] using a letter A/B/C as substitute for 1/2/3 for [team#]
 
 
