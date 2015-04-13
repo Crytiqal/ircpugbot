@@ -33,72 +33,29 @@
         <h1>
 <a id="irc-pick-up-game-operator-bot" class="anchor" href="#irc-pick-up-game-operator-bot" aria-hidden="true"><span class="octicon octicon-link"></span></a>IRC Pick-Up Game Operator Bot</h1>
 
-<p>I have created an IRC bot that will allow users to easily create and join pick-up games.<br>
-(For example etqw/et/csgo and any other (type of) game).</p>
-
-<p>To check it out, join the #battlebot irc channel on Quakenet! ( irc://irc.quakenet.org/battlebot )<br>
-<a href="http://webchat.quakenet.org/">http://webchat.quakenet.org/</a><br>
-<a href="http://www.team-aero.org/team-aero_esports/aero_tv.php">http://www.team-aero.org/team-aero_esports/aero_tv.php</a>  </p>
-
-<p>mIRC: <a href="http://www.mirc.com/">http://www.mirc.com/</a><br>
-XChat: <a href="http://xchat.org/">http://xchat.org/</a><br>
-AdiIRC: <a href="https://adiirc.com/">https://adiirc.com/</a></p>
-
 <h2>
-<a id="quick-reference" class="anchor" href="#quick-reference" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick reference:</h2>
+<a id="howto" class="anchor" href="#howto" aria-hidden="true"><span class="octicon octicon-link"></span></a>How To:</h2>
 
-<h4>
-<a id="basic-commands" class="anchor" href="#basic-commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic commands</h4>
+<h5>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation:</h5>
 
-<ul>
-<li>
-<b>!help</b> - <i>This will return a list of available commands.</i><br>
-</li>
-<li>
-<b>!create</b> - <i>This will return a list of available games.</i><br>
-</li>
-<li>
-<b>!serverlist</b> - <i>This will return a list of available servers.</i><br>
-</li>
-<li>
-<b>!queue</b> - <i>This will return a list of available pugs currently in queue to join.</i><br>
-</li>
-<li>
-<b>!info</b> - <i>This will return a list of teams and their players, currently signed up for a pug. If no additional values are supplied, it will return the info of the pug you are currently in queue for. For example: !info etqw 4v4 </i><br>
-</li>
-</ul>
+<p>• The bot is written in PHP, and thus requires php to be installed.<br>
+• The bot requires php PEAR to be installed with the Net_SmartIRC package.<br>
+ (You need to edit the path to the PEAR package in battlebot.php)<br>
+• Change the bots main channel, channelarray suffix and login details in battlebot.php.<br>
+ (Important! Change these or the bot will join existing channels!)<br>
+• To add a game, check out the games folder and look at the structure of the default files.</p>
 
-<h4>
-<a id="pug-commands" class="anchor" href="#pug-commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>PUG commands</h4>
+<h5>
+<a id="authenticate-with-q" class="anchor" href="#authenticate-with-q" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authenticate with Q:</h5>
 
-<ul>
-<li>
-<b>!create</b> [game] [mode] [skill] [server]<br>
-</li>
-<li>
-<b>!join</b> [game] [mode] [skill] [team#]<br>
-</li>
-<li>
-<b>!need</b><br>
-</li>
-<li>
-<b>!leave</b><br>
-</li>
-<li>
-<b>!start</b><br>
-</li>
-<li>
-<b>!callvote</b> [mode] [value]<br>
-</li>
-<li>
-<b>!vote</b> [yes/no]<br>
-</li>
-</ul>
-
-<p>When a pick-up is filled or started, every player will be notified to join the server by having the ip and password sent to them in a pm. The pug will then be removed from queue and another one of the same game and mode may be started.<br>
-(You can always start mutliple pugs at the same time if they are not identical)  </p>
-
-<p>Greetings, Crytiqal.Aero  </p>
+<p>• Let the bot join a channel in which you are OP (For example: #battlebot)<br>
+NOTICE: Enable "!debug on" to see R/Q responses to the bot.<br>
+WARNING: May cause security breach if everyone in the channel can view the query responses!<br>
+• !query R REQUESTOP <#channel><br>
+• !query R REQUESTBOT <#channel><br>
+• !query Q@CServe.quakenet.org CHANLEV <#channel> [nickname] +amno<br>
+NOTICE: Disable "!debug off" if you turned it on!</p>
 
       </section>
       <footer>
