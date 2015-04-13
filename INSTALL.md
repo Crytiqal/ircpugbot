@@ -1,5 +1,6 @@
 ## Installation:
   
+- The bot is written in PHP, and thus requires php to be installed.  
 - The bot requires php PEAR to be installed with the Net_SmartIRC package.  
   (You need to edit the path to the PEAR package in battlebot.php)
 - Change the bots main channel, channelarray suffix and login details in battlebot.php  
