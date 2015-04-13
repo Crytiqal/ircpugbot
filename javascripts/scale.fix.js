@@ -17,5 +17,5 @@ function gestureStart() {
 }
 
 @-ms-viewport {
-  width: device-width;
+  width: auto !important;
 }
