@@ -5,8 +5,8 @@ ini_set('error_reporting', E_ALL);
 // -------------------------------------------------- +
 // ---/*Setup*/---( Read carefull! )----------------- +
 // -------------------------------------------------- +
-require_once('/home/cabox/workspace/ircbots/dependencies/php/PEAR/NET/SmartIRC.php');
-$install_path = "/home/cabox/workspace/ircbots";
+require_once('/usr/share/php/Net/SmartIRC.php');
+$install_path = "/srv/irc/ircservers/ircbots";
 $battlebot = $install_path.'/battlebot';
 
 // -------------------------------------------------- +
